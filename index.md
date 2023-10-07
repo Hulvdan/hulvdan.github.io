@@ -16,7 +16,7 @@ Even though I started to program a way earlier, commercially speaking, I have be
 
 ## In terms of GameDev, I worked on:
 
-- A game in a team for Metroidvania 21 game jam - The Clocktower Letter
+- A game in a team for Metroidvania 21 game jam - [The Clocktower Letter](https://hulvdan.itch.io/the-clockwork-letter)
 - Isometric Minecraft
 - Angry Birds
 - Top-down tank
