@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "hulvdan-github-io"
+version = "0.1.0"
+description = ""
+authors = ["Aleksei Chistov <aleksey.chistov@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "hulvdan" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+markdown = "^3.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
