@@ -1,7 +1,5 @@
 # Hulvdan
 
-[itch.io](https://itch.io/profile/hulvdan) | [linktr.ee/hulvdan](https://linktr.ee/hulvdan)
-
 ![Let's make the BFGDEV](docs/assets/banner.png)
 
 Ahh, well met, Ashen One 👋
@@ -13,6 +11,8 @@ Even though I started to program a way earlier, commercially speaking, I have be
 ## My contacts:
 
 - Discord: hulvdan
+- LinkedIn: [agechistov](https://www.linkedin.com/in/agechistov)
+- Email: [agechistov@gmail.com](mailto:agechistov@gmail.com)
 
 ## In terms of GameDev, I worked on:
 
@@ -38,11 +38,16 @@ Even though I started to program a way earlier, commercially speaking, I have be
 - Texture atlases ([Texture Packer](https://www.codeandweb.com/texturepacker), [Free texture packer](http://free-tex-packer.com/))
 - Music and sounds (a bit of [Wwise](https://www.audiokinetic.com/fr/products/wwise/), [FMOD](https://www.fmod.com/))
 
+## Credited Work:
+
+- [Vanilla Tweaks](https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks) mod for Terraria - Provided the Extractinator speed up code
+- GitHub: [pucelle/vscode-run-on-save](https://github.com/pucelle/vscode-run-on-save/tree/master) - Running VSCode's commands on save
+
 ## Some highlights of my personal projects:
 
 ![Avocado throws it's seed](docs/assets/funny_avocado.gif)
 
-Various studies applied to a platformer game in Unity, C# - <https://github.com/Hulvdan/Avocado>
+*Various studies applied to a platformer game in Unity, C# - <https://github.com/Hulvdan/Avocado>*
 
 ![Avocado - Throwing](docs/assets/avocado_throwing.gif)
 ![Avocado - Coyote Time](docs/assets/avocado_coyote_time.gif)
@@ -62,3 +67,9 @@ Various studies applied to a platformer game in Unity, C# - <https://github.com/
 ![2048 using C++ w/ bearlibterminal](docs/assets/2048.jpg)
 ![Sokoban. Block placed](docs/assets/sokoban_in_terminal_block_placed.jpg)
 ![Sokoban using C++ w/ bearlibterminal](docs/assets/sokoban_in_terminal.jpg)
+
+## Other Stuff
+
+![Dark Souls 3 Cheat Sheet tool](docs/assets/ds3-cheat-sheet-tool.png)
+
+*[Dark Souls 3 Cheat Sheet tool](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/) - A tool for tracking progress in Dark Souls 3*
