@@ -46,15 +46,19 @@ Various studies applied to a platformer game in Unity, C# - <https://github.com/
 
 ![Avocado - Throwing](docs/assets/avocado_throwing.gif)
 ![Avocado - Coyote Time](docs/assets/avocado_coyote_time.gif)
+
 ![Avocado - Jump Input Buffering](docs/assets/avocado_jump_input_buffering.gif)
 ![Avocado - Camera Shake](docs/assets/avocado_camera_shake.gif)
+
 ![Messing with see-through shaders inside an isometric Minecraft clone](docs/assets/messing_with_see_through_shaders.gif)
 ![Messing with depth of field shader inside an isometric Minecraft clone](docs/assets/messing_with_depth_of_field.gif)
 ![Tanks AI](docs/assets/tanks_ai.gif)
-![Angry Birds prototype](docs/assets/angry_birds.gif)
 ![Piffle clone](docs/assets/piffle_clone.gif)
+![Angry Birds prototype](docs/assets/angry_birds.gif)
+
 ![Tetris using C++ w/ cocos2d-x](docs/assets/tetris.jpg)
-![2048 using C++ w/ bearlibterminal](docs/assets/2048.jpg)
 ![Pong](docs/assets/pong.gif)
+
+![2048 using C++ w/ bearlibterminal](docs/assets/2048.jpg)
 ![Sokoban. Block placed](docs/assets/sokoban_in_terminal_block_placed.jpg)
 ![Sokoban using C++ w/ bearlibterminal](docs/assets/sokoban_in_terminal.jpg)

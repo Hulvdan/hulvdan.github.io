@@ -65,7 +65,8 @@
 
 html {
   color: #cbc5a2;
-  font-size: 1.15em;
+  font-size: 1.35em;
+  line-height: 1.5;
   font-family: Signika, Lato, LatoExtended, sans-serif;
   background-color: #0e0e0e;
 
@@ -85,13 +86,13 @@ main {
 }
 
 h1 {
-  font-size: 2.43em;
+  font-size: 2.6em;
   padding: 40px 20px 0px 20px;
   margin: 0;
 }
 
 h2 {
-  font-size: 1.15em;
+  font-size: 1.35em;
   padding: 20px 20px 0 20px;
   margin: 0;
 }
