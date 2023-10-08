@@ -1,4 +1,6 @@
-# Hulvdan
+# Aleksei Chistov – **Hulvdan**
+
+Discord: hulvdan | [agechistov@gmail.com](mailto:agechistov@gmail.com) | [linkedin.com/in/agechistov](https://www.linkedin.com/in/agechistov)
 
 ![Let's make the BFGDEV](docs/assets/banner.png)
 
@@ -8,24 +10,7 @@ As a programmer, I'm looking to participate in game jams with teams of like-mind
 
 Even though I started to program a way earlier, commercially speaking, I have been programming for 3.5+ years as a Python backend developer (HTTP, websockets, Nginx, PostgreSQL, admin panels, a bit of payments, a bit of hosting and configuration, Docker, CI/CD).
 
-## My contacts:
-
-- Discord: hulvdan
-- LinkedIn: [agechistov](https://www.linkedin.com/in/agechistov)
-- Email: [agechistov@gmail.com](mailto:agechistov@gmail.com)
-
-## In terms of GameDev, I worked on:
-
-- A game in a team for Metroidvania 21 game jam - [The Clocktower Letter](https://hulvdan.itch.io/the-clockwork-letter)
-- Isometric Minecraft
-- Angry Birds
-- Top-down tank
-- Sea Battle with multiplayer
-- Pong, Tetris, Chess, Sokoban, Arcanoid, Labyrinths, 2048, etc...
-- Scripts: lots of macroses, a bit of memory manipulation
-- A bit more other small prototypes
-
-## I worked with:
+## Speaking of GameDev, I'm familiar with:
 
 - Unity, C#
 - C++ with cocos2d, entt, box2d, some terminal graphics libraries
@@ -38,16 +23,19 @@ Even though I started to program a way earlier, commercially speaking, I have be
 - Texture atlases ([Texture Packer](https://www.codeandweb.com/texturepacker), [Free texture packer](http://free-tex-packer.com/))
 - Music and sounds (a bit of [Wwise](https://www.audiokinetic.com/fr/products/wwise/), [FMOD](https://www.fmod.com/))
 
-## Credited Work:
+## GameDev projects I worked on:
 
-- [Vanilla Tweaks](https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks) mod for Terraria - Provided the Extractinator speed up code
-- GitHub: [pucelle/vscode-run-on-save](https://github.com/pucelle/vscode-run-on-save/tree/master) - Running VSCode's commands on save
+### [The Clocktower Letter](https://hulvdan.itch.io/the-clockwork-letter)
 
-## Some highlights of my personal projects:
+A short platformer game for Metroidvania 21 game jam. Worked as a programmer in a worldwide distributed team of 4.
 
-![Avocado throws it's seed](docs/assets/funny_avocado.gif)
+![The Clocktower Letter - First location](docs/assets/the_clocktower_letter_first_location.gif)
+![The Clocktower Letter - Wall Jumping](docs/assets/the_clocktower_letter_wall_jumping.gif)
+![The Clocktower Letter - Tower explosion](docs/assets/the_clocktower_letter_explosion_tower.gif)
 
-*Various studies applied to a platformer game in Unity, C# - <https://github.com/Hulvdan/Avocado>*
+### Avocado ([GitHub](https://github.com/Hulvdan/Avocado))
+
+Various studies applied to a platformer game in Unity, C#.
 
 ![Avocado - Throwing](docs/assets/avocado_throwing.gif)
 ![Avocado - Coyote Time](docs/assets/avocado_coyote_time.gif)
@@ -55,8 +43,18 @@ Even though I started to program a way earlier, commercially speaking, I have be
 ![Avocado - Jump Input Buffering](docs/assets/avocado_jump_input_buffering.gif)
 ![Avocado - Camera Shake](docs/assets/avocado_camera_shake.gif)
 
+### Other small *(usually unfinished)* prototypes include:
+
+- Isometric Minecraft
+- Angry Birds
+- Top-down tank
+- Sea Battle with multiplayer
+- Pong, Tetris, Chess, Sokoban, Arcanoid, Labyrinths, 2048, etc...
+- Scripts: lots of macroses, a bit of memory manipulation
+- A bit more other small prototypes
+
 ![Messing with see-through shaders inside an isometric Minecraft clone](docs/assets/messing_with_see_through_shaders.gif)
-![Messing with depth of field shader inside an isometric Minecraft clone](docs/assets/messing_with_depth_of_field.gif)
+![Messing with a depth of field shader inside an isometric Minecraft clone](docs/assets/messing_with_depth_of_field.gif)
 ![Tanks AI](docs/assets/tanks_ai.gif)
 ![Piffle clone](docs/assets/piffle_clone.gif)
 ![Angry Birds prototype](docs/assets/angry_birds.gif)
@@ -68,8 +66,15 @@ Even though I started to program a way earlier, commercially speaking, I have be
 ![Sokoban. Block placed](docs/assets/sokoban_in_terminal_block_placed.jpg)
 ![Sokoban using C++ w/ bearlibterminal](docs/assets/sokoban_in_terminal.jpg)
 
-## Other Stuff
+## Tools I worked on:
+
+### [Dark Souls 3 Cheat Sheet tool](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/)
 
 ![Dark Souls 3 Cheat Sheet tool](docs/assets/ds3-cheat-sheet-tool.png)
 
-*[Dark Souls 3 Cheat Sheet tool](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/) - A tool for tracking progress in Dark Souls 3*
+A tool for tracking progress in Dark Souls 3
+
+## Credited Work:
+
+- [Vanilla Tweaks](https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks) mod for Terraria by gardenapple - Provided the Extractinator speed up code
+- [Run on Save](https://marketplace.visualstudio.com/items/pucelle.run-on-save/changelog) VS Code extension by pucelle - Running VS Code's commands on save
