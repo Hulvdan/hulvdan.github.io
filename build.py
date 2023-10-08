@@ -3,7 +3,7 @@ from pathlib import Path
 import markdown
 
 HTML_TEMPLATE_FILE_PATH = Path("index_template.html")
-MARKDOWN_CONTENTS_PATH = Path("index.md")
+MARKDOWN_CONTENTS_PATH = Path("README.md")
 OUTPUT_FILE = Path("docs/index.html")
 
 
