@@ -78,7 +78,7 @@ A tool for tracking progress in Dark Souls 3.
 
 ### Monster Hunter: World Printable Monsters Weaknesses Booklet
 
-Generated using Python, this is a set of images/documents for printing that show weaknesses of monsters.
+Generated using Python, this is a set of images/documents for printing that shows weaknesses of monsters.
 
 - [Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/)
 - [Following Reddit post after a big game expansion release](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/)
