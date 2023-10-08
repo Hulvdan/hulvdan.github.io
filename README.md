@@ -70,9 +70,20 @@ Various studies applied to a platformer game in Unity, C#.
 
 ### [Dark Souls 3 Cheat Sheet tool](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/)
 
+A tool for tracking progress in Dark Souls 3.
+
 ![Dark Souls 3 Cheat Sheet tool](docs/assets/ds3-cheat-sheet-tool.png)
 
-A tool for tracking progress in Dark Souls 3
+## Other Stuff:
+
+### Monster Hunter: World Printable Monsters Weaknesses Booklet
+
+Generated using Python, this is a set of images/documents for printing that show weaknesses of monsters.
+
+- [Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/)
+- [Following Reddit post after a big game expansion release](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/)
+
+![Image of a booklet](docs/assets/mhw_booklet.jpeg)
 
 ## Credited Work:
 
