@@ -45,7 +45,7 @@ Various studies applied to a platformer game in Unity, C#.
 ![Avocado - Jump Input Buffering](docs/assets/avocado_jump_input_buffering.gif)
 ![Avocado - Camera Shake](docs/assets/avocado_camera_shake.gif)
 
-### Other small prototypes include:
+### Other small prototypes:
 
 ![Messing with see-through shaders inside an isometric Minecraft clone](docs/assets/messing_with_see_through_shaders.gif)
 ![Messing with a depth of field shader inside an isometric Minecraft clone](docs/assets/messing_with_depth_of_field.gif)
