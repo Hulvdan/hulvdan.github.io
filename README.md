@@ -43,7 +43,7 @@ Various studies applied to a platformer game in Unity, C#.
 ![Avocado - Jump Input Buffering](docs/assets/avocado_jump_input_buffering.gif)
 ![Avocado - Camera Shake](docs/assets/avocado_camera_shake.gif)
 
-### Other small *(usually unfinished)* prototypes include:
+### Other small prototypes include:
 
 - Isometric Minecraft
 - Angry Birds
