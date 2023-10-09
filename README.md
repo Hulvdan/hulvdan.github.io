@@ -72,7 +72,7 @@ Various studies applied to a platformer game in Unity, C#.
 
 ### [Dark Souls 3 Cheat Sheet tool](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/)
 
-A tool for tracking progress in Dark Souls 3.
+A tool for tracking progress in Dark Souls 3. Written in Python with PyQt library.
 
 ![Dark Souls 3 Cheat Sheet tool](docs/assets/ds3-cheat-sheet-tool.png)
 
@@ -80,7 +80,7 @@ A tool for tracking progress in Dark Souls 3.
 
 ### Monster Hunter: World Printable Monsters Weaknesses Booklet
 
-Generated using Python, this is a set of images/documents for printing that shows weaknesses of monsters.
+A set of images/documents for printing that shows weaknesses of monsters. Generated using Python with Pillow library.
 
 - [Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/)
 - [Following Reddit post after a big game expansion release](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/)
@@ -89,5 +89,5 @@ Generated using Python, this is a set of images/documents for printing that show
 
 ## Credited Work:
 
-- [Vanilla Tweaks](https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks) mod for Terraria by gardenapple - Provided the Extractinator speed up code
-- [Run on Save](https://marketplace.visualstudio.com/items/pucelle.run-on-save/changelog) VS Code extension by pucelle - Running VS Code's commands on save
+- [Vanilla Tweaks](https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks) mod for Terraria by gardenapple - Provided the Extractinator speed up code (C#)
+- [Run on Save](https://marketplace.visualstudio.com/items/pucelle.run-on-save/changelog) VS Code extension by pucelle - Running VS Code's commands on save (TypeScript)
