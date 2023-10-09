@@ -27,7 +27,7 @@ Even though I started to program a way earlier, commercially speaking, I have be
 
 ## GameDev projects I worked on:
 
-### [The Clocktower Letter](https://hulvdan.itch.io/the-clockwork-letter)
+### The Clocktower Letter – [itch.io](https://hulvdan.itch.io/the-clockwork-letter)
 
 A short platformer game for Metroidvania 21 game jam. Worked as a programmer in a worldwide distributed team of 4.
 
@@ -35,7 +35,7 @@ A short platformer game for Metroidvania 21 game jam. Worked as a programmer in 
 ![The Clocktower Letter - Wall Jumping](docs/assets/the_clocktower_letter_wall_jumping.gif)
 ![The Clocktower Letter - Tower explosion](docs/assets/the_clocktower_letter_explosion_tower.gif)
 
-### Avocado ([GitHub](https://github.com/Hulvdan/Avocado))
+### Avocado – [GitHub](https://github.com/Hulvdan/Avocado)
 
 Various studies applied to a platformer game in Unity, C#.
 
@@ -46,14 +46,6 @@ Various studies applied to a platformer game in Unity, C#.
 ![Avocado - Camera Shake](docs/assets/avocado_camera_shake.gif)
 
 ### Other small prototypes include:
-
-- Isometric Minecraft
-- Angry Birds
-- Top-down tank
-- Sea Battle with multiplayer
-- Pong, Tetris, Chess, Sokoban, Arcanoid, Labyrinths, 2048, etc...
-- Scripts: lots of macroses, a bit of memory manipulation
-- A bit more other small prototypes
 
 ![Messing with see-through shaders inside an isometric Minecraft clone](docs/assets/messing_with_see_through_shaders.gif)
 ![Messing with a depth of field shader inside an isometric Minecraft clone](docs/assets/messing_with_depth_of_field.gif)
@@ -70,20 +62,17 @@ Various studies applied to a platformer game in Unity, C#.
 
 ## Tools I worked on:
 
-### [Dark Souls 3 Cheat Sheet tool](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/)
+### Dark Souls 3 Cheat Sheet tool – [Reddit](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/)
 
-A tool for tracking progress in Dark Souls 3. Written in Python with PyQt library.
+A tool for tracking progress in Dark Souls 3 (Python, PyQt)
 
 ![Dark Souls 3 Cheat Sheet tool](docs/assets/ds3-cheat-sheet-tool.png)
 
 ## Other Stuff:
 
-### Monster Hunter: World Printable Monsters Weaknesses Booklet
+### Monster Hunter: World Printable Monsters Weaknesses Booklet – [Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/), [Updated Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/)
 
-A set of images/documents for printing that shows weaknesses of monsters. Generated using Python with Pillow library.
-
-- [Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/)
-- [Following Reddit post after a big game expansion release](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/)
+A set of images/documents for printing that shows weaknesses of monsters (Python, Pillow)
 
 ![Image of a booklet](docs/assets/mhw_booklet.jpeg)
 
