@@ -1,7 +1,8 @@
 # Aleksei Chistov – **Hulvdan**
 
-Discord: hulvdan | [agechistov@gmail.com](mailto:agechistov@gmail.com) | [linkedin.com/in/agechistov](https://www.linkedin.com/in/agechistov)
+<NOT_IN_CV>Discord: hulvdan | <NOT_IN_CV_END>[agechistov@gmail.com](mailto:agechistov@gmail.com) | [linkedin.com/in/agechistov](https://www.linkedin.com/in/agechistov)
 
+<NOT_IN_CV>
 ![Let's make the BFGDEV](docs/assets/banner.png)
 
 Ahh, well met, Ashen One 👋
@@ -9,6 +10,7 @@ Ahh, well met, Ashen One 👋
 As a programmer, I'm looking to participate in game jams with teams of like-minded people. My goal is to start making games commercially once I've met the field's inspiring individuals and gained more experience.
 
 Even though I started to program a way earlier, commercially speaking, I have been programming for 3.5+ years as a Python backend developer (HTTP, websockets, Nginx, PostgreSQL, admin panels, a bit of payments, a bit of hosting and configuration, Docker, CI/CD).
+<NOT_IN_CV_END>
 
 ## Speaking of GameDev, I'm familiar with:
 
