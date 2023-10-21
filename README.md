@@ -27,6 +27,12 @@ Even though I started to program a way earlier, commercially speaking, I have be
 
 ## GameDev projects I worked on:
 
+### Currently Working On
+
+![To Be Described](docs/assets/tbd4-1.gif)
+
+I will describe it a bit later :)
+
 ### The Clocktower Letter – [itch.io](https://hulvdan.itch.io/the-clockwork-letter)
 
 A short platformer game for Metroidvania 21 game jam. Worked as a programmer in a worldwide distributed team of 4.
