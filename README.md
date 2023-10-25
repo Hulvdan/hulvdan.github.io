@@ -15,7 +15,7 @@ Even though I started to program a way earlier, commercially speaking, I have be
 ## Speaking of GameDev, I'm familiar with:
 
 - Unity, C#
-- C++ with cocos2d, entt, box2d, some terminal graphics libraries
+- C++ with Cocos2d-x, entt, box2d, some terminal graphics libraries
 - 3D Meshes real-time creation in code
 - Shaders - I experimented with 1) shaders written in HLSL and 2) Unity's Shader Graph. I've never touched the rendering pipeline, though
 - 2D animations, Timeline
