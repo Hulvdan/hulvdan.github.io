@@ -30,7 +30,7 @@ Even though I started to program a way earlier, commercially speaking, I have be
 ### Currently Working On
 
 ![To Be Described](docs/assets/tbd4-1.gif)
-![To Be Described](docs/assets/tbd4-2.gif)
+![To Be Described](docs/assets/tbd4-3.gif)
 
 This is an untitled WIP project inspired by [Soko Loco Deluxe](https://store.steampowered.com/app/1003730/Soko_Loco_Deluxe/).
 
