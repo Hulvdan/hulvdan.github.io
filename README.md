@@ -31,9 +31,9 @@ Even though I started to program a way earlier, commercially speaking, I have be
 
 ![To Be Described](docs/assets/tbd4-3.gif)
 ![To Be Described](docs/assets/tbd4-4.gif)
-![To Be Described](docs/assets/tbd4-5.gif)
+![To Be Described](docs/assets/tbd4-6.gif)
 
-This is an untitled WIP project inspired by [Soko Loco Deluxe](https://store.steampowered.com/app/1003730/Soko_Loco_Deluxe/).
+This is an untitled WIP project inspired by [The Settlers](https://en.wikipedia.org/wiki/The_Settlers) and [Soko Loco Deluxe](https://store.steampowered.com/app/1003730/Soko_Loco_Deluxe/) featuring funny graph programming problems.
 
 ### The Clocktower Letter – [itch.io](https://hulvdan.itch.io/the-clockwork-letter)
 
