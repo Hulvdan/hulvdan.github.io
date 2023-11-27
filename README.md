@@ -45,9 +45,7 @@ A short platformer game for Metroidvania 21 game jam. Worked as a programmer in 
 ![The Clocktower Letter - Wall Jumping](docs/assets/the_clocktower_letter_wall_jumping.gif)
 ![The Clocktower Letter - Tower explosion](docs/assets/the_clocktower_letter_explosion_tower.gif)
 
-### Avocado – [GitHub](https://github.com/Hulvdan/Avocado)
-
-Various studies applied to a platformer game in Unity, C#.
+### Other small prototypes:
 
 ![Avocado - Throwing](docs/assets/avocado_throwing.gif)
 ![Avocado - Coyote Time](docs/assets/avocado_coyote_time.gif)
@@ -55,7 +53,7 @@ Various studies applied to a platformer game in Unity, C#.
 ![Avocado - Jump Input Buffering](docs/assets/avocado_jump_input_buffering.gif)
 ![Avocado - Camera Shake](docs/assets/avocado_camera_shake.gif)
 
-### Other small prototypes:
+Avocado - [GitHub](https://github.com/Hulvdan/Avocado). Various studies applied to a platformer game in Unity, C#.
 
 ![Messing with see-through shaders inside an isometric Minecraft clone](docs/assets/messing_with_see_through_shaders.gif)
 ![Messing with a depth of field shader inside an isometric Minecraft clone](docs/assets/messing_with_depth_of_field.gif)
