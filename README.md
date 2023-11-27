@@ -33,7 +33,9 @@ Even though I started to program a way earlier, commercially speaking, I have be
 ![To Be Described](docs/assets/tbd4-4.gif)
 ![To Be Described](docs/assets/tbd4-6.gif)
 
-This is an untitled WIP project inspired by [The Settlers](https://en.wikipedia.org/wiki/The_Settlers) and [Soko Loco Deluxe](https://store.steampowered.com/app/1003730/Soko_Loco_Deluxe/) featuring funny graph programming problems.
+A WIP project featuring several, written by myself, pathfinding algorithms with invalidation upon changes in the map. These algorithms include calculating shortest distances, paths on the map, paths in graph segments, centers of these segments, etc.
+
+It is inspired by [The Settlers](https://en.wikipedia.org/wiki/The_Settlers) and [Soko Loco Deluxe](https://store.steampowered.com/app/1003730/Soko_Loco_Deluxe/).
 
 ### The Clocktower Letter – [itch.io](https://hulvdan.itch.io/the-clockwork-letter)
 
