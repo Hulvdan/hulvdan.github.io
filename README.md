@@ -5,15 +5,9 @@ Discord: hulvdan | [agechistov@gmail.com](mailto:agechistov@gmail.com) | [linked
 ## Speaking of GameDev, I'm familiar with:
 
 - Unity, C#
-- C++ with [Cocos2d-x](https://www.cocos.com/en/cocos2d-x), [entt](https://github.com/skypjack/entt), [box2d](https://github.com/erincatto/box2d), some terminal graphics libraries
-- 3D Meshes real-time creation in code
-- Shaders - I experimented with 1) shaders written in HLSL and 2) Unity's Shader Graph. I've never touched the rendering pipeline, though
-- 2D animations, Timeline
-- Unity's InputManager, InputSystem
-- Behavior Trees ([Behavior Designer](https://assetstore.unity.com/packages/tools/visual-scripting/behavior-designer-behavior-trees-for-everyone-15277))
-- Tilemaps
-- Texture atlases ([Texture Packer](https://www.codeandweb.com/texturepacker), [Free texture packer](http://free-tex-packer.com/))
-- Music and sounds (a bit of [Wwise](https://www.audiokinetic.com/fr/products/wwise/), [FMOD](https://www.fmod.com/))
+- C++, [Cocos2d-x](https://www.cocos.com/en/cocos2d-x), [entt](https://github.com/skypjack/entt), [box2d](https://github.com/erincatto/box2d), some terminal graphics libraries
+- Mainly 2D, though, I had a bit of experience with 3D
+- A bit of shaders
 
 ## GameDev projects I worked on:
 
