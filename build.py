@@ -1,11 +1,60 @@
+import re
 from pathlib import Path
+from xml.etree.ElementTree import SubElement
 
 import markdown
+from markdown.blockprocessors import BlockProcessor
 
 HTML_TEMPLATE_FILE_PATH = Path("index_template.html")
 MARKDOWN_CONTENTS_PATH = Path("README.md")
 CV_OUTPUT_FILE = Path("docs/index.html")
-JAMS_OUTPUT_FILE = Path("docs/jams.html")
+
+
+class YouTubeExtension(markdown.Extension):
+    def extendMarkdown(self, md):
+        md.parser.blockprocessors.register(
+            YouTubeBlockProcessor(md.parser), 'youtube', 175
+        )
+
+
+class YouTubeBlockProcessor(BlockProcessor):
+    RE_FENCE_START = r'^{% include youtube '
+    RE_FENCE_END = r' %}$'
+
+    def test(self, parent, block):
+        return re.match(self.RE_FENCE_START, block)
+
+    def run(self, parent, blocks):
+        original_block = blocks[0]
+        blocks[0] = re.sub(self.RE_FENCE_START, '', blocks[0])
+
+        # Find block with ending fence
+        for block_num, block in enumerate(blocks):
+            if not re.search(self.RE_FENCE_END, block):
+                continue
+
+            # remove fence
+            video_id = block.split(" ", 1)[0]
+
+            blocks[block_num] = re.sub(self.RE_FENCE_END, '', block)
+            # render fenced area inside a new div
+            div = SubElement(parent, 'div')
+            iframe = SubElement(div, 'iframe')
+
+            iframe.set('width', f"640")
+            iframe.set('height', f"390")
+            iframe.set('src', f"https://www.youtube.com/embed/{video_id}")
+            iframe.set('allowfullscreen', "true")
+            iframe.set('frameborder', "0")
+
+            div.set('class', 'embed-container')
+
+            for i in range(0, block_num + 1):
+                blocks.pop(0)
+
+        # No closing marker!  Restore and do nothing
+        # blocks[0] = original_block
+        return False  # equivalent to our test() routine returning False
 
 
 def main():
@@ -27,19 +76,6 @@ def main():
         template_data=template_data,
         markdown_contents=cv_markdown_contents,
         output_file_path=CV_OUTPUT_FILE,
-    )
-
-    # Making for Game Jams
-    jams_markdown_contents = process_region(
-        markdown_contents,
-        opening="<NOT_IN_CV>",
-        closing="<NOT_IN_CV_END>",
-        remove=False,
-    )
-    write_file(
-        template_data=template_data,
-        markdown_contents=jams_markdown_contents,
-        output_file_path=JAMS_OUTPUT_FILE,
     )
 
 
@@ -65,7 +101,9 @@ def process_region(data: str, *, opening: str, closing: str, remove: bool) -> st
 
 
 def write_file(*, template_data: str, markdown_contents: str, output_file_path):
-    content = markdown.markdown(markdown_contents, extensions=["sane_lists"])
+    content = markdown.markdown(
+        markdown_contents, extensions=["sane_lists", YouTubeExtension()]
+    )
     rendered_html = template_data.format(content=content)
 
     with open(output_file_path, "w") as out_file:
