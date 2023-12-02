@@ -13,11 +13,11 @@ Discord: hulvdan | [agechistov@gmail.com](mailto:agechistov@gmail.com) | [linked
 
 ### Currently Working On
 
+{% include youtube mqccNLY-O6c %}
+
 ![To Be Described](docs/assets/tbd4-3.gif)
 ![To Be Described](docs/assets/tbd4-4.gif)
 ![To Be Described](docs/assets/tbd4-6.gif)
-
-{% include youtube 9yqxIWxRo6Y %}
 
 A WIP project featuring several, written by myself, pathfinding algorithms with invalidation upon changes in the map. These algorithms include calculating shortest distances, paths on the map, paths in graph segments, centers of these segments, etc.
 
