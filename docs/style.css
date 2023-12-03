@@ -116,6 +116,7 @@ img {
   max-width: min(100%, 960px);
   padding: 0;
   margin: 0;
+  border-radius: 8px;
 }
 
 .embed-container {
