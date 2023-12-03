@@ -7,7 +7,7 @@
 - Unity, C#
 - C++, [Cocos2d-x](https://www.cocos.com/en/cocos2d-x), [entt](https://github.com/skypjack/entt), [box2d](https://github.com/erincatto/box2d), some terminal graphics libraries
 - Mainly 2D. However, I had a bit of experience working with 3D
-- I have a basic understanding and a bit of experience doing shaders, texture packing, sounds, procedural generation, behavioral trees
+- I have a basic understanding and a bit of experience doing shaders, texture packing, sounds, procedural generation, behavioral trees (AI), tools
 
 ## GameDev projects I worked on:
 
