@@ -1,6 +1,6 @@
-# Aleksei Chistov – **Hulvdan**
+# Aleksei Chistov
 
-Discord: hulvdan | [agechistov@gmail.com](mailto:agechistov@gmail.com) | [linkedin.com/in/agechistov](https://www.linkedin.com/in/agechistov)
+[agechistov@gmail.com](mailto:agechistov@gmail.com) | [linkedin.com/in/agechistov](https://www.linkedin.com/in/agechistov) | Discord: hulvdan
 
 ## Speaking of GameDev, I'm familiar with:
 
@@ -11,7 +11,7 @@ Discord: hulvdan | [agechistov@gmail.com](mailto:agechistov@gmail.com) | [linked
 
 ## GameDev projects I worked on:
 
-### Currently Working On
+### Roads of Horses
 
 {% include youtube mqccNLY-O6c %}
 
@@ -19,7 +19,7 @@ Discord: hulvdan | [agechistov@gmail.com](mailto:agechistov@gmail.com) | [linked
 ![To Be Described](docs/assets/tbd4-4.gif)
 ![To Be Described](docs/assets/tbd4-6.gif)
 
-A WIP project featuring several, written by myself, pathfinding algorithms with invalidation upon changes in the map. These algorithms include calculating shortest distances, paths on the map, paths in graph segments, centers of these segments, etc.
+A project featuring several, written by myself, pathfinding algorithms with invalidation upon changes in the map. These algorithms include calculating shortest distances, paths on the map, paths in graph segments, centers of these segments, etc.
 
 It is inspired by [The Settlers](https://en.wikipedia.org/wiki/The_Settlers) and [Soko Loco Deluxe](https://store.steampowered.com/app/1003730/Soko_Loco_Deluxe/).
 
