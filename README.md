@@ -8,6 +8,7 @@
 - C++, [Cocos2d-x](https://www.cocos.com/en/cocos2d-x), [entt](https://github.com/skypjack/entt), [box2d](https://github.com/erincatto/box2d), some terminal graphics libraries
 - Mainly 2D. However, I had a bit of experience working with 3D
 - I have a basic understanding and a bit of experience doing shaders, texture packing, sounds, procedural generation, behavioral trees (AI), tools
+- I've recently acquired a basic understanding of multiplayer after completing [Unity 5: Network Gaming course on LinkedIn](https://www.linkedin.com/learning/unity-5-network-gaming)
 
 ## GameDev projects I worked on:
 
