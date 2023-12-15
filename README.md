@@ -12,7 +12,7 @@
 
 ## GameDev projects I worked on:
 
-### Roads of Horses
+### Roads of Horses - [GitHub](https://github.com/Hulvdan/RoadsOfHorses)
 
 {% include youtube aR0MfmgZVeQ %}
 
