@@ -26,11 +26,11 @@ It is inspired by [The Settlers](https://en.wikipedia.org/wiki/The_Settlers) and
 
 ### The Clocktower Letter – [itch.io](https://hulvdan.itch.io/the-clockwork-letter)
 
-A short platformer game for Metroidvania 21 game jam. Worked as a programmer in a worldwide distributed team of 4.
-
 ![The Clocktower Letter - First location](docs/assets/the_clocktower_letter_first_location.gif)
 ![The Clocktower Letter - Wall Jumping](docs/assets/the_clocktower_letter_wall_jumping.gif)
 ![The Clocktower Letter - Tower explosion](docs/assets/the_clocktower_letter_explosion_tower.gif)
+
+A short platformer game for Metroidvania 21 game jam. Worked as a programmer in a worldwide distributed team of 4.
 
 ### Other small prototypes:
 
@@ -59,17 +59,17 @@ Avocado - [GitHub](https://github.com/Hulvdan/Avocado). Various studies applied 
 
 ### Dark Souls 3 Cheat Sheet tool – [Reddit](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/)
 
-A tool for tracking progress in Dark Souls 3 (Python, PyQt)
-
 ![Dark Souls 3 Cheat Sheet tool](docs/assets/ds3-cheat-sheet-tool.png)
+
+A tool for tracking progress in Dark Souls 3 (Python, PyQt)
 
 ## Other Stuff:
 
 ### Monster Hunter: World Printable Monsters Weaknesses Booklet – [Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/), [Updated Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/)
 
-A set of images/documents for printing that shows weaknesses of monsters (Python, Pillow)
-
 ![Image of a booklet](docs/assets/mhw_booklet.jpeg)
+
+A set of images/documents for printing that shows weaknesses of monsters (Python, Pillow)
 
 ## Credited Work:
 
