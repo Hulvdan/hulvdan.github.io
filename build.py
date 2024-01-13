@@ -1,6 +1,7 @@
 import re
 from pathlib import Path
 from xml.etree.ElementTree import SubElement
+from datetime import datetime
 
 import markdown
 from markdown.blockprocessors import BlockProcessor
@@ -63,7 +64,9 @@ def main():
     with open(MARKDOWN_CONTENTS_PATH, encoding='utf-8') as in_file:
         markdown_contents = in_file.read()
 
-    markdown_contents = markdown_contents.replace("docs/assets/", "assets/")
+    markdown_contents = markdown_contents  \
+        .replace("docs/assets/", "assets/")  \
+        .replace("{% include today %}", datetime.now().strftime("%d %B %Y"))
 
     # Making for CV
     cv_markdown_contents = process_region(

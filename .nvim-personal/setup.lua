@@ -34,7 +34,7 @@ function save_file_if_needed()
 end
 
 function build(silent)
-    command = [[.venv\Scripts\python.exe build.py]]
+    local command = [[.venv\Scripts\python.exe build.py]]
     if silent then
         launch_background(command, function() end)
     else

@@ -2,6 +2,8 @@
 
 [agechistov@gmail.com](mailto:agechistov@gmail.com) | [linkedin.com/in/agechistov](https://www.linkedin.com/in/agechistov) | Discord: hulvdan
 
+(Last updated {% include today %})
+
 ## Speaking of GameDev, I'm familiar with:
 
 - Unity, C#
