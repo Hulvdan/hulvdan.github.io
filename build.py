@@ -60,7 +60,7 @@ class YouTubeBlockProcessor(BlockProcessor):
 def main():
     with open(HTML_TEMPLATE_FILE_PATH) as in_file:
         template_data = in_file.read()
-    with open(MARKDOWN_CONTENTS_PATH) as in_file:
+    with open(MARKDOWN_CONTENTS_PATH, encoding='utf-8') as in_file:
         markdown_contents = in_file.read()
 
     markdown_contents = markdown_contents.replace("docs/assets/", "assets/")
@@ -106,7 +106,7 @@ def write_file(*, template_data: str, markdown_contents: str, output_file_path):
     )
     rendered_html = template_data.format(content=content)
 
-    with open(output_file_path, "w") as out_file:
+    with open(output_file_path, "w", encoding="utf-8") as out_file:
         out_file.write(rendered_html)
 
 
