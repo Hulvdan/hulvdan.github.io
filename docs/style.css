@@ -102,6 +102,29 @@ h3 {
   margin: 0;
 }
 
+blockquote {
+    margin: 20px 20px;
+    background-color: #212016;
+}
+
+blockquote::before {
+    position: relative;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #cbc5a2;
+}
+
+blockquote::after {
+    position: relative;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #cbc5a2;
+}
+
 p {
   padding: 10px 20px;
   margin: 0;
