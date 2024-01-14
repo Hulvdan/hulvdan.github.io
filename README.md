@@ -2,15 +2,19 @@
 
 [agechistov@gmail.com](mailto:agechistov@gmail.com) | [linkedin.com/in/agechistov](https://www.linkedin.com/in/agechistov) | Discord: hulvdan
 
-(Last updated {% include today %})
+I'm a programmer. I'm interested in game development, learning the basics of how computers work, and finding measurable better ways to program.
+
+On my journey, these people and their works totally rock my socks: Jonathan Blow with his presentations on [JAI](https://youtube.com/playlist?list=PLmV5I2fxaiCKfxMBrNsU1kgKJXD3PkyxO&si=rX9v9mQwUJyd85x0), Casey Muratori with his educational series [Performance-Aware Programming](https://youtube.com/playlist?list=PLEMXAbCVnmY7t29i_rd3mnALWu-aZr_42&si=e5JxZOPkl09MQK6x) and [Handmade Hero](https://handmadehero.org/), and Chandler Carruth with his talks regarding C++ and optimizations.
 
 ## Speaking of GameDev, I'm familiar with:
 
-- Unity, C#
 - C++, [Cocos2d-x](https://www.cocos.com/en/cocos2d-x), [entt](https://github.com/skypjack/entt), [box2d](https://github.com/erincatto/box2d), some terminal graphics libraries
+- Unity, C#
 - Mainly 2D. However, I had a bit of experience working with 3D
-- I have a basic understanding and a bit of experience doing shaders, texture packing, sounds, procedural generation, behavioral trees (AI), tools
-- I've recently acquired a basic understanding of multiplayer after completing [Unity 5: Network Gaming course on LinkedIn](https://www.linkedin.com/learning/unity-5-network-gaming)
+- I have a basic understanding of:
+    - software rendering, input, and audio programming on Windows
+    - doing shaders, texture packing, sounds, procedural generation, behavioral trees (AI), tools
+    - how people do networked features in games, including multiplayer
 
 ## GameDev projects I worked on:
 
@@ -25,6 +29,8 @@
 A project featuring several, written by myself, pathfinding algorithms with invalidation upon changes in the map. These algorithms include calculating shortest distances, paths on the map, paths in graph segments, centers of these segments, etc.
 
 It is inspired by [The Settlers](https://en.wikipedia.org/wiki/The_Settlers) and [Soko Loco Deluxe](https://store.steampowered.com/app/1003730/Soko_Loco_Deluxe/).
+
+I'm currently porting it to C++.
 
 ### The Clocktower Letter – [itch.io](https://hulvdan.itch.io/the-clockwork-letter)
 
@@ -77,3 +83,5 @@ A set of images/documents for printing that shows weaknesses of monsters (Python
 
 - [Vanilla Tweaks](https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks) mod for Terraria by gardenapple - Provided the Extractinator speed up code (C#)
 - [Run on Save](https://marketplace.visualstudio.com/items/pucelle.run-on-save/changelog) VS Code extension by pucelle - Running VS Code's commands on save (TypeScript)
+
+(Last updated {% include today %})
