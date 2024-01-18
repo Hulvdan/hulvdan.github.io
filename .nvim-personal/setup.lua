@@ -55,5 +55,6 @@ vim.keymap.set("n", "<leader>w", function()
     save_file_if_needed()
     if vim.bo.filetype == "markdown" then
         build(true)
+        print("Built!")
     end
 end, opts)
