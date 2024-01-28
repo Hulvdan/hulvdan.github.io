@@ -32,6 +32,12 @@ It is inspired by [The Settlers](https://en.wikipedia.org/wiki/The_Settlers) and
 
 I'm currently porting it to C++.
 
+### 3D Donut
+
+![3D Donut Rotation Animation](docs/assets/donut.gif)
+
+This is my study of 3D, matrices and linear algebra written in C++ without using any libraries with a purpose of reinforcing the basics.
+
 ### The Clocktower Letter – [itch.io](https://hulvdan.itch.io/the-clockwork-letter)
 
 ![The Clocktower Letter - First location](docs/assets/the_clocktower_letter_first_location.gif)

@@ -2,5 +2,5 @@
 
 pushd %0\..\..
 
-start /MAX nvim-qt .
+start /MAX nvui --ext_multigrid .
 sleep 2
