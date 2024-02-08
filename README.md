@@ -26,11 +26,7 @@ These people and their works totally rock my socks: Jonathan Blow with his prese
 ![To Be Described](docs/assets/tbd4-4.gif)
 ![To Be Described](docs/assets/tbd4-6.gif)
 
-A project featuring several, written by myself, pathfinding algorithms with invalidation upon changes in the map. These algorithms include calculating shortest distances, paths on the map, paths in graph segments, centers of these segments, etc.
-
-It is inspired by [The Settlers](https://en.wikipedia.org/wiki/The_Settlers) and [Soko Loco Deluxe](https://store.steampowered.com/app/1003730/Soko_Loco_Deluxe/).
-
-I'm currently porting it to C++ [here](https://github.com/Hulvdan/handmade-cpp-game).
+It’s a game that was conceived as an RTS with [The Settlers](https://en.wikipedia.org/wiki/The_Settlers)-like elements of resource management. Is in the process of rewriting from C#, Unity to C++ [here](https://github.com/Hulvdan/handmade-cpp-game). Inspired by [Handmade Hero](https://handmadehero.org/), I'm learning topics like audio, rendering, ASM, CPU, RAM in depth from scratch, satisfying my desire to understand how people develop games.
 
 ### 3D Donut
 
