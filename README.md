@@ -18,7 +18,7 @@ These people and their works totally rock my socks: Jonathan Blow with his prese
 
 ## GameDev projects I worked on:
 
-### Roads of Horses - [GitHub](https://github.com/Hulvdan/RoadsOfHorses)
+### Roads of Horses - [C# Source](https://github.com/Hulvdan/RoadsOfHorses), [C++ Port Source](https://github.com/Hulvdan/handmade-cpp-game)
 
 {% include youtube aR0MfmgZVeQ %}
 
@@ -30,7 +30,7 @@ A project featuring several, written by myself, pathfinding algorithms with inva
 
 It is inspired by [The Settlers](https://en.wikipedia.org/wiki/The_Settlers) and [Soko Loco Deluxe](https://store.steampowered.com/app/1003730/Soko_Loco_Deluxe/).
 
-I'm currently porting it to C++.
+I'm currently porting it to C++ [here](https://github.com/Hulvdan/handmade-cpp-game).
 
 ### 3D Donut
 
