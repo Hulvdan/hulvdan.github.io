@@ -4,7 +4,7 @@
 
 I'm a programmer. I'm interested in game development, learning the basics of how computers work, and finding measurable better ways to program.
 
-These people and their works totally rock my socks: Jonathan Blow with his presentations on [JAI](https://youtube.com/playlist?list=PLmV5I2fxaiCKfxMBrNsU1kgKJXD3PkyxO&si=rX9v9mQwUJyd85x0), Casey Muratori with his educational series [Performance-Aware Programming](https://youtube.com/playlist?list=PLEMXAbCVnmY7t29i_rd3mnALWu-aZr_42&si=e5JxZOPkl09MQK6x) and [Handmade Hero](https://handmadehero.org/).
+These people and their works totally rock my socks: Jonathan Blow with his presentations on [JAI](https://youtube.com/playlist?list=PLmV5I2fxaiCKfxMBrNsU1kgKJXD3PkyxO&si=rX9v9mQwUJyd85x0), Casey Muratori with his educational series [Performance-Aware Programming](https://youtube.com/playlist?list=PLEMXAbCVnmY7t29i_rd3mnALWu-aZr_42&si=e5JxZOPkl09MQK6x) and [Handmade Hero](https://handmadehero.org/faq).
 
 ## Speaking of GameDev, I'm familiar with:
 
