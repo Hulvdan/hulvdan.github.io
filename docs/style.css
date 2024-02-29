@@ -89,17 +89,32 @@ h1 {
   font-size: 2em;
   padding: 40px 20px 0px 20px;
   margin: 0;
+  text-align: center;
+  color: #dd4a4a;
+}
+
+h1 > p {
+  text-align: center;
 }
 
 h2 {
   font-size: 1.35em;
+  text-align: center;
   padding: 20px 20px 0 20px;
   margin: 0;
+  color: #dd4a4a;
+
+  /* border: 1px solid white; */
+  /* border-top: 0px; */
+  /* border-right: 0px; */
+  /* border-bottom: 2px solid #dd4a4a; */
+  /* border-left: 0px; */
 }
 
 h3 {
-  padding: 20px 20px 0 20px;
+  padding: 20px 20px 20px 20px;
   margin: 0;
+  color: #dd4a4a;
 }
 
 blockquote {
@@ -131,7 +146,7 @@ p {
 }
 
 a {
-  color: #dd4a4a;
+  color: #98b6d8;
   margin: 0;
 }
 
