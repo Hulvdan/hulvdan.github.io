@@ -7,8 +7,10 @@ import markdown
 from markdown.blockprocessors import BlockProcessor
 
 HTML_TEMPLATE_FILE_PATH = Path("index_template.html")
-MARKDOWN_CONTENTS_PATH = Path("README.md")
-CV_OUTPUT_FILE = Path("docs/index.html")
+RU_MARKDOWN_CONTENTS_PATH = Path("README.md")
+EN_MARKDOWN_CONTENTS_PATH = Path("README_EN.md")
+RU_CV_OUTPUT_FILE = Path("docs/index.html")
+EN_CV_OUTPUT_FILE = Path("docs/en.html")
 
 
 class YouTubeExtension(markdown.Extension):
@@ -61,25 +63,37 @@ class YouTubeBlockProcessor(BlockProcessor):
 def main():
     with open(HTML_TEMPLATE_FILE_PATH) as in_file:
         template_data = in_file.read()
-    with open(MARKDOWN_CONTENTS_PATH, encoding='utf-8') as in_file:
-        markdown_contents = in_file.read()
 
-    markdown_contents = markdown_contents  \
-        .replace("docs/assets/", "assets/")  \
-        .replace("{% include today %}", datetime.now().strftime("%d %B %Y"))
+    pairs = (
+        (RU_MARKDOWN_CONTENTS_PATH, RU_CV_OUTPUT_FILE),
+        (EN_MARKDOWN_CONTENTS_PATH, EN_CV_OUTPUT_FILE),
+    )
 
-    # Making for CV
-    cv_markdown_contents = process_region(
-        markdown_contents,
-        opening="<NOT_IN_CV>",
-        closing="<NOT_IN_CV_END>",
-        remove=True,
-    )
-    write_file(
-        template_data=template_data,
-        markdown_contents=cv_markdown_contents,
-        output_file_path=CV_OUTPUT_FILE,
-    )
+    for source_path, output_path in pairs:
+        print(f'Generating from "{source_path}" - "{output_path}"...')
+
+        with open(source_path, encoding='utf-8') as in_file:
+            markdown_contents = in_file.read()
+
+        markdown_contents = markdown_contents  \
+            .replace("/docs/index.html", "/")  \
+            .replace("/docs/en.html", "/en")  \
+            .replace("docs/assets/", "assets/")  \
+            .replace("{% include today %}", datetime.now().strftime("%d %B %Y"))
+
+        processed_markdows_contents = process_region(
+            markdown_contents,
+            opening="<NOT_IN_CV>",
+            closing="<NOT_IN_CV_END>",
+            remove=True,
+        )
+        write_file(
+            template_data=template_data,
+            markdown_contents=processed_markdows_contents,
+            output_file_path=output_path,
+        )
+
+        print(f'Generated "{source_path}" - "{output_path}"!')
 
 
 def process_region(data: str, *, opening: str, closing: str, remove: bool) -> str:

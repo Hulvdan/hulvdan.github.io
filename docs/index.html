@@ -6,15 +6,13 @@
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://fonts.googleapis.com/css?family=Signika%3A400%2C400italic%2C700%2C700italic"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <main><h1>Aleksei Chistov</h1>
+    <main><h1>Алексей Чистов</h1>
 <p style="text-align: center;">
     <a href="mailto:agechistov@gmail.com">agechistov@gmail.com</a>
     |
@@ -23,29 +21,43 @@
     Discord: hulvdan
 </p>
 
-<h2>GameDev projects I worked on:</h2>
-<h3>Roads of Horses - <a href="https://github.com/Hulvdan/RoadsOfHorses">C# Source</a>, <a href="https://github.com/Hulvdan/handmade-cpp-game">C++ Port Source</a> (since 10/2023)</h3>
+<blockquote>
+<p><div style="text-align: center;">Web-site's version in <a href="/en">ENGLISH 🇬🇧</a></div></p>
+</blockquote>
+<h2>GameDev проекты, над которыми я работал:</h2>
+<h3>Roads of Horses - <a href="https://github.com/Hulvdan/RoadsOfHorses">C# Source</a>, <a href="https://github.com/Hulvdan/handmade-cpp-game">C++ Port Source</a> (начиная с 10/2023)</h3>
 <div class="embed-container">
 <iframe allowfullscreen="true" frameborder="0" height="390" src="https://www.youtube.com/embed/aR0MfmgZVeQ" width="640"></iframe>
 </div>
 <p><img alt="To Be Described" src="assets/tbd4-3.gif" />
 <img alt="To Be Described" src="assets/tbd4-4.gif" />
 <img alt="To Be Described" src="assets/tbd4-6.gif" /></p>
-<p>It’s a game that was conceived as an RTS with <a href="https://en.wikipedia.org/wiki/The_Settlers">The Settlers</a>-like elements of resource management. Is in the process of rewriting from C#, Unity to C++ <a href="https://github.com/Hulvdan/handmade-cpp-game">here</a>. Inspired by <a href="https://handmadehero.org/">Handmade Hero</a>, I'm learning topics like audio, rendering, ASM, CPU, RAM in depth from scratch, satisfying my desire to understand how people develop games.</p>
-<h3>3D Donut (2024)</h3>
+<p>Видеоигра, разрабатывать которую я начал на <a href="https://github.com/Hulvdan/RoadsOfHorses">Unity, C#</a>. Сейчас портирую на <a href="https://github.com/Hulvdan/handmade-cpp-game">C++</a>.
+Вдохновленный «<a href="https://handmadehero.org/faq">Handmade Hero</a>», я укрепляю навыки программирования, изучая работу CPU, работу с памятью, рендеринг, аудио, ASM и др.</p>
+<p><br></p>
+<p>Из интересного <em><u>в техническом</u></em> плане:</p>
+<ul>
+<li>На C++ я пишу код в основном "от руки", не используя какие-либо фреймворки вроде GLFW / SDL, с целью как можно лучше изучить различные аспекты языка и научиться разрабатывать комплексные вещи.</li>
+<li>Ручная работа с памятью.</li>
+<li>Горячая перезагрузка C++ кода с сохранением состояния при перезагрузках. Я слышал, что при разработке игр очень важно сохранять как можно меньшую длительность итераций.</li>
+<li>По той же причине собираю проект через один юнит трансляции (single translation unit build, unity build).</li>
+<li>Не пытаюсь всё оборачивать в шаблоны, классы и разделять функции на более мелкие по принципам "Чистого Кода". Сохраняю код максимально простым и прямолинейным.</li>
+<li>Использую clang-tidy и clang-format для сохранения качества и консистентности кода на уровне. Всё же у меня нет коммерческого опыта разработки на C++, поэтому мне очень важно иметь дополнительный "взгляд со стороны".</li>
+</ul>
+<h3>3D Пончик (2024)</h3>
 <p><img alt="3D Donut Rotation Animation" src="assets/donut.gif" /></p>
-<p>This is my study of 3D, matrices and linear algebra written in C++ without using any libraries with a purpose of reinforcing the basics.</p>
+<p>Это моё исследование 3D, матричных трансформаций и линейной алгебры на C++ без использования каких-либо библиотек с целью укрепления основ.</p>
 <h3>The Clocktower Letter – <a href="https://hulvdan.itch.io/the-clockwork-letter">itch.io</a> (2023)</h3>
 <p><img alt="The Clocktower Letter - First location" src="assets/the_clocktower_letter_first_location.gif" />
 <img alt="The Clocktower Letter - Wall Jumping" src="assets/the_clocktower_letter_wall_jumping.gif" />
 <img alt="The Clocktower Letter - Tower explosion" src="assets/the_clocktower_letter_explosion_tower.gif" /></p>
-<p>A short platformer game for Metroidvania 21 game jam. Worked as a programmer in a worldwide distributed team of 4.</p>
-<h3>Other small prototypes (2016-2023):</h3>
+<p>Короткая игра платформер для Metroidvania 21 game jam-а. Работал в качестве разработчика в распределённой команде из 4-х человек.</p>
+<h3>Другие небольшие прототипы (2016-2023):</h3>
 <p><img alt="Avocado - Throwing" src="assets/avocado_throwing.gif" />
 <img alt="Avocado - Coyote Time" src="assets/avocado_coyote_time.gif" /></p>
 <p><img alt="Avocado - Jump Input Buffering" src="assets/avocado_jump_input_buffering.gif" />
 <img alt="Avocado - Camera Shake" src="assets/avocado_camera_shake.gif" /></p>
-<p>Avocado - <a href="https://github.com/Hulvdan/Avocado">GitHub</a>. Various studies applied to a platformer game in Unity, C#.</p>
+<p>Avocado - <a href="https://github.com/Hulvdan/Avocado">GitHub</a>. Некоторые фишки, применённые к платформеру на Unity, C#.</p>
 <p><img alt="Messing with see-through shaders inside an isometric Minecraft clone" src="assets/messing_with_see_through_shaders.gif" />
 <img alt="Messing with a depth of field shader inside an isometric Minecraft clone" src="assets/messing_with_depth_of_field.gif" />
 <img alt="Tanks AI" src="assets/tanks_ai.gif" />
@@ -56,37 +68,37 @@
 <p><img alt="2048 using C++ w/ bearlibterminal" src="assets/2048.jpg" />
 <img alt="Sokoban. Block placed" src="assets/sokoban_in_terminal_block_placed.jpg" />
 <img alt="Sokoban using C++ w/ bearlibterminal" src="assets/sokoban_in_terminal.jpg" /></p>
-<h2>Tools I worked on:</h2>
+<h2>Инструменты, над которыми я работал:</h2>
 <h3>Dark Souls 3 Cheat Sheet tool – <a href="https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/">Reddit</a> (2018)</h3>
 <p><img alt="Dark Souls 3 Cheat Sheet tool" src="assets/ds3-cheat-sheet-tool.png" /></p>
-<p>A tool for tracking progress in Dark Souls 3 (Python, PyQt)</p>
-<h2>Other Stuff</h2>
+<p>Программа для ручного отслежвания прогресса в Dark Souls 3 (Python, PyQt)</p>
+<h2>Другое</h2>
 <h3>Monster Hunter: World Printable Monsters Weaknesses Booklet – <a href="https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/">Reddit post</a>, <a href="https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/">Updated Reddit post</a> (2018, 2021)</h3>
 <p><img alt="Image of a booklet" src="assets/mhw_booklet.jpeg" /></p>
-<p>A set of images/documents for printing that shows weaknesses of monsters (Python, Pillow)</p>
+<p>Набор изображений/документов для печати, что отображает уязвимости монстров в игре (Python, Pillow)</p>
 <h2>Credited Work</h2>
 <ul>
-<li><a href="https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks">Vanilla Tweaks</a> mod for Terraria by gardenapple - Provided the Extractinator speed up code (C#) (2017)</li>
-<li><a href="https://marketplace.visualstudio.com/items/pucelle.run-on-save/changelog">Run on Save</a> VS Code extension by pucelle - Running VS Code's commands on save (TypeScript) (2020)</li>
+<li><a href="https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks">Vanilla Tweaks</a> мод для Terrari-и от gardenapple - Предоставил код для ускорения Extractinator-а (C#) (2017)</li>
+<li><a href="https://marketplace.visualstudio.com/items/pucelle.run-on-save/changelog">Run on Save</a> расширение VS Code от pucelle - Исполнение команд VS Code-а при сохранении файлов (TypeScript) (2020)</li>
 </ul>
-<h2>Speaking of GameDev</h2>
-<p>I'm familiar with:</p>
+<h2>Говоря о GameDev-е</h2>
+<p>Я знаком с:</p>
 <ul>
-<li>C++, <a href="https://www.cocos.com/en/cocos2d-x">Cocos2d-x</a>, <a href="https://github.com/skypjack/entt">entt</a>, <a href="https://github.com/erincatto/box2d">box2d</a>, some terminal graphics libraries</li>
+<li>C++, <a href="https://www.cocos.com/en/cocos2d-x">Cocos2d-x</a>, <a href="https://github.com/skypjack/entt">entt</a>, <a href="https://github.com/erincatto/box2d">box2d</a>, некоторыми графическими библиотеками для терминала</li>
 <li>Unity, C#</li>
-<li>Mainly 2D. However, I had a bit of experience working with 3D</li>
+<li>В основном 2D. Однако, у меня был небольшой опыт работы с 3D</li>
 </ul>
-<p>I have a basic understanding of:</p>
+<p>Я имею базовое представление о:</p>
 <ul>
-<li>Software rendering, input, and audio programming on Windows</li>
-<li>Doing shaders, texture packing, sounds, procedural generation, behavioral trees (AI), tools</li>
-<li>How people do networked features in games, including multiplayer</li>
+<li>Software рендеринге, input, и аудио программировании на Windows</li>
+<li>Программировании шейдеров, паковании текстур, программирования звуков, процедурной генерации, деревьях поведения (AI), инструментах</li>
+<li>Том, как люди разрабатывают сетевые фичи в играх, в частности, мультиплеер</li>
 </ul>
-<h2>Totally Irrelevant</h2>
-<p>These people and their works totally rock my socks: Jonathan Blow with his presentations on <a href="https://youtube.com/playlist?list=PLmV5I2fxaiCKfxMBrNsU1kgKJXD3PkyxO&amp;si=rX9v9mQwUJyd85x0">JAI</a>, Casey Muratori with his educational series <a href="https://youtube.com/playlist?list=PLEMXAbCVnmY7t29i_rd3mnALWu-aZr_42&amp;si=e5JxZOPkl09MQK6x">Performance-Aware Programming</a> and <a href="https://handmadehero.org/faq">Handmade Hero</a>.</p>
+<h2>Абсолютно Нерелевантно</h2>
+<p>These people and their works totally rock my socks: Jonathan Blow с его презентациями <a href="https://youtube.com/playlist?list=PLmV5I2fxaiCKfxMBrNsU1kgKJXD3PkyxO&amp;si=rX9v9mQwUJyd85x0">JAI</a>, Casey Muratori и его образовательные материалы <a href="https://youtube.com/playlist?list=PLEMXAbCVnmY7t29i_rd3mnALWu-aZr_42&amp;si=e5JxZOPkl09MQK6x">Performance-Aware Programming</a> и <a href="https://handmadehero.org/faq">Handmade Hero</a>.</p>
 <p><br></p>
 <p style="text-align: center;">
-    (Last updated 29 February 2024)
+    (Обновлено 01 March 2024)
 </p></main>
   </body>
   <br />
