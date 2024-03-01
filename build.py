@@ -79,7 +79,7 @@ def main():
             .replace("/docs/index.html", "/")  \
             .replace("/docs/en.html", "/en")  \
             .replace("docs/assets/", "assets/")  \
-            .replace("{% include today %}", datetime.now().strftime("%d %B %Y"))
+            .replace("{% include today %}", datetime.now().strftime("%Y-%m-%d"))
 
         processed_markdows_contents = process_region(
             markdown_contents,
