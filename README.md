@@ -10,6 +10,8 @@
 
 > <div style="text-align: center;">Web-site's version in [ENGLISH 🇬🇧](/docs/en.html)</div>
 
+Я Python Backend разработчик. В качестве одного из своих хобби я занимаюсь gamedev проектами и пишу об этом тут.
+
 ## GameDev проекты, над которыми я работал:
 
 ### Roads of Horses - [C# Source](https://github.com/Hulvdan/RoadsOfHorses), [C++ Port Source](https://github.com/Hulvdan/handmade-cpp-game) (начиная с 10/2023 - н.в.)
