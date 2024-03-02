@@ -86,16 +86,16 @@ p {
 }
 
 a {
-  color: #98b6d8;
+  color: #83a598;
   margin: 0;
 }
 
 span.year {
-    color: #7fb93d;
+    color: #b8bb26;
 }
 
 span.respect > * {
-    color: #ffb134 !important;
+    color: #fabd2f !important;
 }
 
 img {
