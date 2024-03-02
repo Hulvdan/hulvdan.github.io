@@ -1,3 +1,5 @@
+<p style="text-align: right;">Switch to <a href="/docs/en.html">English 🇬🇧</a></p>
+
 # Алексей Чистов
 
 <p style="text-align: center;">
@@ -8,7 +10,7 @@
     Discord: hulvdan
 </p>
 
-> <div style="text-align: center;">Web-site's version in [ENGLISH 🇬🇧](/docs/en.html)</div>
+<p></p>
 
 Я Python Backend разработчик. В качестве одного из своих хобби я занимаюсь gamedev проектами. Здесь я собрал о них информацию.
 

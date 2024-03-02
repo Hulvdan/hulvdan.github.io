@@ -1,3 +1,5 @@
+<p style="text-align: right;">Сменить на <a href="/docs/index.html">Русский 🇷🇺</a></p>
+
 # Aleksei Chistov
 
 <p style="text-align: center;">
@@ -7,11 +9,6 @@
     |
     Discord: hulvdan
 </p>
-
-
-> <div style="text-align: center;">Версия сайта на [РУССКОМ 🇷🇺](/docs/index.html)</div>
-
-<br>
 
 > <div style="text-align: center;">This page, page in English, is a bit outdated</div>
 
