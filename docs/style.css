@@ -59,7 +59,7 @@ h3 {
 
 blockquote {
     margin: 20px 20px;
-    background-color: #212016;
+    background-image: linear-gradient(to right, #0e0e0e, #212016 10%, #212016 90%, #0e0e0e);
 }
 
 blockquote::before {
