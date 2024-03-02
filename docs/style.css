@@ -90,11 +90,11 @@ a {
   margin: 0;
 }
 
-text.year {
+span.year {
     color: #7fb93d;
 }
 
-text.respect > * {
+span.respect > * {
     color: #ffb134 !important;
 }
 
