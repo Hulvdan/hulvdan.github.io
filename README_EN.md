@@ -11,6 +11,10 @@
 
 > <div style="text-align: center;">Версия сайта на [РУССКОМ 🇷🇺](/docs/index.html)</div>
 
+<br>
+
+> <div style="text-align: center;">This page, page in English, is a bit outdated</div>
+
 ## GameDev projects I worked on:
 
 ### Roads of Horses - [C# Source](https://github.com/Hulvdan/RoadsOfHorses), [C++ Port Source](https://github.com/Hulvdan/handmade-cpp-game) (since 10/2023)
