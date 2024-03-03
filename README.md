@@ -91,11 +91,11 @@ Avocado - [GitHub](https://github.com/Hulvdan/Avocado). Некоторые фи�
 
 ## Другое
 
-### Dark Souls 3 Cheat Sheet tool – [Reddit](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/) <span class="year">(2018)</span>
+### «Dark Souls 3» Cheat Sheet tool – [Reddit](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/) <span class="year">(2018)</span>
 
 ![Dark Souls 3 Cheat Sheet tool](docs/assets/ds3-cheat-sheet-tool.png)
 
-Программа для ручного отслеживания прогресса в Dark Souls 3 (Python, PyQt)
+Программа для ручного отслеживания прогресса в «Dark Souls 3» (Python, PyQt)
 
 <br>
 
@@ -103,11 +103,11 @@ Avocado - [GitHub](https://github.com/Hulvdan/Avocado). Некоторые фи�
 
 ![Image of a booklet](docs/assets/mhw_booklet.jpeg)
 
-Набор изображений/документов для печати, что отображает уязвимости монстров в игре (Python, Pillow)
+Набор изображений/документов для печати, что отображает уязвимости монстров в «Monster Hunter: World» (Python, Pillow)
 
 ## Credited Work
 
-- [Vanilla Tweaks](https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks) мод для Terraria от gardenapple - Поделился кодом для ускорения Extractinator-а (C#) <span class="year">(2017)</span>
+- [Vanilla Tweaks](https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks) мод для «Terraria» от gardenapple - Поделился кодом для ускорения Extractinator-а (C#) <span class="year">(2017)</span>
 - [Run on Save](https://marketplace.visualstudio.com/items/pucelle.run-on-save/changelog) расширение VS Code от pucelle - Исполнение команд VS Code-а при сохранении файлов (TypeScript) <span class="year">(2020)</span>
 
 ## Хотел бы отдать дань уважения
