@@ -122,6 +122,11 @@ img {
   height: 100%;
 }
 
+details > summary {
+    cursor: pointer;
+    color: #d3869b;
+}
+
 ul {
     margin-top: 0;
 }
