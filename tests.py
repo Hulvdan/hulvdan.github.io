@@ -1,6 +1,5 @@
 from build import process_region
 
-
 value = process_region(
     "Test<NOT_IN_CV>SampleText<NOT_IN_CV_END>Test",
     opening="<NOT_IN_CV>",

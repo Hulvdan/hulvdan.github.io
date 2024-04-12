@@ -9,7 +9,20 @@ packages = [{ include = "hulvdan" }]
 [tool.poetry.dependencies]
 python = "^3.11"
 markdown = "^3.5"
+pygments = "^2.17.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.3.0"
+isort = "^5.13.2"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 90
+
+[tool.isort]
+multi_line_output = 3
+line_length = 90
+include_trailing_comma = true

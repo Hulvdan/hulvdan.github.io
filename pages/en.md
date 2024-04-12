@@ -102,5 +102,5 @@ These people and their works totally rock my socks: Jonathan Blow with his prese
 
 <br>
 <p style="text-align: center;">
-    (Last updated {% include today %})
+    (Last updated 2024-02-29)
 </p>
