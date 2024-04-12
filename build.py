@@ -11,8 +11,6 @@ import markdown
 from markdown.blockprocessors import BlockProcessor
 from markdown.extensions.codehilite import CodeHiliteExtension
 
-DEV_MODE = False
-
 HTML_TEMPLATE_FILE_PATH = Path("index_template.html")
 
 
@@ -66,8 +64,7 @@ class YouTubeBlockProcessor(BlockProcessor):
 def main():
     with open("style.css", "rb") as in_file:
         pretty_hash = hashlib.md5(in_file.read()).hexdigest()[:8]
-        prefix = "/docs/" if DEV_MODE else "/"
-        style_css_path = prefix + "style-{}.css".format(pretty_hash)
+        style_css_path = "/style-{}.css".format(pretty_hash)
 
     with open(HTML_TEMPLATE_FILE_PATH) as in_file:
         template_data = in_file.read().replace("{{ STYLE_CSS }}", style_css_path)
