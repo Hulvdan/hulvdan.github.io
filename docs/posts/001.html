@@ -5,7 +5,7 @@
     <title>Aleksei Chistov - Hulvdan</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="stylesheet" href="/style-609f38dc.css" />
+    <link rel="stylesheet" href="/style-1eb0e51c.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
@@ -65,8 +65,8 @@ pos_y       +2 байта
 <li><code>bool</code> - по 1 байту</li>
 </ul>
 <p>Как видим, каждый инстанс этой структуры по-умолчанию бы тратил 6 лишних байт на padding, впустую.</p>
-<h2>Плохо ли это?</h2>
-<p><strong>Нужно или не нужно экономить память - зависит от задачи.</strong></p>
+<h2>Padding - это плохо?</h2>
+<p><strong>Необходимость оптимизации использования памяти зависит от задачи.</strong></p>
 <p>Если требуется много вычислений (к примеру, анимируете модели, ткани симулируете или factorio пилите и т.п.), стоит подумать о <em>Data-Oriented</em> подходах к хранению и обработке данных. <em>В таких ситуациях хотелось бы как можно эффективнее гонять только те данные, которые действительно нужны для вычислений (ненужные гонять не надо, кэп)</em>.</p>
 <p><br></p>
 <p>Для этого мы можем сделать так, чтобы наша структура меньше тратила лишней памяти впустую.</p>
@@ -148,7 +148,7 @@ is_alive    +1 байт
 <p>Напротив, если данные были бы в heap-е, не помещались бы в кеш и их чтение происходило бы рандомно, тогда бы происходила куча <em>cache miss</em>-ов, а это в 200 раз медленнее, чем доступ к L1 кешу.</p>
 <p><em>ECS</em>-ы в играх часто используют такие <em>Data-Oriented</em> подходы для достижения хороших характеристик по скорости. Тут процессор и оператива используются так, как задумывалось авторами)</p>
 <p>Кстати, Mike Acton (<a href="https://www.youtube.com/watch?v=rX0ItVEVjHc&amp;pp=ygUKbWlrZSBhY3Rvbg%3D%3D">youtube.com</a>) часто отмечает то, что <em>фокус разработчика должен быть на хранении и эффективных трансформациях данных</em>, а не на "моделировании реального мира в коде" (да, это выпад в сторону ООП).</p>
-<h2>Способ 4. MSVC <code>#pragma pack</code></h2>
+<h2>Способ 4 🤔 MSVC <code>#pragma pack</code></h2>
 <div class="codehilite"><pre><span></span><code><span class="cp">#pragma pack(push, 1)</span>
 <span class="k">struct</span><span class="w"> </span><span class="nc">Human</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="n">u32</span><span class="w">  </span><span class="n">id</span><span class="p">;</span><span class="w">         </span><span class="c1">// 4</span>
