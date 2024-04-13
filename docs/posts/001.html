@@ -20,10 +20,9 @@
     <main><h1>Как экономить память,<br>не тратить время на её пустую перегонку<br>и при чём тут <strong>padding</strong> и <strong>alignment</strong>?</h1>
 <h2>Здесь затронуто</h2>
 <ul>
-<li>Что такое padding и alignment (отступы и выравнивание).</li>
-<li>Как оно работает.</li>
+<li>Что такое padding и alignment, как оно работает.</li>
 <li>Некоторые способы экономии памяти и ограничения.</li>
-<li>Немного про performance и Data-Oriented подходы.</li>
+<li>Немного про performance, Data-Oriented подходы, ECS.</li>
 </ul>
 <h2>Каков размер этой структуры на C++?</h2>
 <div class="codehilite"><pre><span></span><code><span class="c1">// Для справки:</span>
@@ -91,7 +90,6 @@ is_alive    +1 байт
 </span></code></pre></div>
 
 <p>Теперь у нас не 60% overhead-а по памяти, а 20%!</p>
-<p>Но это не всегда работает)</p>
 <p>Вот только если бы мы могли сделать так, чтобы эти <code>is_active</code> и <code>is_alive</code> как-то хранились покомпактнее, и мы бы избавились от этого padding-а...</p>
 <h2>Способ 2 🤔 Спустимся на уровень работы с битами</h2>
 <div class="codehilite"><pre><span></span><code><span class="k">struct</span><span class="w"> </span><span class="nc">Human</span><span class="w"> </span><span class="p">{</span>
