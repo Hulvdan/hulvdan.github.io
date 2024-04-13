@@ -144,8 +144,10 @@ strong {
     color: #fabd2f;
 }
 em {
-    /* color: #d3869b; */
-    color: #8ec07c;
+    /* color: #fe8019; */
+    color: #d3869b;
+    /* color: #8ec07c; */
+    /* color: #b8bb26; */
     font-style: normal;
 }
 
@@ -157,7 +159,7 @@ div.codehilite {
 code {
     /* background: black; */
     background: #282828;
-    color: #8ec07c;
+    color: #d3869b;
     padding: 3px 5px;
     border-radius: 6px;
 
