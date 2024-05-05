@@ -9,8 +9,6 @@ vim.fn.execute(":set nowritebackup")
 
 -- Helper Functions --
 -- ================ --
-local todo_plugin = require("todo-comments");
-
 function launch_tab(command)
     vim.fn.execute([[term ]] .. command)
 end
@@ -71,7 +69,6 @@ vim.keymap.set("n", "<leader>w", function()
 
     if vim.bo.filetype == "python" then
         local view = vim.fn.winsaveview()
-        todo_plugin.disable();
 
         -- local buf_path = vim.api.nvim_buf_get_name(vim.api.nvim_get_current_buf())
         -- launch_background([[.venv\Scripts\black.exe -q "]] .. buf_path .. '"', function()
@@ -79,7 +76,6 @@ vim.keymap.set("n", "<leader>w", function()
             reload_file()
 
             vim.fn.winrestview(view)
-            todo_plugin.enable();
 
             vim.api.nvim_input("mzhllhjkkj`z")  -- NOTE: for nvim-treesitter-context
             build(true)
