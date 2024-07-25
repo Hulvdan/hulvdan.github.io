@@ -18,7 +18,7 @@
 
 ### 3D Демо Механики ~Как В Атаке Титанов - [C++ Source](https://github.com/Hulvdan/shingeki) <span class="year">(2024)</span>
 
-{% include youtube B1DtJOT7c9s %}
+{% include youtube X4yfK4Lj8kg %}
 
 Захотел поработать в 3D, подтянуть математику, а также опробовать [Raylib](https://www.raylib.com/). Физику и математику писал вручную. Вдохновлялся Атакой Титанов, а также Человеком Пауком.
 
