@@ -16,7 +16,7 @@
 
 ## GameDev проекты, над которыми я работал
 
-### 3D Демо Механики ~Как В Атаке Титанов - [C++ Source](https://github.com/Hulvdan/shingeki) <span class="year">(2024)</span>
+### 3D Демо Перемещения С Помощью Троса ~Как В Атаке Титанов - [C++ Source](https://github.com/Hulvdan/shingeki) <span class="year">(2024)</span>
 
 {% include youtube X4yfK4Lj8kg %}
 
