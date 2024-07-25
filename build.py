@@ -33,28 +33,25 @@ class YouTubeBlockProcessor(BlockProcessor):
         blocks[0] = re.sub(self.RE_FENCE_START, "", blocks[0])
 
         # Find block with ending fence
-        for block_num, block in enumerate(blocks):
-            if not re.search(self.RE_FENCE_END, block):
-                continue
+        block = blocks[0]
 
-            # remove fence
-            video_id = block.split(" ", 1)[0]
+        # remove fence
+        video_id = block.split(" ", 1)[0]
 
-            blocks[block_num] = re.sub(self.RE_FENCE_END, "", block)
-            # render fenced area inside a new div
-            div = SubElement(parent, "div")
-            iframe = SubElement(div, "iframe")
+        blocks[0] = re.sub(self.RE_FENCE_END, "", block)
+        # render fenced area inside a new div
+        div = SubElement(parent, "div")
+        iframe = SubElement(div, "iframe")
 
-            iframe.set("width", f"640")
-            iframe.set("height", f"390")
-            iframe.set("src", f"https://www.youtube.com/embed/{video_id}")
-            iframe.set("allowfullscreen", "true")
-            iframe.set("frameborder", "0")
+        iframe.set("width", f"640")
+        iframe.set("height", f"390")
+        iframe.set("src", f"https://www.youtube.com/embed/{video_id}")
+        iframe.set("allowfullscreen", "true")
+        iframe.set("frameborder", "0")
 
-            div.set("class", "embed-container")
+        div.set("class", "embed-container")
 
-            for i in range(0, block_num + 1):
-                blocks.pop(0)
+        blocks.pop(0)
 
         # No closing marker!  Restore and do nothing
         # blocks[0] = original_block
