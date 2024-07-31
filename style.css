@@ -13,9 +13,43 @@ html {
     margin: 0;
 }
 
+#border-left {
+    display: block;
+    position: absolute;
+
+    width: 224px;
+    height: 1000%;
+
+    left: calc(min(0, ((100vw - 960px) / 2 - 224px - 30px)));
+
+    background: url('/assets/border-left.png');
+    background-repeat: repeat-y;
+    background-size: 224px 896px;
+    image-rendering: crisp-edges;
+}
+
+/* #border-right { */
+/*     display: block; */
+/*     position: absolute; */
+/**/
+/*     width: 224px; */
+/*     height: 1000%; */
+/**/
+/*     right: calc(min(0, (100vw - 960px) / 2 - 224px - 30px)); */
+/**/
+/*     background: url('/assets/border-left.png'); */
+/*     background-repeat: repeat-y; */
+/*     background-size: 224px 896px; */
+/*     image-rendering: crisp-edges; */
+/**/
+/*     transform:scaleX(-1); */
+/* } */
+
 body {
     padding: 0;
     margin: 0;
+
+    /* height: 1000px; */
 }
 
 main {
