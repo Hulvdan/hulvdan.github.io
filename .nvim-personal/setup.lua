@@ -24,7 +24,7 @@ function launch_side(command, switch)
 end
 
 function launch_background(command, callback)
-    vim.fn.jobstart(command, {on_exit = callback})
+    vim.fn.jobstart(command, { on_exit = callback })
 end
 
 function save_file_if_needed()
@@ -35,11 +35,7 @@ end
 
 function build(silent)
     local command = [[.venv\Scripts\python.exe build.py]]
-    if silent then
-        launch_background(command, function() end)
-    else
-        launch_side(command, true)
-    end
+    vim.g.hulvdan_run_command(command)
 end
 
 -- Keyboard Shortcuts --
@@ -77,7 +73,7 @@ vim.keymap.set("n", "<leader>w", function()
 
             vim.fn.winrestview(view)
 
-            vim.api.nvim_input("mzhllhjkkj`z")  -- NOTE: for nvim-treesitter-context
+            vim.api.nvim_input("mzhllhjkkj`z") -- NOTE: for nvim-treesitter-context
             build(true)
         end)
     end
