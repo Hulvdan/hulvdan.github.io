@@ -4,17 +4,31 @@
 
 <p style="text-align: center;">
     <a href="mailto:agechistov@gmail.com">agechistov@gmail.com</a>
-    |
-    <a href="https://www.linkedin.com/in/agechistov">linkedin.com/in/agechistov</a>
-    |
-    Discord: hulvdan
 </p>
 
-> <div style="text-align: center;">This page, page in English, is a bit outdated</div>
+<p></p>
+
+Sometimes I do gamedev projects. The information about them is gathered here.
 
 ## GameDev projects I worked on:
 
-### Roads of Horses - [C# Source](https://github.com/Hulvdan/RoadsOfHorses), [C++ Port Source](https://github.com/Hulvdan/handmade-cpp-game) (since 10/2023)
+### 3D Demo Of Movement Using A Rope - [C++ Source](https://github.com/Hulvdan/shingeki) (2024)
+
+{% include youtube X4yfK4Lj8kg %}
+
+I worked a bit more in 3D, improved my math skills, and also tried [Raylib](https://www.raylib.com/). I was inspired by Attack on Titan.
+
+<br>
+
+### 3D Donut (2024)
+
+![3D Donut Rotation Animation](docs/assets/donut.gif)
+
+I reinforced the basics of 3D, matrix transformations, linear algebra and programming in C++ without using libraries.
+
+<br>
+
+### Roads of Horses (10/2023 - 09/2024)
 
 {% include youtube aR0MfmgZVeQ %}
 
@@ -22,13 +36,12 @@
 ![To Be Described](docs/assets/tbd4-4.gif)
 ![To Be Described](docs/assets/tbd4-6.gif)
 
-It’s a game that was conceived as an RTS with [The Settlers](https://en.wikipedia.org/wiki/The_Settlers)-like elements of resource management. Is in the process of rewriting from C#, Unity to C++ [here](https://github.com/Hulvdan/handmade-cpp-game). Inspired by [Handmade Hero](https://handmadehero.org/), I'm learning topics like audio, rendering, ASM, CPU, RAM in depth from scratch, satisfying my desire to understand how people develop games.
+This is a videogame, that I started developing using [Unity, C#](https://github.com/Hulvdan/RoadsOfHorses). Then I started portion it to [C++](https://github.com/Hulvdan/handmade-cpp-game).
+Inspired by «[Handmade Hero](https://guide.handmadehero.org/)», I was reinforcing my skills of programming, understanding how CPU, RAM, Rendering, Audio and other stuff works.
 
-### 3D Donut (2024)
+<p></p>
 
-![3D Donut Rotation Animation](docs/assets/donut.gif)
-
-This is my study of 3D, matrices and linear algebra written in C++ without using any libraries with a purpose of reinforcing the basics.
+<!--
 
 ### The Clocktower Letter – [itch.io](https://hulvdan.itch.io/the-clockwork-letter) (2023)
 
@@ -61,6 +74,8 @@ Avocado - [GitHub](https://github.com/Hulvdan/Avocado). Various studies applied 
 ![Sokoban. Block placed](docs/assets/sokoban_in_terminal_block_placed.jpg)
 ![Sokoban using C++ w/ bearlibterminal](docs/assets/sokoban_in_terminal.jpg)
 
+-->
+
 ## Tools I worked on:
 
 ### Dark Souls 3 Cheat Sheet tool – [Reddit](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/) (2018)
@@ -82,25 +97,13 @@ A set of images/documents for printing that shows weaknesses of monsters (Python
 - [Vanilla Tweaks](https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks) mod for Terraria by gardenapple - Provided the Extractinator speed up code (C#) (2017)
 - [Run on Save](https://marketplace.visualstudio.com/items/pucelle.run-on-save/changelog) VS Code extension by pucelle - Running VS Code's commands on save (TypeScript) (2020)
 
-## Speaking of GameDev
+## I wanted to say thanks to
 
-I'm familiar with:
-
-- C++, [Cocos2d-x](https://www.cocos.com/en/cocos2d-x), [entt](https://github.com/skypjack/entt), [box2d](https://github.com/erincatto/box2d), some terminal graphics libraries
-- Unity, C#
-- Mainly 2D. However, I had a bit of experience working with 3D
-
-I have a basic understanding of:
-
-- Software rendering, input, and audio programming on Windows
-- Doing shaders, texture packing, sounds, procedural generation, behavioral trees (AI), tools
-- How people do networked features in games, including multiplayer
-
-## Totally Irrelevant
-
-These people and their works totally rock my socks: Jonathan Blow with his presentations on [JAI](https://youtube.com/playlist?list=PLmV5I2fxaiCKfxMBrNsU1kgKJXD3PkyxO&si=rX9v9mQwUJyd85x0), Casey Muratori with his educational series [Performance-Aware Programming](https://youtube.com/playlist?list=PLEMXAbCVnmY7t29i_rd3mnALWu-aZr_42&si=e5JxZOPkl09MQK6x) and [Handmade Hero](https://handmadehero.org/faq).
+- <span class="respect">[Casey Muratori](https://caseymuratori.com/about)</span> for his series of educational streams [Handmade Hero](https://guide.handmadehero.org/) and educational videos [Performance-Aware Programming](https://youtube.com/playlist?list=PLEMXAbCVnmY7t29i_rd3mnALWu-aZr_42&si=e5JxZOPkl09MQK6x)
+- <span class="respect">[Jonathan Blow](https://en.wikipedia.org/wiki/Jonathan_Blow)</span> for his presentations of programming language [JAI](https://youtube.com/playlist?list=PLmV5I2fxaiCKfxMBrNsU1kgKJXD3PkyxO&si=rX9v9mQwUJyd85x0), where he also talks about actual problems in programming and what we can do with them
 
 <br>
+
 <p style="text-align: center;">
-    (Last updated 2024-02-29)
+    (Updated 2025-01-25)
 </p>
