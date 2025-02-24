@@ -16,7 +16,7 @@ Sometimes I do gamedev projects. The information about them is gathered here.
 
 {% include youtube X4yfK4Lj8kg %}
 
-I worked a bit more in 3D, improved my math skills, and also tried [Raylib](https://www.raylib.com/). I was inspired by Attack on Titan.
+I worked a bit more in 3D, improved my math skills, and also tried [Raylib](https://www.raylib.com/). It's inspired by Attack on Titan.
 
 <br>
 
