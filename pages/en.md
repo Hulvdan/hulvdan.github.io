@@ -37,7 +37,7 @@ I reinforced the basics of 3D, matrix transformations, linear algebra and progra
 ![To Be Described](docs/assets/tbd4-6.gif)
 
 This is a videogame, that I started developing using [Unity, C#](https://github.com/Hulvdan/RoadsOfHorses). Then I started portion it to [C++](https://github.com/Hulvdan/handmade-cpp-game).
-Inspired by «[Handmade Hero](https://guide.handmadehero.org/)», I was reinforcing my skills of programming, understanding how CPU, RAM, Rendering, Audio and other stuff works.
+Inspired by [Handmade Hero](https://guide.handmadehero.org/), I was reinforcing my skills of programming, understanding how CPU, RAM, Rendering, Audio and other stuff works.
 
 <p></p>
 

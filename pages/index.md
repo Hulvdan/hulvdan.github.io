@@ -37,7 +37,7 @@
 ![To Be Described](docs/assets/tbd4-6.gif)
 
 Видеоигра, разрабатывать которую я начал на [Unity, C#](https://github.com/Hulvdan/RoadsOfHorses). После чего начал портировать на [C++](https://github.com/Hulvdan/handmade-cpp-game).
-Вдохновленный «[Handmade Hero](https://guide.handmadehero.org/)», я занимался этим проектом, укрепляя навыки программирования, изучая работу CPU, работу с памятью, рендеринг, аудио и пр.
+Вдохновленный [Handmade Hero](https://guide.handmadehero.org/), я занимался этим проектом, укрепляя навыки программирования, изучая работу CPU, работу с памятью, рендеринг, аудио и пр.
 
 <br>
 
