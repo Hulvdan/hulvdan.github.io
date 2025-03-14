@@ -109,14 +109,6 @@ a {
     margin: 0;
 }
 
-span.year {
-    color: var(--palLime);
-}
-
-span.respect > * {
-    color: var(--palYellowOrange) !important;
-}
-
 img {
     max-width: min(100%, 960px);
     padding: 0;
@@ -143,13 +135,13 @@ ul > li {
     margin-bottom: 20px;
 }
 
-strong {
-    color: #fabd2f;
+strong,
+strong > * {
+    color: var(--palYellowOrange) !important;
 }
-em {
-    /* color: #fe8019; */
+
+em,
+em > * {
     color: var(--palOrange);
-    /* color: #8ec07c; */
-    /* color: #b8bb26; */
     font-style: normal;
 }

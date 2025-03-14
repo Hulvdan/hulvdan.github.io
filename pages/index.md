@@ -152,8 +152,8 @@ Avocado - [GitHub](https://github.com/Hulvdan/Avocado). Некоторые фи�
 
 ## Хотел бы отдать дань уважения
 
-- <span class="respect">[Casey Muratori](https://caseymuratori.com/about)</span> за серии образовательных стримов [Handmade Hero](https://guide.handmadehero.org/) и образовательных видео [Performance-Aware Programming](https://youtube.com/playlist?list=PLEMXAbCVnmY7t29i_rd3mnALWu-aZr_42&si=e5JxZOPkl09MQK6x)
-- <span class="respect">[Jonathan Blow](https://en.wikipedia.org/wiki/Jonathan_Blow)</span> за его презентации языка программирования [JAI](https://youtube.com/playlist?list=PLmV5I2fxaiCKfxMBrNsU1kgKJXD3PkyxO&si=rX9v9mQwUJyd85x0), где он также рассматривает проблемы программирования и того, что с этим можно делать
+- **[Casey Muratori](https://caseymuratori.com/about)** за серии образовательных стримов [Handmade Hero](https://guide.handmadehero.org/) и образовательных видео [Performance-Aware Programming](https://youtube.com/playlist?list=PLEMXAbCVnmY7t29i_rd3mnALWu-aZr_42&si=e5JxZOPkl09MQK6x)
+- **[Jonathan Blow](https://en.wikipedia.org/wiki/Jonathan_Blow)** за его презентации языка программирования [JAI](https://youtube.com/playlist?list=PLmV5I2fxaiCKfxMBrNsU1kgKJXD3PkyxO&si=rX9v9mQwUJyd85x0), где он также рассматривает проблемы программирования и того, что с этим можно делать
 
 <br>
 
