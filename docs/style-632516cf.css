@@ -1,5 +1,27 @@
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --background: #0e0e0e;
+  --palLight: #f5eeb0;
+  --palYellowOrange: #fabf61;
+  --palOrange: #e08d51;
+  --palBrown: #8a5865;
+  --palDark: #452b3f;
+  --palDarkGreen: #2c5e3b;
+  --palGreen: #609c4f;
+  --palLime: #c6cc54;
+  --palSkyblue: #78c2d6;
+  --palBlue: #5479b0;
+  --palGray: #56546e;
+  --palSlateGray: #839fa6;
+  --palLightGray: #e0d3c8;
+  --palRed: #f05b5b;
+  --palPlum: #8f325f;
+  --palPink: #eb6c98;
+}
+
 html {
-    color: #cbc5a2;
+    color: var(--palLight);
     font-size: 1.35em;
     line-height: 1.5;
 
@@ -7,7 +29,7 @@ html {
     font-weight: 400;
     font-style: normal;
 
-    background-color: #0e0e0e;
+    background-color: var(--background);
 
     padding: 0;
     margin: 0;
@@ -33,7 +55,7 @@ h1 {
     padding: 40px 20px 0px 20px;
     margin: 0;
     text-align: center;
-    color: #dd4a4a;
+    color: var(--palRed);
 }
 
 h1 > p {
@@ -45,13 +67,13 @@ h2 {
     text-align: center;
     padding: 80px 20px 20px 20px;
     margin: 0;
-    color: #dd4a4a;
+    color: var(--palRed);
 }
 
 h3 {
     padding: 20px 20px 20px 20px;
     margin: 0;
-    color: #dd4a4a;
+    color: var(--palRed);
 }
 
 blockquote {
@@ -83,16 +105,16 @@ p {
 }
 
 a {
-    color: #83a598;
+    color: var(--palSkyblue);
     margin: 0;
 }
 
 span.year {
-    color: #b8bb26;
+    color: var(--palLime);
 }
 
 span.respect > * {
-    color: #fabd2f !important;
+    color: var(--palYellowOrange) !important;
 }
 
 img {
@@ -104,12 +126,12 @@ img {
 
 details summary {
     cursor: pointer;
-    color: #d3869b;
+    color: var(--palOrange);
 }
 
 details {
-    background-color: #0c1218;
-    border: solid 1px #d3869b;
+    background-color: var(--background);
+    border: solid 1px var(--palOrange);
     padding: 0px;
 }
 
@@ -121,20 +143,12 @@ ul > li {
     margin-bottom: 20px;
 }
 
-.vbox-overlay img {
-    border-radius: 0;
-}
-
-td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
-span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
-td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
-span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
 strong {
     color: #fabd2f;
 }
 em {
     /* color: #fe8019; */
-    color: #d3869b;
+    color: var(--palOrange);
     /* color: #8ec07c; */
     /* color: #b8bb26; */
     font-style: normal;
