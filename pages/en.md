@@ -78,8 +78,6 @@ Inspired by [Handmade Hero](https://guide.handmadehero.org/), I was reinforcing 
 
 <p></p>
 
-<!--
-
 ### The Clocktower Letter – [itch.io](https://hulvdan.itch.io/the-clockwork-letter) (2023)
 
 ![The Clocktower Letter - First location](docs/assets/the_clocktower_letter_first_location.gif)
@@ -87,6 +85,8 @@ Inspired by [Handmade Hero](https://guide.handmadehero.org/), I was reinforcing 
 ![The Clocktower Letter - Tower explosion](docs/assets/the_clocktower_letter_explosion_tower.gif)
 
 A short platformer game for Metroidvania 21 game jam. Worked as a programmer in a worldwide distributed team of 4.
+
+Now I understand what to expect from distributed teams.
 
 ### Other small prototypes (2016-2023):
 
@@ -110,8 +110,6 @@ Avocado - [GitHub](https://github.com/Hulvdan/Avocado). Various studies applied 
 ![2048 using C++ w/ bearlibterminal](docs/assets/2048.jpg)
 ![Sokoban. Block placed](docs/assets/sokoban_in_terminal_block_placed.jpg)
 ![Sokoban using C++ w/ bearlibterminal](docs/assets/sokoban_in_terminal.jpg)
-
--->
 
 ## Tools I worked on:
 
