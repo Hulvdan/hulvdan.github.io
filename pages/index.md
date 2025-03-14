@@ -22,7 +22,7 @@ YOUTUBE_5jdQKfxns-4
 
 <details>
   <summary>
-    Подробнее (кликабельно)
+    Раскрыть подробности
   </summary>
 
 **Приёмы:**
@@ -82,7 +82,7 @@ YOUTUBE_aR0MfmgZVeQ
 
 <details>
   <summary>
-    Ещё проекты (кликабельно)
+    Раскрыть ещё проекты
   </summary>
 
 ### The Clocktower Letter – [itch.io](https://hulvdan.itch.io/the-clockwork-letter) (2023)

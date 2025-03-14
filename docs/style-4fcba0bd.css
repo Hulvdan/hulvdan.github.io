@@ -116,15 +116,22 @@ img {
     border-radius: 16px;
 }
 
-details summary {
+summary {
     cursor: pointer;
-    color: var(--palOrange);
+    color: var(--palYellowOrange);
+    background-color: var(--palDark);
+    border-radius: 8px;
+}
+
+summary:hover {
+    color: var(--palLight);
+    background-color: var(--palBrown);
 }
 
 details {
     background-color: var(--background);
-    border: solid 1px var(--palOrange);
-    padding: 0px;
+    border: solid 2px var(--palYellowOrange);
+    border-radius: 8px;
 }
 
 ul {

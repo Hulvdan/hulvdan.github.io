@@ -22,7 +22,7 @@ I demonstrate techniques that make my life as a developer easier.
 
 <details>
   <summary>
-    Show more details (clickable)
+    Show more details
   </summary>
 
 **Techniques:**
@@ -82,7 +82,7 @@ Inspired by [Handmade Hero](https://guide.handmadehero.org/), I was reinforcing 
 
 <details>
   <summary>
-    Show more projects (clickable)
+    Show more projects
   </summary>
 
 ### The Clocktower Letter – [itch.io](https://hulvdan.itch.io/the-clockwork-letter) (2023)
