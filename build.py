@@ -80,6 +80,8 @@ def process_region(data: str, *, opening: str, closing: str, remove: bool) -> st
 
 
 def process_line(line: str) -> str:
+    line = line.replace(" -> ", " ⇒ ")
+
     if line.startswith("YOUTUBE_"):
         video_id = line.split("_", 1)[-1].strip()
         return f"""<div><iframe

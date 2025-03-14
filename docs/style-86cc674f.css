@@ -107,6 +107,12 @@ details summary {
     color: #d3869b;
 }
 
+details {
+    background-color: #0c1218;
+    border: solid 1px #d3869b;
+    padding: 0px;
+}
+
 ul {
     margin-top: 0;
 }

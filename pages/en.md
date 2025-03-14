@@ -20,7 +20,7 @@ I demonstrate techniques that make my life as a developer easier.
 
 <details>
   <summary>
-    Show details (clickable)
+    Show more details (clickable)
   </summary>
 
 Techniques:
@@ -76,7 +76,12 @@ YOUTUBE_aR0MfmgZVeQ
 This is a videogame, that I started developing using [Unity, C#](https://github.com/Hulvdan/RoadsOfHorses). Then I started portion it to [C++](https://github.com/Hulvdan/handmade-cpp-game).
 Inspired by [Handmade Hero](https://guide.handmadehero.org/), I was reinforcing my skills of programming, understanding how CPU, RAM, Rendering, Audio and other stuff works.
 
-<p></p>
+<br>
+
+<details>
+  <summary>
+    Show more projects (clickable)
+  </summary>
 
 ### The Clocktower Letter – [itch.io](https://hulvdan.itch.io/the-clockwork-letter) (2023)
 
@@ -88,7 +93,9 @@ A short platformer game for Metroidvania 21 game jam. Worked as a programmer in 
 
 Now I understand what to expect from distributed teams.
 
-### Other small prototypes (2016-2023):
+<br>
+
+### Other stuff (2016-2023):
 
 ![Avocado - Throwing](docs/assets/avocado_throwing.gif)
 ![Avocado - Coyote Time](docs/assets/avocado_coyote_time.gif)
@@ -111,7 +118,18 @@ Avocado - [GitHub](https://github.com/Hulvdan/Avocado). Various studies applied 
 ![Sokoban. Block placed](docs/assets/sokoban_in_terminal_block_placed.jpg)
 ![Sokoban using C++ w/ bearlibterminal](docs/assets/sokoban_in_terminal.jpg)
 
-## Tools I worked on:
+<br>
+
+## Credited Work
+
+- [Vanilla Tweaks](https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks) mod for Terraria by gardenapple - Provided the Extractinator speed up code (C#) (2017)
+- [Run on Save](https://marketplace.visualstudio.com/items/pucelle.run-on-save/changelog) VS Code extension by pucelle - Running VS Code's commands on save (TypeScript) (2020)
+
+</details>
+
+<br>
+
+## Other Stuff
 
 ### Dark Souls 3 Cheat Sheet tool – [Reddit](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/) (2018)
 
@@ -119,7 +137,7 @@ Avocado - [GitHub](https://github.com/Hulvdan/Avocado). Various studies applied 
 
 A tool for tracking progress in Dark Souls 3 (Python, PyQt)
 
-## Other Stuff
+<br>
 
 ### Monster Hunter: World Printable Monsters Weaknesses Booklet – [Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/), [Updated Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/) (2018, 2021)
 
@@ -127,10 +145,7 @@ A tool for tracking progress in Dark Souls 3 (Python, PyQt)
 
 A set of images/documents for printing that shows weaknesses of monsters (Python, Pillow)
 
-## Credited Work
-
-- [Vanilla Tweaks](https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks) mod for Terraria by gardenapple - Provided the Extractinator speed up code (C#) (2017)
-- [Run on Save](https://marketplace.visualstudio.com/items/pucelle.run-on-save/changelog) VS Code extension by pucelle - Running VS Code's commands on save (TypeScript) (2020)
+<br>
 
 ## I wanted to say thanks to
 
@@ -140,5 +155,5 @@ A set of images/documents for printing that shows weaknesses of monsters (Python
 <br>
 
 <p style="text-align: center;">
-    (Updated 2025-01-25)
+    (Updated 2025-03-14)
 </p>
