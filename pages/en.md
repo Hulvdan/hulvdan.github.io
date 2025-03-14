@@ -12,6 +12,8 @@ Sometimes I do gamedev projects. The information about them is gathered here.
 
 ## GameDev
 
+<br>
+
 ### Decreasing Development Busywork
 
 YOUTUBE_5jdQKfxns-4
@@ -23,7 +25,7 @@ I demonstrate techniques that make my life as a developer easier.
     Show more details (clickable)
   </summary>
 
-Techniques:
+**Techniques:**
 
 - Building and launching the game by pressing the F5 button in my code editor.
 - A system for recording and playing back player's actions.
@@ -31,16 +33,16 @@ Techniques:
 
 <br>
 
-How this makes my life easier:
+**How this makes my life easier:**
 
-- When someone else plays my game and it crashes, I can simply replay their actions-recording file without having to ask "what did you do that caused a crash?"
-- When I encounter a bug, I don't waste time trying to provoke it. Once I make a recording of actions, I can restart the game in the debugger many times with these actions being replayed.
-- When I need to tweak values in the game, I can get to optimal values after a few DLL reloads.
-- This doesn't replace testing. It complements it perfectly.
+- **Example 1:** *Someone else is playing my game -> it crashes -> I play back the recording of their actions.* I don't need to be asked "what did you do to make the game crash?"
+- **Example 2:** *I encounter a bug -> (I already have a recording of my actions) -> I run the debugger every time and the game plays the recorded actions automatically.*
+- **Example 3:** *I need to edit some values in the game -> I change the C++ code a few times and reload the DLL.* Often there is no need to restart the game.
+- This does not replace testing. It complements it.
 
 <br>
 
-Jonathan Blow and Casey Muratori point out the importance of reducing the time spent on busywork activities:
+**Jonathan Blow and Casey Muratori point out the importance of reducing the time spent on busywork:**
 
 - Video. [Handmade Hero Day 023 - Looped Live Code Editing](https://guide.handmadehero.org/code/day023/#2983). Casey Muratori demonstrates recording and replaying player's actions, as well as DLL hot reloading.
 - Video. [Jonathan Blow on scripting languages](https://www.youtube.com/watch?v=y2Wmz15aXk0). In the background you can see Jonathan Blow running tests of his game. It's essentially a playback of a recording of the player's actions.
