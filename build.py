@@ -5,57 +5,10 @@ import shutil
 from datetime import datetime
 from glob import glob
 from pathlib import Path
-from xml.etree.ElementTree import SubElement
 
-import markdown
-from markdown.blockprocessors import BlockProcessor
-from markdown.extensions.codehilite import CodeHiliteExtension
+import markdown2
 
 HTML_TEMPLATE_FILE_PATH = Path("index_template.html")
-
-
-class YouTubeExtension(markdown.Extension):
-    def extendMarkdown(self, md):
-        md.parser.blockprocessors.register(
-            YouTubeBlockProcessor(md.parser), "youtube", 175
-        )
-
-
-class YouTubeBlockProcessor(BlockProcessor):
-    RE_FENCE_START = r"^{% include youtube "
-    RE_FENCE_END = r" %}$"
-
-    def test(self, parent, block):
-        return re.match(self.RE_FENCE_START, block)
-
-    def run(self, parent, blocks):
-        original_block = blocks[0]
-        blocks[0] = re.sub(self.RE_FENCE_START, "", blocks[0])
-
-        # Find block with ending fence
-        block = blocks[0]
-
-        # remove fence
-        video_id = block.split(" ", 1)[0]
-
-        blocks[0] = re.sub(self.RE_FENCE_END, "", block)
-        # render fenced area inside a new div
-        div = SubElement(parent, "div")
-        iframe = SubElement(div, "iframe")
-
-        iframe.set("width", f"640")
-        iframe.set("height", f"390")
-        iframe.set("src", f"https://www.youtube.com/embed/{video_id}")
-        iframe.set("allowfullscreen", "true")
-        iframe.set("frameborder", "0")
-
-        div.set("class", "embed-container")
-
-        blocks.pop(0)
-
-        # No closing marker!  Restore and do nothing
-        # blocks[0] = original_block
-        return False  # equivalent to our test() routine returning False
 
 
 def main():
@@ -126,21 +79,25 @@ def process_region(data: str, *, opening: str, closing: str, remove: bool) -> st
         )
 
 
+def process_line(line: str) -> str:
+    if line.startswith("YOUTUBE_"):
+        video_id = line.split("_", 1)[-1].strip()
+        return f"""<div><iframe
+            allowfullscreen="true"
+            frameborder="0"
+            width="640"
+            height="360"
+            src="https://www.youtube.com/embed/{video_id}"></iframe></div>"""
+
+    return line
+
+
 def write_file(*, template_data: str, markdown_contents: str, output_file_path):
-    content = markdown.markdown(
-        markdown_contents,
-        extensions=[
-            "sane_lists",
-            "fenced_code",
-            CodeHiliteExtension(
-                linenums=False,
-                guess_lang=False,
-                pygments_style="one-dark",
-                noclasses=False,
-            ),
-            YouTubeExtension(),
-        ],
+    markdown_contents = "\n".join(
+        process_line(line) for line in markdown_contents.split("\n")
     )
+
+    content = markdown2.markdown(markdown_contents)
     rendered_html = template_data.format(content=content)
 
     with open(output_file_path, "w", encoding="utf-8") as out_file:

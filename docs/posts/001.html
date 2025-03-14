@@ -18,6 +18,7 @@
 
   <body>
     <main><p></p>
+
 <p style="text-align: center; display: flex; justify-content: space-evenly">
     <span>
         <a href="/">Главная</a>
@@ -25,188 +26,253 @@
 </p>
 
 <h1>Как экономить память,<br>не тратить время на её пустую перегонку<br>и при чём тут <strong>padding</strong> и <strong>alignment</strong>?</h1>
+
 <h2>Здесь затронуто</h2>
+
 <ul>
 <li>Что такое padding и alignment, как оно работает.</li>
 <li>Некоторые способы экономии памяти и ограничения.</li>
 <li>Немного про performance, Data-Oriented подходы, ECS.</li>
 </ul>
-<h2>Каков размер этой структуры на C++?</h2>
-<div class="codehilite"><pre><span></span><code><span class="c1">// Для справки:</span>
-<span class="c1">// u32  - целое число &gt;= 0 размером в 4 байта</span>
-<span class="c1">// i16  - целое цисло, 2 байта</span>
-<span class="c1">// bool - булевый тип; при компиляции под</span>
-<span class="c1">//        x86_64 процессор занимает 1 байт</span>
 
-<span class="k">struct</span><span class="w"> </span><span class="nc">Human</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="kt">bool</span><span class="w"> </span><span class="n">is_active</span><span class="p">;</span>
-<span class="w">    </span><span class="n">i16</span><span class="w">  </span><span class="n">pos_x</span><span class="p">;</span>
-<span class="w">    </span><span class="kt">bool</span><span class="w"> </span><span class="n">is_alive</span><span class="p">;</span>
-<span class="w">    </span><span class="n">u32</span><span class="w">  </span><span class="n">id</span><span class="p">;</span>
-<span class="w">    </span><span class="n">i16</span><span class="w">  </span><span class="n">pos_y</span><span class="p">;</span>
-<span class="p">};</span>
-</code></pre></div>
+<h2>Каков размер этой структуры на C++?</h2>
+
+<p>```cpp
+// Для справки:
+// u32  - целое число &gt;= 0 размером в 4 байта
+// i16  - целое цисло, 2 байта
+// bool - булевый тип; при компиляции под
+//        x86_64 процессор занимает 1 байт</p>
+
+<p>struct Human {
+    bool is<em>active;
+    i16  pos</em>x;
+    bool is<em>alive;
+    u32  id;
+    i16  pos</em>y;
+};
+```</p>
 
 <p>Сложив размеры всех полей, получаем 1 + 2 + 1 + 4 + 2 = 10 байт.</p>
+
 <p>Но это неверно. <code>sizeof(Human)</code> выдаёт 16 байт.
 На 60% больше! Почему?</p>
+
 <p>Всё дело в padding и alignment.</p>
+
 <p>То, как хранился бы инстанс этой структуры в памяти можно представить так:</p>
-<div class="codehilite"><pre><span></span><code>is_active   +1 байт
-<span class="hll">пустота     +1 байт
-</span>pos_x       +2 байта
+
+<p><code>{hl_lines="2 5 8"}
+is_active   +1 байт
+пустота     +1 байт
+pos_x       +2 байта
 is_alive    +1 байт
-<span class="hll">пустота     +3 байта
-</span>id          +4 байта
+пустота     +3 байта
+id          +4 байта
 pos_y       +2 байта
-<span class="hll">пустота     +2 байта
-</span></code></pre></div>
+пустота     +2 байта
+</code></p>
 
 <p>Итого 16 байт. Пустота - это впустую использованное пространство в RAM, padding. Она обусловлена требованиями к выравниванию <em>последующих</em> полей структуры.</p>
+
 <h2>Как это работает</h2>
+
 <p>Тип определённого размера должен размещаться по определённой сетке в памяти, которая соответствует его размеру:</p>
+
 <ul>
 <li>Поля типа <code>i16</code> должны размещаться по сетке в 2 байта. Поле <code>pos_x</code> в данном случае может располагаться на 1-ом, 3-ем, 5-ом, 7-ом и т.п. байтах. Так как 1-ый занят полем <code>is_active</code>, а 2-ой не может быть использован полем <code>pos_x</code>, следовательно оно должно быть установлено дальше - на 3-ем байте. Но для этого нужен padding в 1 байт перед ним.</li>
 <li><code>u32</code> должны размещаться по сетке в 4 байта</li>
 <li><code>bool</code> - по 1 байту</li>
 </ul>
+
 <p>Как видим, каждый инстанс этой структуры по-умолчанию бы тратил 6 лишних байт на padding, впустую.</p>
+
 <h2>Padding - это плохо?</h2>
+
 <p><strong>Необходимость оптимизации использования памяти зависит от задачи.</strong></p>
+
 <p>Если требуется много вычислений (к примеру, анимируете модели, ткани симулируете или factorio пилите и т.п.), стоит подумать о <em>Data-Oriented</em> подходах к хранению и обработке данных. <em>В таких ситуациях хотелось бы как можно эффективнее гонять только те данные, которые действительно нужны для вычислений (ненужные гонять не надо, кэп)</em>.</p>
+
 <p><br></p>
+
 <p>Для этого мы можем сделать так, чтобы наша структура меньше тратила лишней памяти впустую.</p>
+
 <h2>Способ 1 🤔 Переставление полей от большего к меньшему</h2>
-<div class="codehilite"><pre><span></span><code><span class="k">struct</span><span class="w"> </span><span class="nc">Human</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="n">u32</span><span class="w">  </span><span class="n">id</span><span class="p">;</span><span class="w">         </span><span class="c1">// 4</span>
-<span class="w">    </span><span class="n">i16</span><span class="w">  </span><span class="n">pos_x</span><span class="p">;</span><span class="w">      </span><span class="c1">// 2</span>
-<span class="w">    </span><span class="n">i16</span><span class="w">  </span><span class="n">pos_y</span><span class="p">;</span><span class="w">      </span><span class="c1">// 2</span>
-<span class="w">    </span><span class="kt">bool</span><span class="w"> </span><span class="n">is_active</span><span class="p">;</span><span class="w">  </span><span class="c1">// 1</span>
-<span class="w">    </span><span class="kt">bool</span><span class="w"> </span><span class="n">is_alive</span><span class="p">;</span><span class="w">   </span><span class="c1">// 1</span>
-<span class="p">};</span>
-</code></pre></div>
+
+<p><code>cpp
+struct Human {
+    u32  id;         // 4
+    i16  pos_x;      // 2
+    i16  pos_y;      // 2
+    bool is_active;  // 1
+    bool is_alive;   // 1
+};
+</code></p>
 
 <p>Просто отсортировали и <code>sizeof(Human)</code> стал выдавать 12, а не 16 байт!</p>
+
 <p>Взглянем на представление инстанса этой структуры в памяти:</p>
-<div class="codehilite"><pre><span></span><code>id          +4 байта
+
+<p><code>{hl_lines="6"}
+id          +4 байта
 pos_x       +2 байта
 pos_y       +2 байта
 is_active   +1 байт
 is_alive    +1 байт
-<span class="hll">пустота     +2 байта
-</span></code></pre></div>
+пустота     +2 байта
+</code></p>
 
 <p>Теперь у нас не 60% overhead-а по памяти, а 20%!</p>
+
 <p>Вот только если бы мы могли сделать так, чтобы эти <code>is_active</code> и <code>is_alive</code> как-то хранились покомпактнее, и мы бы избавились от этого padding-а...</p>
+
 <h2>Способ 2 🤔 Спустимся на уровень работы с битами</h2>
-<div class="codehilite"><pre><span></span><code><span class="k">struct</span><span class="w"> </span><span class="nc">Human</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="n">u32</span><span class="w"> </span><span class="n">id__is_active__is_alive</span><span class="p">;</span>
-<span class="w">    </span><span class="n">i16</span><span class="w"> </span><span class="n">pos_x</span><span class="p">;</span>
-<span class="w">    </span><span class="n">i16</span><span class="w"> </span><span class="n">pos_y</span><span class="p">;</span>
-<span class="p">};</span>
 
-<span class="n">u32</span><span class="w"> </span><span class="nf">get_id</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">Human</span><span class="o">&amp;</span><span class="w"> </span><span class="n">human</span><span class="p">)</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="c1">// Игнорим 2 бита</span>
-<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="p">(</span>
-<span class="w">        </span><span class="n">human</span><span class="p">.</span><span class="n">id__is_active__is_alive</span>
-<span class="w">        </span><span class="o">&amp;</span><span class="w"> </span><span class="mb">0b00111111&#39;11111111&#39;11111111&#39;11111111</span>
-<span class="w">    </span><span class="p">);</span>
-<span class="p">}</span>
+<p>```cpp
+struct Human {
+    u32 id<strong>is<em>active</strong>is</em>alive;
+    i16 pos<em>x;
+    i16 pos</em>y;
+};</p>
 
-<span class="kt">bool</span><span class="w"> </span><span class="nf">get_is_active</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">Human</span><span class="o">&amp;</span><span class="w"> </span><span class="n">human</span><span class="p">)</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="c1">// Достаём только 1 бит</span>
-<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="p">(</span><span class="kt">bool</span><span class="p">)(</span>
-<span class="w">        </span><span class="n">human</span><span class="p">.</span><span class="n">id__is_active__is_alive</span>
-<span class="w">        </span><span class="o">&amp;</span><span class="w"> </span><span class="mb">0b10000000&#39;00000000&#39;00000000&#39;00000000</span>
-<span class="w">    </span><span class="p">);</span>
-<span class="p">}</span>
+<p>u32 get<em>id(const Human&amp; human) const {
+    // Игнорим 2 бита
+    return (
+        human.id<strong>is</em>active</strong>is_alive
+        &amp; 0b00111111'11111111'11111111'11111111
+    );
+}</p>
 
-<span class="kt">bool</span><span class="w"> </span><span class="nf">get_is_alive</span><span class="p">(</span><span class="k">const</span><span class="w"> </span><span class="n">Human</span><span class="o">&amp;</span><span class="w"> </span><span class="n">human</span><span class="p">)</span><span class="w"> </span><span class="k">const</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="c1">// Аналогично, достаём только 1 бит</span>
-<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="p">(</span><span class="kt">bool</span><span class="p">)(</span>
-<span class="w">        </span><span class="n">human</span><span class="p">.</span><span class="n">id__is_active__is_alive</span>
-<span class="w">        </span><span class="o">&amp;</span><span class="w"> </span><span class="mb">0b01000000&#39;00000000&#39;00000000&#39;00000000</span>
-<span class="w">    </span><span class="p">);</span>
-<span class="p">}</span>
-</code></pre></div>
+<p>bool get<em>is</em>active(const Human&amp; human) const {
+    // Достаём только 1 бит
+    return (bool)(
+        human.id<strong>is<em>active</strong>is</em>alive
+        &amp; 0b10000000'00000000'00000000'00000000
+    );
+}</p>
+
+<p>bool get<em>is</em>alive(const Human&amp; human) const {
+    // Аналогично, достаём только 1 бит
+    return (bool)(
+        human.id<strong>is<em>active</strong>is</em>alive
+        &amp; 0b01000000'00000000'00000000'00000000
+    );
+}
+```</p>
 
 <p>Используем 2 бита из диапазона значений поля <code>id</code>. Один - для <code>is_active</code>, другой - для <code>is_alive</code>.</p>
-<p>Таким образом, мы снизили диапазон значений <code>id</code> от <em>2^32</em> до <em>2^30</em>. Но мы всё ещё можем поддерживать миллиард чувачков.</p>
-<p>Идеально! Это действительно рабочий метод, который эффективен по памяти. Теперь наша структура занимает 8 байт!</p>
-<p>Главное - не перетирать случайно эти биты при работе.</p>
-<h2>Способ 3 🤔 Вынесем отдельные массивы для хранения <code>is_active</code> и <code>is_alive</code></h2>
-<div class="codehilite"><pre><span></span><code><span class="k">struct</span><span class="w"> </span><span class="nc">Human</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="n">u32</span><span class="w"> </span><span class="n">id</span><span class="p">;</span>
-<span class="w">    </span><span class="n">i16</span><span class="w"> </span><span class="n">pos_x</span><span class="p">;</span>
-<span class="w">    </span><span class="n">i16</span><span class="w"> </span><span class="n">pos_y</span><span class="p">;</span>
-<span class="p">};</span>
 
-<span class="c1">// В одном байте будут побитово храниться</span>
-<span class="c1">// 8 маркеров is_active для 8 чувачков сразу</span>
-<span class="k">static</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">u8</span><span class="o">&gt;</span><span class="w"> </span><span class="n">is_active</span><span class="p">;</span>
-<span class="c1">// Аналогично и тут</span>
-<span class="k">static</span><span class="w"> </span><span class="n">std</span><span class="o">::</span><span class="n">vector</span><span class="o">&lt;</span><span class="n">u8</span><span class="o">&gt;</span><span class="w"> </span><span class="n">is_alive</span><span class="p">;</span>
-</code></pre></div>
+<p>Таким образом, мы снизили диапазон значений <code>id</code> от <em>2^32</em> до <em>2^30</em>. Но мы всё ещё можем поддерживать миллиард чувачков.</p>
+
+<p>Идеально! Это действительно рабочий метод, который эффективен по памяти. Теперь наша структура занимает 8 байт!</p>
+
+<p>Главное - не перетирать случайно эти биты при работе.</p>
+
+<h2>Способ 3 🤔 Вынесем отдельные массивы для хранения <code>is_active</code> и <code>is_alive</code></h2>
+
+<p>```cpp
+struct Human {
+    u32 id;
+    i16 pos<em>x;
+    i16 pos</em>y;
+};</p>
+
+<p>// В одном байте будут побитово храниться
+// 8 маркеров is<em>active для 8 чувачков сразу
+static std::vector<u8> is</em>active;
+// Аналогично и тут
+static std::vector<u8> is_alive;
+```</p>
 
 <p>Полагаю, это один из самых лучших способов для разделения <em>горячих</em> и <em>холодных</em> данных.</p>
-<p>Когда одним системам нужны чувачки и поля <code>is_active</code> - мы можем не захламлять кеш процессора полями <code>is_alive</code>. И наоборот.</p>
-<p>Суть здесь заключается в хранении конкретных частей информации о чувачках в contiguous участках памяти - в массивах. Нет ничего лучше для процессора, чем бегание по памяти попорядку слева направо. Кеш процессора будет успевать заполняться данными, которые <em>prefetch</em>-атся из RAM.</p>
-<p>Напротив, если данные были бы в heap-е, не помещались бы в кеш и их чтение происходило бы рандомно, тогда бы происходила куча <em>cache miss</em>-ов, а это в 200 раз медленнее, чем доступ к L1 кешу.</p>
-<p><em>ECS</em>-ы в играх часто используют такие <em>Data-Oriented</em> подходы для достижения хороших характеристик по скорости. Тут процессор и оператива используются так, как задумывалось авторами)</p>
-<p>Кстати, Mike Acton (<a href="https://www.youtube.com/watch?v=rX0ItVEVjHc&amp;pp=ygUKbWlrZSBhY3Rvbg%3D%3D">youtube.com</a>) часто отмечает то, что <em>фокус разработчика должен быть на хранении и эффективных трансформациях данных</em>, а не на "моделировании реального мира в коде" (да, это выпад в сторону ООП).</p>
-<h2>Способ 4 🤔 MSVC <code>#pragma pack</code></h2>
-<div class="codehilite"><pre><span></span><code><span class="cp">#pragma pack(push, 1)</span>
-<span class="k">struct</span><span class="w"> </span><span class="nc">Human</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="n">u32</span><span class="w">  </span><span class="n">id</span><span class="p">;</span><span class="w">         </span><span class="c1">// 4</span>
-<span class="w">    </span><span class="n">i16</span><span class="w">  </span><span class="n">pos_x</span><span class="p">;</span><span class="w">      </span><span class="c1">// 2</span>
-<span class="w">    </span><span class="n">i16</span><span class="w">  </span><span class="n">pos_y</span><span class="p">;</span><span class="w">      </span><span class="c1">// 2</span>
-<span class="w">    </span><span class="kt">bool</span><span class="w"> </span><span class="n">is_active</span><span class="p">;</span><span class="w">  </span><span class="c1">// 1</span>
-<span class="w">    </span><span class="kt">bool</span><span class="w"> </span><span class="n">is_alive</span><span class="p">;</span><span class="w">   </span><span class="c1">// 1</span>
-<span class="p">};</span>
-<span class="cp">#pragma pack(pop)</span>
 
-<span class="c1">// sizeof(Human)  -&gt; 10</span>
-<span class="c1">// alignof(Human) -&gt; 1</span>
-<span class="c1">// https://godbolt.org/z/9Pb8YMaMa</span>
-</code></pre></div>
+<p>Когда одним системам нужны чувачки и поля <code>is_active</code> - мы можем не захламлять кеш процессора полями <code>is_alive</code>. И наоборот.</p>
+
+<p>Суть здесь заключается в хранении конкретных частей информации о чувачках в contiguous участках памяти - в массивах. Нет ничего лучше для процессора, чем бегание по памяти попорядку слева направо. Кеш процессора будет успевать заполняться данными, которые <em>prefetch</em>-атся из RAM.</p>
+
+<p>Напротив, если данные были бы в heap-е, не помещались бы в кеш и их чтение происходило бы рандомно, тогда бы происходила куча <em>cache miss</em>-ов, а это в 200 раз медленнее, чем доступ к L1 кешу.</p>
+
+<p><em>ECS</em>-ы в играх часто используют такие <em>Data-Oriented</em> подходы для достижения хороших характеристик по скорости. Тут процессор и оператива используются так, как задумывалось авторами)</p>
+
+<p>Кстати, Mike Acton (<a href="https://www.youtube.com/watch?v=rX0ItVEVjHc&pp=ygUKbWlrZSBhY3Rvbg%3D%3D">youtube.com</a>) часто отмечает то, что <em>фокус разработчика должен быть на хранении и эффективных трансформациях данных</em>, а не на "моделировании реального мира в коде" (да, это выпад в сторону ООП).</p>
+
+<h2>Способ 4 🤔 MSVC <code>#pragma pack</code></h2>
+
+<p>```cpp</p>
+
+<h1>pragma pack(push, 1)</h1>
+
+<p>struct Human {
+    u32  id;         // 4
+    i16  pos<em>x;      // 2
+    i16  pos</em>y;      // 2
+    bool is<em>active;  // 1
+    bool is</em>alive;   // 1
+};</p>
+
+<h1>pragma pack(pop)</h1>
+
+<p>// sizeof(Human)  -> 10
+// alignof(Human) -> 1
+// https://godbolt.org/z/9Pb8YMaMa
+```</p>
 
 <p>Эта директива на MSVC компиляторе (компиляторе для винды) делает так, чтобы компилятор выравнивал все поля по сетке в 1 байт. Аналогичная директива зачастую есть и у других компиляторов.</p>
+
 <p>Это автоматически делает использование RAM более эффективным.</p>
+
 <p>Но тут есть проблема.</p>
+
 <p>В каких-то ситуациях мы будем <em>терять скорость</em>, в каких-то - <em>читать мусор</em>, а в других - <em>падать</em>.</p>
+
 <p>Так, когда выравнивание типа != размеру этого типа, ARM процессора падают или читают мусор (<a href="https://developer.arm.com/documentation/ka003038/latest/">developer.arm.com</a>, но некоторые, спараведливости ради, работают нормально).</p>
-<p>Также могут быть особые требования к alignment при работе с intrinsics. Есть, к примеру, инструкция <a href="https://www.intel.com/content/www/us/en/docs/intrinsics-guide/index.html#text=store_si128&amp;ig_expand=6546,6490"><code>_mm_store_si128</code></a>, которая <em>падает</em> при сохранении в невыровненный по сетке в 16 байт адрес, и её альтернатива <a href="https://www.intel.com/content/www/us/en/docs/intrinsics-guide/index.html#text=storeu_si128&amp;ig_expand=6546"><code>_mm_storeu_si128</code></a>, которая <em>не падает</em>.</p>
+
+<p>Также могут быть особые требования к alignment при работе с intrinsics. Есть, к примеру, инструкция <a href="https://www.intel.com/content/www/us/en/docs/intrinsics-guide/index.html#text=store_si128&ig_expand=6546,6490"><code>_mm_store_si128</code></a>, которая <em>падает</em> при сохранении в невыровненный по сетке в 16 байт адрес, и её альтернатива <a href="https://www.intel.com/content/www/us/en/docs/intrinsics-guide/index.html#text=storeu_si128&ig_expand=6546"><code>_mm_storeu_si128</code></a>, которая <em>не падает</em>.</p>
+
 <h2>Дополнительная информация</h2>
+
 <ul>
 <li><em>Помимо данных в оперативной памяти всегда нужно выравнивать данные на стеке в соответствии с ограничениями alignment, т.к. стек - это тоже память.</em></li>
 </ul>
+
 <p><br></p>
+
 <p><em>Padding, alignment:</em></p>
+
 <ul>
 <li>geeksforgeeks.org, <a href="https://www.geeksforgeeks.org/structure-member-alignment-padding-and-data-packing/">Structure Member Alignment, Padding and Data Packing</a></li>
 <li>learn.microsoft.com, <a href="https://learn.microsoft.com/en-us/cpp/preprocessor/pack?view=msvc-170"><code>pack</code> pragma</a></li>
 </ul>
+
 <p><em>Data-Oriented Design:</em></p>
+
 <ul>
 <li>en.wikipedia.org, <a href="https://en.wikipedia.org/wiki/Data-oriented_design">Data-Oriented Design</a></li>
 <li>dataorienteddesign.com, <a href="https://www.dataorienteddesign.com/dodmain/">Data-Oriented Design</a></li>
-<li>youtube.com, <a href="https://www.youtube.com/watch?v=rX0ItVEVjHc&amp;pp=ygUKbWlrZSBhY3Rvbg%3D%3D">CppCon 2014: Mike Acton "Data-Oriented Design and C++"</a></li>
+<li>youtube.com, <a href="https://www.youtube.com/watch?v=rX0ItVEVjHc&pp=ygUKbWlrZSBhY3Rvbg%3D%3D">CppCon 2014: Mike Acton "Data-Oriented Design and C++"</a></li>
 </ul>
+
 <p><em>SIMD:</em></p>
+
 <ul>
 <li>handmadehero.org, <a href="https://guide.handmadehero.org/code/day117/#3613">Handmade Hero Day 117 - Packing Pixels for the Framebuffer</a>. Тут Casey Muratori на стриме в течение 7 минут показывает краш из-за невыровненных данных при работе с SIMD, объясняет причину и чинит его.</li>
 <li>handmadehero.org, <a href="https://youtu.be/YnnTb0AQgYM">Handmade Hero Day 115 - SIMD Basics</a></li>
 </ul>
+
 <p><em>Другое:</em></p>
+
 <ul>
 <li>Просто хорошо знать об этой штуке. <a href="https://www.intel.com/content/www/us/en/docs/intrinsics-guide/index.html#">Intel® Intrinsics Guide</a>. От Casey Muratori. Это справочник по конкретным инструкциям и их семьям процессоров Intel со всем, что нужно: от требований по alignment, до характеристик скорости по процессорам различных архитектур Intel.</li>
 </ul>
+
 <p><br></p>
+
 <p style="text-align: center;">
     2024-04-13
 </p>
 
-<p><br></p></main>
+<p><br></p>
+</main>
   </body>
   <br>
 </html>

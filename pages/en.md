@@ -10,11 +10,48 @@
 
 Sometimes I do gamedev projects. The information about them is gathered here.
 
-## GameDev projects I worked on:
+## GameDev
+
+### Decreasing Development Busywork
+
+YOUTUBE_5jdQKfxns-4
+
+I demonstrate techniques that make my life as a developer easier.
+
+<details>
+  <summary>
+    Show details (clickable)
+  </summary>
+
+Techniques:
+
+- Building and launching the game by pressing the F5 button in my code editor.
+- A system for recording and playing back player's actions.
+- Hot code reloading via DLL.
+
+<br>
+
+How this makes my life easier:
+
+- When someone else plays my game and it crashes, I can simply replay their actions-recording file without having to ask "what did you do that caused a crash?"
+- When I encounter a bug, I don't waste time trying to provoke it. Once I make a recording of actions, I can restart the game in the debugger many times with these actions being replayed.
+- When I need to tweak values in the game, I can get to optimal values after a few DLL reloads.
+- This doesn't replace testing. It complements it perfectly.
+
+<br>
+
+Jonathan Blow and Casey Muratori point out the importance of reducing the time spent on busywork activities:
+
+- Video. [Handmade Hero Day 023 - Looped Live Code Editing](https://guide.handmadehero.org/code/day023/#2983). Casey Muratori demonstrates recording and replaying player's actions, as well as DLL hot reloading.
+- Video. [Jonathan Blow on scripting languages](https://www.youtube.com/watch?v=y2Wmz15aXk0). In the background you can see Jonathan Blow running tests of his game. It's essentially a playback of a recording of the player's actions.
+
+</details>
+
+<br>
 
 ### 3D Demo Of Movement Using A Rope - [C++ Source](https://github.com/Hulvdan/shingeki) (2024)
 
-{% include youtube X4yfK4Lj8kg %}
+YOUTUBE_X4yfK4Lj8kg
 
 I worked a bit more in 3D, improved my math skills, and also tried [Raylib](https://www.raylib.com/). It's inspired by Attack on Titan.
 
@@ -30,7 +67,7 @@ I reinforced the basics of 3D, matrix transformations, linear algebra and progra
 
 ### Roads of Horses (10/2023 - 09/2024)
 
-{% include youtube aR0MfmgZVeQ %}
+YOUTUBE_aR0MfmgZVeQ
 
 ![To Be Described](docs/assets/tbd4-3.gif)
 ![To Be Described](docs/assets/tbd4-4.gif)

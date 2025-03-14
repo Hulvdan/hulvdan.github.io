@@ -5,7 +5,7 @@
     <title>Aleksei Chistov - Hulvdan</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="stylesheet" href="/style-1ac2d16c.css" />
+    <link rel="stylesheet" href="/style-95ac07cc.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
@@ -20,6 +20,7 @@
     <main><p style="text-align: right;">Сменить на <a href="/">Русский 🇷🇺</a></p>
 
 <h1>Aleksei Chistov</h1>
+
 <p style="text-align: center;">
     <a href="mailto:agechistov@gmail.com">agechistov@gmail.com</a>
 </p>
@@ -27,26 +28,94 @@
 <p></p>
 
 <p>Sometimes I do gamedev projects. The information about them is gathered here.</p>
-<h2>GameDev projects I worked on:</h2>
+
+<h2>GameDev</h2>
+
+<h3>Decreasing Development Busywork</h3>
+
+<div><iframe
+            allowfullscreen="true"
+            frameborder="0"
+            width="640"
+            height="360"
+            src="https://www.youtube.com/embed/5jdQKfxns-4"></iframe></div>
+
+<p>I demonstrate techniques that make my life as a developer easier.</p>
+
+<p><details>
+  <summary>
+    Show details (clickable)
+  </summary></p>
+
+<p>Techniques:</p>
+
+<ul>
+<li>Building and launching the game by pressing the F5 button in my code editor.</li>
+<li>A system for recording and playing back player's actions.</li>
+<li>Hot code reloading via DLL.</li>
+</ul>
+
+<p><br></p>
+
+<p>How this makes my life easier:</p>
+
+<ul>
+<li>When someone else plays my game and it crashes, I can simply replay their actions-recording file without having to ask "what did you do that caused a crash?"</li>
+<li>When I encounter a bug, I don't waste time trying to provoke it. Once I make a recording of actions, I can restart the game in the debugger many times with these actions being replayed.</li>
+<li>When I need to tweak values in the game, I can get to optimal values after a few DLL reloads.</li>
+<li>This doesn't replace testing. It complements it perfectly.</li>
+</ul>
+
+<p><br></p>
+
+<p>Jonathan Blow and Casey Muratori point out the importance of reducing the time spent on busywork activities:</p>
+
+<ul>
+<li>Video. <a href="https://guide.handmadehero.org/code/day023/#2983">Handmade Hero Day 023 - Looped Live Code Editing</a>. Casey Muratori demonstrates recording and replaying player's actions, as well as DLL hot reloading.</li>
+<li>Video. <a href="https://www.youtube.com/watch?v=y2Wmz15aXk0">Jonathan Blow on scripting languages</a>. In the background you can see Jonathan Blow running tests of his game. It's essentially a playback of a recording of the player's actions.</li>
+</ul>
+
+<p></details></p>
+
+<p><br></p>
+
 <h3>3D Demo Of Movement Using A Rope - <a href="https://github.com/Hulvdan/shingeki">C++ Source</a> (2024)</h3>
-<div class="embed-container">
-<iframe allowfullscreen="true" frameborder="0" height="390" src="https://www.youtube.com/embed/X4yfK4Lj8kg" width="640"></iframe>
-</div>
+
+<div><iframe
+            allowfullscreen="true"
+            frameborder="0"
+            width="640"
+            height="360"
+            src="https://www.youtube.com/embed/X4yfK4Lj8kg"></iframe></div>
+
 <p>I worked a bit more in 3D, improved my math skills, and also tried <a href="https://www.raylib.com/">Raylib</a>. It's inspired by Attack on Titan.</p>
+
 <p><br></p>
+
 <h3>3D Donut (2024)</h3>
-<p><img alt="3D Donut Rotation Animation" src="assets/donut.gif" /></p>
+
+<p><img src="assets/donut.gif" alt="3D Donut Rotation Animation" /></p>
+
 <p>I reinforced the basics of 3D, matrix transformations, linear algebra and programming in C++ without using libraries.</p>
+
 <p><br></p>
+
 <h3>Roads of Horses (10/2023 - 09/2024)</h3>
-<div class="embed-container">
-<iframe allowfullscreen="true" frameborder="0" height="390" src="https://www.youtube.com/embed/aR0MfmgZVeQ" width="640"></iframe>
-</div>
-<p><img alt="To Be Described" src="assets/tbd4-3.gif" />
-<img alt="To Be Described" src="assets/tbd4-4.gif" />
-<img alt="To Be Described" src="assets/tbd4-6.gif" /></p>
+
+<div><iframe
+            allowfullscreen="true"
+            frameborder="0"
+            width="640"
+            height="360"
+            src="https://www.youtube.com/embed/aR0MfmgZVeQ"></iframe></div>
+
+<p><img src="assets/tbd4-3.gif" alt="To Be Described" />
+<img src="assets/tbd4-4.gif" alt="To Be Described" />
+<img src="assets/tbd4-6.gif" alt="To Be Described" /></p>
+
 <p>This is a videogame, that I started developing using <a href="https://github.com/Hulvdan/RoadsOfHorses">Unity, C#</a>. Then I started portion it to <a href="https://github.com/Hulvdan/handmade-cpp-game">C++</a>.
 Inspired by <a href="https://guide.handmadehero.org/">Handmade Hero</a>, I was reinforcing my skills of programming, understanding how CPU, RAM, Rendering, Audio and other stuff works.</p>
+
 <p></p>
 
 <!--
@@ -85,27 +154,41 @@ Avocado - [GitHub](https://github.com/Hulvdan/Avocado). Various studies applied 
 -->
 
 <h2>Tools I worked on:</h2>
+
 <h3>Dark Souls 3 Cheat Sheet tool – <a href="https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/">Reddit</a> (2018)</h3>
-<p><img alt="Dark Souls 3 Cheat Sheet tool" src="assets/ds3-cheat-sheet-tool.png" /></p>
+
+<p><img src="assets/ds3-cheat-sheet-tool.png" alt="Dark Souls 3 Cheat Sheet tool" /></p>
+
 <p>A tool for tracking progress in Dark Souls 3 (Python, PyQt)</p>
+
 <h2>Other Stuff</h2>
+
 <h3>Monster Hunter: World Printable Monsters Weaknesses Booklet – <a href="https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/">Reddit post</a>, <a href="https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/">Updated Reddit post</a> (2018, 2021)</h3>
-<p><img alt="Image of a booklet" src="assets/mhw_booklet.jpeg" /></p>
+
+<p><img src="assets/mhw_booklet.jpeg" alt="Image of a booklet" /></p>
+
 <p>A set of images/documents for printing that shows weaknesses of monsters (Python, Pillow)</p>
+
 <h2>Credited Work</h2>
+
 <ul>
 <li><a href="https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks">Vanilla Tweaks</a> mod for Terraria by gardenapple - Provided the Extractinator speed up code (C#) (2017)</li>
 <li><a href="https://marketplace.visualstudio.com/items/pucelle.run-on-save/changelog">Run on Save</a> VS Code extension by pucelle - Running VS Code's commands on save (TypeScript) (2020)</li>
 </ul>
+
 <h2>I wanted to say thanks to</h2>
+
 <ul>
-<li><span class="respect"><a href="https://caseymuratori.com/about">Casey Muratori</a></span> for his series of educational streams <a href="https://guide.handmadehero.org/">Handmade Hero</a> and educational videos <a href="https://youtube.com/playlist?list=PLEMXAbCVnmY7t29i_rd3mnALWu-aZr_42&amp;si=e5JxZOPkl09MQK6x">Performance-Aware Programming</a></li>
-<li><span class="respect"><a href="https://en.wikipedia.org/wiki/Jonathan_Blow">Jonathan Blow</a></span> for his presentations of programming language <a href="https://youtube.com/playlist?list=PLmV5I2fxaiCKfxMBrNsU1kgKJXD3PkyxO&amp;si=rX9v9mQwUJyd85x0">JAI</a>, where he also talks about actual problems in programming and what we can do with them</li>
+<li><span class="respect"><a href="https://caseymuratori.com/about">Casey Muratori</a></span> for his series of educational streams <a href="https://guide.handmadehero.org/">Handmade Hero</a> and educational videos <a href="https://youtube.com/playlist?list=PLEMXAbCVnmY7t29i_rd3mnALWu-aZr_42&si=e5JxZOPkl09MQK6x">Performance-Aware Programming</a></li>
+<li><span class="respect"><a href="https://en.wikipedia.org/wiki/Jonathan_Blow">Jonathan Blow</a></span> for his presentations of programming language <a href="https://youtube.com/playlist?list=PLmV5I2fxaiCKfxMBrNsU1kgKJXD3PkyxO&si=rX9v9mQwUJyd85x0">JAI</a>, where he also talks about actual problems in programming and what we can do with them</li>
 </ul>
+
 <p><br></p>
+
 <p style="text-align: center;">
     (Updated 2025-01-25)
-</p></main>
+</p>
+</main>
   </body>
   <br>
 </html>

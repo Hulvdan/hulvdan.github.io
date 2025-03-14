@@ -58,6 +58,11 @@ end
 vim.keymap.set("n", "<leader>w", function()
     save_files()
 
+    if vim.bo.filetype == "css" then
+        build(true)
+        print("Built!")
+    end
+
     if vim.bo.filetype == "markdown" then
         build(true)
         print("Built!")
