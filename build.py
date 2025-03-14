@@ -88,7 +88,7 @@ def process_line(line: str) -> str:
             allowfullscreen="true"
             frameborder="0"
             width="640"
-            height="360"
+            style="max-width: 100%; aspect-ratio: 16 / 9;"
             src="https://www.youtube.com/embed/{video_id}"></iframe></div>"""
 
     return line
