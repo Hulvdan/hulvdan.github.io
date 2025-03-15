@@ -42,41 +42,14 @@ def main():
             .replace("{% include today %}", datetime.now().strftime("%Y-%m-%d"))
         )
 
-        processed_markdows_contents = process_region(
-            markdown_contents,
-            opening="<NOT_IN_CV>",
-            closing="<NOT_IN_CV_END>",
-            remove=True,
-        )
         os.makedirs(output_path.parent, exist_ok=True)
         write_file(
             template_data=template_data,
-            markdown_contents=processed_markdows_contents,
+            markdown_contents=markdown_contents,
             output_file_path=output_path,
         )
 
         print(f'Generated "{source_path}" - "{output_path}"!')
-
-
-def process_region(data: str, *, opening: str, closing: str, remove: bool) -> str:
-    while True:
-        opening_index = data.find(opening)
-        closing_index = data.find(closing)
-
-        if opening_index != -1 and closing_index == -1:
-            raise ValueError
-        if opening_index == -1:
-            return data
-
-        if remove:
-            data = data[:opening_index] + data[closing_index + len(closing) :]
-            continue
-
-        data = (
-            data[:opening_index]
-            + data[opening_index + len(opening) : closing_index]
-            + data[closing_index + len(closing) :]
-        )
 
 
 def process_line(line: str) -> str:
@@ -88,6 +61,7 @@ def process_line(line: str) -> str:
             allowfullscreen="true"
             frameborder="0"
             width="640"
+            rel=0
             style="max-width: 100%; aspect-ratio: 16 / 9;"
             src="https://www.youtube.com/embed/{video_id}"></iframe></div>"""
 
@@ -99,7 +73,7 @@ def write_file(*, template_data: str, markdown_contents: str, output_file_path):
         process_line(line) for line in markdown_contents.split("\n")
     )
 
-    content = markdown2.markdown(markdown_contents)
+    content = markdown2.markdown(markdown_contents, extras=["markdown-in-html"])
     rendered_html = template_data.format(content=content)
 
     with open(output_file_path, "w", encoding="utf-8") as out_file:

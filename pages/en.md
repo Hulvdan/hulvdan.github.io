@@ -1,16 +1,16 @@
-<p style="text-align: right;">Сменить на <a href="/docs/index.html">Русский 🇷🇺</a></p>
+<p style="text-align: right">
+  Сменить на <a href="/docs/index.html">Русский 🇷🇺</a>
+</p>
 
 # Aleksei Chistov
 
-<p style="text-align: center;">
-    <a href="mailto:agechistov@gmail.com">agechistov@gmail.com</a>
+<p style="text-align: center">
+  <a href="mailto:agechistov@gmail.com">agechistov@gmail.com</a>
 </p>
 
 <p></p>
 
 Sometimes I do gamedev projects. The information about them is gathered here.
-
-## GameDev
 
 <br>
 
@@ -18,7 +18,7 @@ Sometimes I do gamedev projects. The information about them is gathered here.
 
 YOUTUBE_5jdQKfxns-4
 
-I demonstrate techniques that make my life as a developer easier.
+In this video I demonstrate techniques that make my life as a developer easier.
 
 <details>
   <summary>
@@ -31,7 +31,7 @@ I demonstrate techniques that make my life as a developer easier.
 - A system for recording and playing back player's actions.
 - Hot code reloading via DLL.
 
-<br>
+<p></p>
 
 **How this makes my life easier:**
 
@@ -40,7 +40,7 @@ I demonstrate techniques that make my life as a developer easier.
 - **Example 3:** *I need to edit some values in the game -> I change the C++ code a few times and reload the DLL.* Often there is no need to restart the game.
 - This does not replace testing. It complements it.
 
-<br>
+<p></p>
 
 **Jonathan Blow and Casey Muratori point out the importance of reducing the time spent on busywork:**
 
@@ -120,7 +120,7 @@ Avocado - [GitHub](https://github.com/Hulvdan/Avocado). Various studies applied 
 ![Sokoban. Block placed](docs/assets/sokoban_in_terminal_block_placed.jpg)
 ![Sokoban using C++ w/ bearlibterminal](docs/assets/sokoban_in_terminal.jpg)
 
-<br>
+<p></p>
 
 ## Credited Work
 

@@ -152,3 +152,7 @@ em > * {
     color: var(--palOrange);
     font-style: normal;
 }
+
+br {
+    line-height: 450%;
+}
