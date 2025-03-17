@@ -51,6 +51,16 @@ In this video I demonstrate techniques that make my life as a developer easier.
 
 <br>
 
+### 101 days of developing an Action RPG game
+
+YOUTUBE__jhTkrgfY14
+
+*«An action RPG epic adventure, where you have to use the advantages and combinations of the elements of nature, adapting the selection of equipment along the way»*
+
+This is a recording of the state of the game-in-development as of 2025-03-17.
+
+<br>
+
 ### 3D Demo Of Movement Using A Rope - [C++ Source](https://github.com/Hulvdan/shingeki) (2024)
 
 YOUTUBE_X4yfK4Lj8kg
