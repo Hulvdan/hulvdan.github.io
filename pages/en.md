@@ -74,7 +74,7 @@ I worked a bit more in 3D, improved my math skills, and also tried [Raylib](http
 
 ### 3D Donut (2024)
 
-![3D Donut Rotation Animation](docs/assets/donut.gif)
+![](docs/assets/donut.gif)
 
 I reinforced the basics of 3D, matrix transformations, linear algebra and programming in C++ without using libraries.
 
@@ -84,9 +84,9 @@ I reinforced the basics of 3D, matrix transformations, linear algebra and progra
 
 YOUTUBE_aR0MfmgZVeQ
 
-![To Be Described](docs/assets/tbd4-3.gif)
-![To Be Described](docs/assets/tbd4-4.gif)
-![To Be Described](docs/assets/tbd4-6.gif)
+![](docs/assets/tbd4-3.gif)
+![](docs/assets/tbd4-4.gif)
+![](docs/assets/tbd4-6.gif)
 
 This is a videogame, that I started developing using [Unity, C#](https://github.com/Hulvdan/RoadsOfHorses). Then I started portion it to [C++](https://github.com/Hulvdan/handmade-cpp-game).
 Inspired by [Handmade Hero](https://guide.handmadehero.org/), I was reinforcing my skills of programming, understanding how CPU, RAM, Rendering, Audio and other stuff works.
@@ -100,9 +100,9 @@ Inspired by [Handmade Hero](https://guide.handmadehero.org/), I was reinforcing 
 
 ### The Clocktower Letter – [itch.io](https://hulvdan.itch.io/the-clockwork-letter) (2023)
 
-![The Clocktower Letter - First location](docs/assets/the_clocktower_letter_first_location.gif)
-![The Clocktower Letter - Wall Jumping](docs/assets/the_clocktower_letter_wall_jumping.gif)
-![The Clocktower Letter - Tower explosion](docs/assets/the_clocktower_letter_explosion_tower.gif)
+![](docs/assets/the_clocktower_letter_first_location.gif)
+![](docs/assets/the_clocktower_letter_wall_jumping.gif)
+![](docs/assets/the_clocktower_letter_explosion_tower.gif)
 
 A short platformer game for Metroidvania 21 game jam. Worked as a programmer in a worldwide distributed team of 4.
 
@@ -112,33 +112,33 @@ Now I understand what to expect from distributed teams.
 
 ### Other stuff (2016-2023):
 
-![Avocado - Throwing](docs/assets/avocado_throwing.gif)
-![Avocado - Coyote Time](docs/assets/avocado_coyote_time.gif)
+![](docs/assets/avocado_throwing.gif)
+![](docs/assets/avocado_coyote_time.gif)
 
-![Avocado - Jump Input Buffering](docs/assets/avocado_jump_input_buffering.gif)
-![Avocado - Camera Shake](docs/assets/avocado_camera_shake.gif)
+![](docs/assets/avocado_jump_input_buffering.gif)
+![](docs/assets/avocado_camera_shake.gif)
 
 Avocado - [GitHub](https://github.com/Hulvdan/Avocado). Various studies applied to a platformer game in Unity, C#.
 
-![Messing with see-through shaders inside an isometric Minecraft clone](docs/assets/messing_with_see_through_shaders.gif)
-![Messing with a depth of field shader inside an isometric Minecraft clone](docs/assets/messing_with_depth_of_field.gif)
-![Tanks AI](docs/assets/tanks_ai.gif)
-![Piffle clone](docs/assets/piffle_clone.gif)
-![Angry Birds prototype](docs/assets/angry_birds.gif)
+![](docs/assets/messing_with_see_through_shaders.gif)
+![](docs/assets/messing_with_depth_of_field.gif)
+![](docs/assets/tanks_ai.gif)
+![](docs/assets/piffle_clone.gif)
+![](docs/assets/angry_birds.gif)
 
-![Tetris using C++ w/ cocos2d-x](docs/assets/tetris.jpg)
-![Pong](docs/assets/pong.gif)
+![](docs/assets/tetris.jpg)
+![](docs/assets/pong.gif)
 
-![2048 using C++ w/ bearlibterminal](docs/assets/2048.jpg)
-![Sokoban. Block placed](docs/assets/sokoban_in_terminal_block_placed.jpg)
-![Sokoban using C++ w/ bearlibterminal](docs/assets/sokoban_in_terminal.jpg)
+![](docs/assets/2048.jpg)
+![](docs/assets/sokoban_in_terminal_block_placed.jpg)
+![](docs/assets/sokoban_in_terminal.jpg)
 
 <p></p>
 
 ## Credited Work
 
-- [Vanilla Tweaks](https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks) mod for Terraria by gardenapple - Provided the Extractinator speed up code (C#) (2017)
-- [Run on Save](https://marketplace.visualstudio.com/items/pucelle.run-on-save/changelog) VS Code extension by pucelle - Running VS Code's commands on save (TypeScript) (2020)
+- [](https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks) mod for Terraria by gardenapple - Provided the Extractinator speed up code (C#) (2017)
+- [](https://marketplace.visualstudio.com/items/pucelle.run-on-save/changelog) VS Code extension by pucelle - Running VS Code's commands on save (TypeScript) (2020)
 
 </details>
 
@@ -148,7 +148,7 @@ Avocado - [GitHub](https://github.com/Hulvdan/Avocado). Various studies applied 
 
 ### Dark Souls 3 Cheat Sheet tool – [Reddit](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/) (2018)
 
-![Dark Souls 3 Cheat Sheet tool](docs/assets/ds3-cheat-sheet-tool.png)
+![](docs/assets/ds3-cheat-sheet-tool.png)
 
 A tool for tracking progress in Dark Souls 3 (Python, PyQt)
 
@@ -156,7 +156,7 @@ A tool for tracking progress in Dark Souls 3 (Python, PyQt)
 
 ### Monster Hunter: World Printable Monsters Weaknesses Booklet – [Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/), [Updated Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/) (2018, 2021)
 
-![Image of a booklet](docs/assets/mhw_booklet.jpeg)
+![](docs/assets/mhw_booklet.jpeg)
 
 A set of images/documents for printing that shows weaknesses of monsters (Python, Pillow)
 
