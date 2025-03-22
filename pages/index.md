@@ -14,6 +14,19 @@
 
 <br>
 
+### Action RPG в разработке
+
+YOUTUBE__jhTkrgfY14
+
+![](docs/assets/rec2.png)
+![](docs/assets/rec3.png)
+![](docs/assets/rec0.png)
+![](docs/assets/rec1.png)
+
+*«Эпос о приключении героя в жанре экшен RPG, где предстоит использовать преимущества и комбинации стихий природы, адаптируя подбор экипировки на пути странствия»*
+
+<br>
+
 ### Сокращение Рутины При Разработке
 
 YOUTUBE_5jdQKfxns-4
@@ -51,16 +64,6 @@ YOUTUBE_5jdQKfxns-4
 
 <br>
 
-### 101 день разработки Action RPG игры
-
-YOUTUBE__jhTkrgfY14
-
-*«Эпос о приключении героя в жанре экшен RPG, где предстоит использовать преимущества и комбинации стихий природы, адаптируя подбор экипировки на пути странствия»*
-
-Запись состояния игры-в-разработке на момент 2025-03-17.
-
-<br>
-
 ### 3D Демо Перемещения С Помощью Троса - [C++ Source](https://github.com/Hulvdan/shingeki) (2024)
 
 YOUTUBE_X4yfK4Lj8kg
@@ -81,9 +84,9 @@ YOUTUBE_X4yfK4Lj8kg
 
 YOUTUBE_aR0MfmgZVeQ
 
-![To Be Described](docs/assets/tbd4-3.gif)
-![To Be Described](docs/assets/tbd4-4.gif)
-![To Be Described](docs/assets/tbd4-6.gif)
+![](docs/assets/tbd4-3.gif)
+![](docs/assets/tbd4-4.gif)
+![](docs/assets/tbd4-6.gif)
 
 Видеоигра, разрабатывать которую я начал на [Unity, C#](https://github.com/Hulvdan/RoadsOfHorses). После чего начал портировать на [C++](https://github.com/Hulvdan/handmade-cpp-game).
 Вдохновленный [Handmade Hero](https://guide.handmadehero.org/), я занимался этим проектом, укрепляя навыки программирования, изучая работу CPU, работу с памятью, рендеринг, аудио и пр.

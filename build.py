@@ -57,13 +57,13 @@ def process_line(line: str) -> str:
 
     if line.startswith("YOUTUBE_"):
         video_id = line.split("_", 1)[-1].strip()
-        return f"""<div><iframe
+        return f"""<p><iframe
             allowfullscreen="true"
             frameborder="0"
             width="640"
             rel=0
             style="max-width: 100%; aspect-ratio: 16 / 9;"
-            src="https://www.youtube.com/embed/{video_id}"></iframe></div>"""
+            src="https://www.youtube.com/embed/{video_id}"></iframe></p>"""
 
     return line
 

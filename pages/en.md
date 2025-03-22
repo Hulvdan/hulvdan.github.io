@@ -14,6 +14,19 @@ Sometimes I do gamedev projects. The information about them is gathered here.
 
 <br>
 
+### Action RPG game in-development
+
+YOUTUBE__jhTkrgfY14
+
+![](docs/assets/rec2.png)
+![](docs/assets/rec3.png)
+![](docs/assets/rec0.png)
+![](docs/assets/rec1.png)
+
+*«An action RPG epic adventure, where you have to use the advantages and combinations of the elements of nature, adapting the selection of equipment along the way»*
+
+<br>
+
 ### Decreasing Development Busywork
 
 YOUTUBE_5jdQKfxns-4
@@ -48,16 +61,6 @@ In this video I demonstrate techniques that make my life as a developer easier.
 - Video. [Jonathan Blow on scripting languages](https://www.youtube.com/watch?v=y2Wmz15aXk0). In the background you can see Jonathan Blow running tests of his game. It's essentially a playback of a recording of the player's actions.
 
 </details>
-
-<br>
-
-### 101 days of developing an Action RPG game
-
-YOUTUBE__jhTkrgfY14
-
-*«An action RPG epic adventure, where you have to use the advantages and combinations of the elements of nature, adapting the selection of equipment along the way»*
-
-This is a recording of the state of the game-in-development as of 2025-03-17.
 
 <br>
 
