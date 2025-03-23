@@ -175,5 +175,5 @@ Avocado - [GitHub](https://github.com/Hulvdan/Avocado). Некоторые фи�
 <br>
 
 <p style="text-align: center;">
-    (Обновлено 2025-03-14)
+    (Обновлено 2025-03-23)
 </p>

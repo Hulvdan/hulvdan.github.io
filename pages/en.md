@@ -173,5 +173,5 @@ A set of images/documents for printing that shows weaknesses of monsters (Python
 <br>
 
 <p style="text-align: center;">
-    (Updated 2025-03-14)
+    (Updated 2025-03-23)
 </p>
