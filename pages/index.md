@@ -17,6 +17,8 @@
 
 ### Action RPG в разработке
 
+YOUTUBE_LOOP_7QmJfNH99Vg
+
 YOUTUBE__jhTkrgfY14
 
 ![](docs/assets/rec2.jpg)

@@ -17,6 +17,8 @@ Sometimes I do gamedev projects. The information about them is gathered here.
 
 ### Action RPG game in-development
 
+YOUTUBE_LOOP_7QmJfNH99Vg
+
 YOUTUBE__jhTkrgfY14
 
 ![](docs/assets/rec2.png)

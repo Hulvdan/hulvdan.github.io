@@ -57,11 +57,18 @@ def process_line(line: str) -> str:
 
     if line.startswith("YOUTUBE_"):
         video_id = line.split("_", 1)[-1].strip()
+
+        loop = 0
+        if video_id.startswith("LOOP_"):
+            video_id = video_id.split("_", 1)[-1].strip()
+            loop = 1
+
         return f"""<p><iframe
             allowfullscreen="true"
             frameborder="0"
             width="640"
             rel=0
+            loop={loop}
             style="max-width: 100%; aspect-ratio: 16 / 9;"
             src="https://www.youtube.com/embed/{video_id}"></iframe></p>"""
 
