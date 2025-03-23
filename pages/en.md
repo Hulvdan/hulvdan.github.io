@@ -109,8 +109,6 @@ Inspired by [Handmade Hero](https://guide.handmadehero.org/), I was reinforcing 
 
 A short platformer game for Metroidvania 21 game jam. Worked as a programmer in a worldwide distributed team of 4.
 
-Now I understand what to expect from distributed teams.
-
 <br>
 
 ### Other stuff (2016-2023):
