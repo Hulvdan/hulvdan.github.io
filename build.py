@@ -80,7 +80,9 @@ def write_file(*, template_data: str, markdown_contents: str, output_file_path):
         process_line(line) for line in markdown_contents.split("\n")
     )
 
-    content = markdown2.markdown(markdown_contents, extras=["markdown-in-html"])
+    content = markdown2.markdown(
+        markdown_contents.replace(" - ", " — "), extras=["markdown-in-html"]
+    )
     rendered_html = template_data.format(content=content)
 
     with open(output_file_path, "w", encoding="utf-8") as out_file:
