@@ -1,3 +1,4 @@
+vim.fn.execute([[term explorer http://localhost:8000/en.html]])
 vim.fn.execute([[term explorer http://localhost:8000]])
 vim.fn.execute([[term .venv\Scripts\livereload.exe --host localhost --port 8000 docs]])
 vim.fn.execute([[e pages/en.md]])
