@@ -15,7 +15,7 @@ Sometimes I do gamedev projects. The information about them is gathered here.
 
 <br>
 
-### Action RPG game in-development (12/2024 - present)
+### Action RPG game in-development - C++ (12/2024 - present)
 
 YOUTUBE_LOOP_7QmJfNH99Vg
 
