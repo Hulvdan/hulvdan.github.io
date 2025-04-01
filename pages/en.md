@@ -165,10 +165,10 @@ A set of images/documents for printing that shows weaknesses of monsters (Python
 
 <br>
 
-## I wanted to say thanks to
+## Thanks to
 
-- **[Casey Muratori](https://caseymuratori.com/about)** for his series of educational streams [Handmade Hero](https://guide.handmadehero.org/) and educational videos [Performance-Aware Programming](https://youtube.com/playlist?list=PLEMXAbCVnmY7t29i_rd3mnALWu-aZr_42&si=e5JxZOPkl09MQK6x)
-- **[Jonathan Blow](https://en.wikipedia.org/wiki/Jonathan_Blow)** for his presentations/discussions of programming language [JAI](https://youtube.com/playlist?list=PLmV5I2fxaiCKfxMBrNsU1kgKJXD3PkyxO&si=rX9v9mQwUJyd85x0)
+- **[Casey Muratori](https://caseymuratori.com/about)** for [Handmade Hero](https://guide.handmadehero.org/) and [«Clean» Code, Horrible Performance](https://www.youtube.com/watch?v=tD5NrevFtbU)
+- **[Jonathan Blow](https://en.wikipedia.org/wiki/Jonathan_Blow)** for [JAI playlist](https://youtube.com/playlist?list=PLmV5I2fxaiCKfxMBrNsU1kgKJXD3PkyxO&si=rX9v9mQwUJyd85x0)
 
 <br>
 
