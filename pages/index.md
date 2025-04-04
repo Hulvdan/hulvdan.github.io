@@ -17,9 +17,9 @@
 
 ### Action RPG в разработке - C++ (12/2024 - н.в.)
 
-YOUTUBE_LOOP_7QmJfNH99Vg
+<!-- YOUTUBE_LOOP_7QmJfNH99Vg -->
 
-YOUTUBE__jhTkrgfY14
+<!-- YOUTUBE__jhTkrgfY14 -->
 
 ![](docs/assets/rec4.png)
 ![](docs/assets/rec2.jpg)
