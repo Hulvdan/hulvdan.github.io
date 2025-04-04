@@ -167,12 +167,14 @@ Avocado - [GitHub](https://github.com/Hulvdan/Avocado). Некоторые фи�
 
 <br>
 
+<!--
 ## Дань уважения
 
 - **[Casey Muratori](https://caseymuratori.com/about)** за [Handmade Hero](https://guide.handmadehero.org/) и [«Clean» Code, Horrible Performance](https://www.youtube.com/watch?v=tD5NrevFtbU)
 - **[Jonathan Blow](https://en.wikipedia.org/wiki/Jonathan_Blow)** за [плейлист JAI](https://youtube.com/playlist?list=PLmV5I2fxaiCKfxMBrNsU1kgKJXD3PkyxO&si=rX9v9mQwUJyd85x0)
 
 <br>
+-->
 
 <p style="text-align: center;">
     (Обновлено 2025-03-23)
