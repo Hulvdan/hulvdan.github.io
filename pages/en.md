@@ -23,10 +23,10 @@ YOUTUBE__jhTkrgfY14
 
 ![](docs/assets/rec4.png)
 ![](docs/assets/rec2.png)
-![](docs/assets/rec5.png)
-![](docs/assets/rec3.png)
-![](docs/assets/rec0.png)
-![](docs/assets/rec1.png)
+![](docs/assets/rec6.png)
+<!-- ![](docs/assets/rec3.png) -->
+<!-- ![](docs/assets/rec0.png) -->
+<!-- ![](docs/assets/rec1.png) -->
 
 *«An action RPG epic adventure, where you have to use the advantages and combinations of the elements of nature, adapting the selection of equipment along the way»*
 
