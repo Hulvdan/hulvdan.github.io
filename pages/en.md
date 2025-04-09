@@ -74,7 +74,7 @@ In this video I demonstrate techniques that make my life as a developer easier.
 
 YOUTUBE_X4yfK4Lj8kg
 
-I worked a bit more in 3D, improved my math skills, and also tried [Raylib](https://www.raylib.com/). It's inspired by Attack on Titan.
+I worked a bit more in 3D, improved my math skills, and also tried [Raylib](https://www.raylib.com/).
 
 <br>
 

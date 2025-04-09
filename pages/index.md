@@ -74,7 +74,7 @@ YOUTUBE_5jdQKfxns-4
 
 YOUTUBE_X4yfK4Lj8kg
 
-Поработал в 3D, подтянул математику, а также опробовал [Raylib](https://www.raylib.com/). Вдохновлялся Атакой Титанов.
+Поработал в 3D, подтянул математику, а также опробовал [Raylib](https://www.raylib.com/).
 
 <br>
 
