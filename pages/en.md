@@ -166,7 +166,7 @@ A tool for tracking progress in Dark Souls 3 (Python, PyQt)
 
 A set of images/documents for printing that shows weaknesses of monsters (Python, Pillow)
 
-<br>
+<!-- <br> -->
 
 <!--
 ## Thanks to
@@ -177,6 +177,6 @@ A set of images/documents for printing that shows weaknesses of monsters (Python
 <br>
 -->
 
-<p style="text-align: center;">
-    (Updated 2025-04-13)
-</p>
+<!-- <p style="text-align: center;"> -->
+<!--     (Updated 2025-04-13) -->
+<!-- </p> -->
