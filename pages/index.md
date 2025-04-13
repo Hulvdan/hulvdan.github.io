@@ -21,6 +21,8 @@
 
 <!-- YOUTUBE__jhTkrgfY14 -->
 
+YOUTUBE_2JGHfKlFlb0
+
 ![](docs/assets/rec4.png)
 ![](docs/assets/rec2.jpg)
 <!-- ![](docs/assets/rec7.png) -->
@@ -178,5 +180,5 @@ Avocado - [GitHub](https://github.com/Hulvdan/Avocado). Некоторые фи�
 -->
 
 <p style="text-align: center;">
-    (Обновлено 2025-03-23)
+    (Обновлено 2025-04-13)
 </p>

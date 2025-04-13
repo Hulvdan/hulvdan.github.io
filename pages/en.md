@@ -21,6 +21,8 @@ Sometimes I do gamedev projects. The information about them is gathered here.
 
 <!-- YOUTUBE__jhTkrgfY14 -->
 
+YOUTUBE_2JGHfKlFlb0
+
 ![](docs/assets/rec4.png)
 ![](docs/assets/rec2.png)
 <!-- ![](docs/assets/rec7.png) -->
@@ -176,5 +178,5 @@ A set of images/documents for printing that shows weaknesses of monsters (Python
 -->
 
 <p style="text-align: center;">
-    (Updated 2025-03-23)
+    (Updated 2025-04-13)
 </p>
