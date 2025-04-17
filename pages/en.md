@@ -31,7 +31,7 @@ YOUTUBE_2JGHfKlFlb0
 <!-- ![](docs/assets/rec0.png) -->
 <!-- ![](docs/assets/rec1.png) -->
 
-*«An action RPG epic adventure, where you have to use the advantages and combinations of the elements of nature, adapting the selection of equipment along the way»*
+«An action RPG epic adventure, where you have to use the advantages and combinations of the elements of nature, adapting the selection of equipment along the way»
 
 <br>
 
