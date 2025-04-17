@@ -143,7 +143,7 @@ Avocado - [GitHub](https://github.com/Hulvdan/Avocado). Некоторые фи�
 
 <p></p>
 
-## Credited Work
+### Credited Work
 
 - [Vanilla Tweaks](https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks) мод для «Terraria» от gardenapple - Поделился кодом для ускорения Extractinator-а (C#) (2017)
 - [Run on Save](https://marketplace.visualstudio.com/items/pucelle.run-on-save/changelog) расширение VS Code от pucelle - Исполнение команд VS Code-а при сохранении файлов (TypeScript) (2020)
@@ -151,8 +151,6 @@ Avocado - [GitHub](https://github.com/Hulvdan/Avocado). Некоторые фи�
 </details>
 
 <br>
-
-## Другое
 
 ### «Dark Souls 3» Cheat Sheet tool – [Reddit](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/) (2018)
 
