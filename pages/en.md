@@ -15,7 +15,7 @@ Sometimes I do gamedev projects. The information about them is gathered here.
 
 <br>
 
-### Action RPG game in-development - C++ (12/2024 - present)
+## Action RPG game in-development - C++ (12/2024 - present)
 
 <!-- YOUTUBE_LOOP_7QmJfNH99Vg -->
 
@@ -35,7 +35,7 @@ YOUTUBE_2JGHfKlFlb0
 
 <br>
 
-### Decreasing Development Busywork
+## Decreasing Development Busywork
 
 YOUTUBE_5jdQKfxns-4
 
@@ -72,7 +72,7 @@ In this video I demonstrate techniques that make my life as a developer easier.
 
 <br>
 
-### 3D Demo Of Movement Using A Rope - [C++ Source](https://github.com/Hulvdan/shingeki) (2024)
+## 3D Demo Of Movement Using A Rope - [C++ Source](https://github.com/Hulvdan/shingeki) (2024)
 
 YOUTUBE_X4yfK4Lj8kg
 
@@ -80,7 +80,7 @@ I worked a bit more in 3D, improved my math skills, and also tried [Raylib](http
 
 <br>
 
-### 3D Donut (2024)
+## 3D Donut (2024)
 
 ![](docs/assets/donut.gif)
 
@@ -88,7 +88,7 @@ I reinforced the basics of 3D, matrix transformations, linear algebra and progra
 
 <br>
 
-### Roads of Horses (10/2023 - 09/2024)
+## Roads of Horses (10/2023 - 09/2024)
 
 YOUTUBE_aR0MfmgZVeQ
 
@@ -101,7 +101,7 @@ Inspired by [Handmade Hero](https://guide.handmadehero.org/), I was reinforcing 
 
 <br>
 
-### Dark Souls 3 Cheat Sheet tool – [Reddit](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/) (2018)
+## Dark Souls 3 Cheat Sheet tool – [Reddit](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/) (2018)
 
 ![](docs/assets/ds3-cheat-sheet-tool.png)
 
@@ -109,7 +109,7 @@ A tool for tracking progress in Dark Souls 3 (Python, PyQt)
 
 <br>
 
-### Monster Hunter: World Printable Monsters Weaknesses Booklet – [Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/), [Updated Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/) (2018, 2021)
+## Monster Hunter: World Printable Monsters Weaknesses Booklet – [Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/), [Updated Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/) (2018, 2021)
 
 ![](docs/assets/mhw_booklet.jpeg)
 
@@ -122,7 +122,7 @@ A set of images/documents for printing that shows weaknesses of monsters (Python
     Show more projects
   </summary>
 
-### The Clocktower Letter – [itch.io](https://hulvdan.itch.io/the-clockwork-letter) (2023)
+## The Clocktower Letter – [itch.io](https://hulvdan.itch.io/the-clockwork-letter) (2023)
 
 ![](docs/assets/the_clocktower_letter_first_location.gif)
 ![](docs/assets/the_clocktower_letter_wall_jumping.gif)
@@ -132,7 +132,7 @@ A short platformer game for Metroidvania 21 game jam. Worked as a programmer in 
 
 <br>
 
-### Other stuff (2016-2023):
+## Other stuff (2016-2023):
 
 ![](docs/assets/avocado_throwing.gif)
 ![](docs/assets/avocado_coyote_time.gif)
@@ -157,7 +157,7 @@ Avocado - [GitHub](https://github.com/Hulvdan/Avocado). Various studies applied 
 
 <br>
 
-### Credited Work
+## Credited Work
 
 - [Vanilla Tweaks](https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks) mod for Terraria by gardenapple - Provided the Extractinator speed up code (C#) (2017)
 - [Run on Save](https://marketplace.visualstudio.com/items/pucelle.run-on-save/changelog) VS Code extension by pucelle - Running VS Code's commands on save (TypeScript) (2020)

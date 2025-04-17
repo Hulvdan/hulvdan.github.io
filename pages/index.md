@@ -15,7 +15,7 @@
 
 <br>
 
-### Action RPG в разработке - C++ (12/2024 - н.в.)
+## Action RPG в разработке - C++ (12/2024 - н.в.)
 
 <!-- YOUTUBE_LOOP_7QmJfNH99Vg -->
 
@@ -35,7 +35,7 @@ YOUTUBE_2JGHfKlFlb0
 
 <br>
 
-### Сокращение Рутины При Разработке
+## Сокращение Рутины При Разработке
 
 YOUTUBE_5jdQKfxns-4
 
@@ -72,7 +72,7 @@ YOUTUBE_5jdQKfxns-4
 
 <br>
 
-### 3D Демо Перемещения С Помощью Троса - [C++ Source](https://github.com/Hulvdan/shingeki) (2024)
+## 3D Демо Перемещения С Помощью Троса - [C++ Source](https://github.com/Hulvdan/shingeki) (2024)
 
 YOUTUBE_X4yfK4Lj8kg
 
@@ -80,7 +80,7 @@ YOUTUBE_X4yfK4Lj8kg
 
 <br>
 
-### 3D Пончик (2024)
+## 3D Пончик (2024)
 
 ![](docs/assets/donut.gif)
 
@@ -88,7 +88,7 @@ YOUTUBE_X4yfK4Lj8kg
 
 <br>
 
-### Roads of Horses (10/2023 - 09/2024)
+## Roads of Horses (10/2023 - 09/2024)
 
 YOUTUBE_aR0MfmgZVeQ
 
@@ -101,7 +101,7 @@ YOUTUBE_aR0MfmgZVeQ
 
 <br>
 
-### «Dark Souls 3» Cheat Sheet tool – [Reddit](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/) (2018)
+## «Dark Souls 3» Cheat Sheet tool – [Reddit](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/) (2018)
 
 ![](docs/assets/ds3-cheat-sheet-tool.png)
 
@@ -109,7 +109,7 @@ YOUTUBE_aR0MfmgZVeQ
 
 <br>
 
-### «Monster Hunter: World» Printable Monsters Weaknesses Booklet – [Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/), [Updated Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/) (2018, 2021)
+## «Monster Hunter: World» Printable Monsters Weaknesses Booklet – [Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/), [Updated Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/) (2018, 2021)
 
 ![](docs/assets/mhw_booklet.jpeg)
 
@@ -122,7 +122,7 @@ YOUTUBE_aR0MfmgZVeQ
     Раскрыть ещё проекты
   </summary>
 
-### The Clocktower Letter – [itch.io](https://hulvdan.itch.io/the-clockwork-letter) (2023)
+## The Clocktower Letter – [itch.io](https://hulvdan.itch.io/the-clockwork-letter) (2023)
 
 ![](docs/assets/the_clocktower_letter_first_location.gif)
 ![](docs/assets/the_clocktower_letter_wall_jumping.gif)
@@ -132,7 +132,7 @@ YOUTUBE_aR0MfmgZVeQ
 
 <br>
 
-### Остальное (2016-2023)
+## Остальное (2016-2023)
 
 ![](docs/assets/avocado_throwing.gif)
 ![](docs/assets/avocado_coyote_time.gif)
@@ -159,7 +159,7 @@ Avocado - [GitHub](https://github.com/Hulvdan/Avocado). Некоторые фи�
 
 <br>
 
-### Credited Work
+## Credited Work
 
 - [Vanilla Tweaks](https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks) мод для «Terraria» от gardenapple - Поделился кодом для ускорения Extractinator-а (C#) (2017)
 - [Run on Save](https://marketplace.visualstudio.com/items/pucelle.run-on-save/changelog) расширение VS Code от pucelle - Исполнение команд VS Code-а при сохранении файлов (TypeScript) (2020)
