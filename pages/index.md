@@ -101,6 +101,22 @@ YOUTUBE_aR0MfmgZVeQ
 
 <br>
 
+### «Dark Souls 3» Cheat Sheet tool – [Reddit](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/) (2018)
+
+![](docs/assets/ds3-cheat-sheet-tool.png)
+
+Программа для ручного отслеживания прогресса в «Dark Souls 3» (Python, PyQt)
+
+<br>
+
+### «Monster Hunter: World» Printable Monsters Weaknesses Booklet – [Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/), [Updated Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/) (2018, 2021)
+
+![](docs/assets/mhw_booklet.jpeg)
+
+Набор изображений/документов для печати, что отображает уязвимости монстров в «Monster Hunter: World» (Python, Pillow)
+
+<br>
+
 <details>
   <summary>
     Раскрыть ещё проекты
@@ -141,7 +157,7 @@ Avocado - [GitHub](https://github.com/Hulvdan/Avocado). Некоторые фи�
 ![](docs/assets/sokoban_in_terminal_block_placed.jpg)
 ![](docs/assets/sokoban_in_terminal.jpg)
 
-<p></p>
+<br>
 
 ### Credited Work
 
@@ -149,22 +165,6 @@ Avocado - [GitHub](https://github.com/Hulvdan/Avocado). Некоторые фи�
 - [Run on Save](https://marketplace.visualstudio.com/items/pucelle.run-on-save/changelog) расширение VS Code от pucelle - Исполнение команд VS Code-а при сохранении файлов (TypeScript) (2020)
 
 </details>
-
-<br>
-
-### «Dark Souls 3» Cheat Sheet tool – [Reddit](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/) (2018)
-
-![](docs/assets/ds3-cheat-sheet-tool.png)
-
-Программа для ручного отслеживания прогресса в «Dark Souls 3» (Python, PyQt)
-
-<br>
-
-### «Monster Hunter: World» Printable Monsters Weaknesses Booklet – [Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/), [Updated Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/) (2018, 2021)
-
-![](docs/assets/mhw_booklet.jpeg)
-
-Набор изображений/документов для печати, что отображает уязвимости монстров в «Monster Hunter: World» (Python, Pillow)
 
 <!-- <br> -->
 

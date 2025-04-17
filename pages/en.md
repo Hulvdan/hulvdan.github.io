@@ -101,6 +101,22 @@ Inspired by [Handmade Hero](https://guide.handmadehero.org/), I was reinforcing 
 
 <br>
 
+### Dark Souls 3 Cheat Sheet tool – [Reddit](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/) (2018)
+
+![](docs/assets/ds3-cheat-sheet-tool.png)
+
+A tool for tracking progress in Dark Souls 3 (Python, PyQt)
+
+<br>
+
+### Monster Hunter: World Printable Monsters Weaknesses Booklet – [Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/), [Updated Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/) (2018, 2021)
+
+![](docs/assets/mhw_booklet.jpeg)
+
+A set of images/documents for printing that shows weaknesses of monsters (Python, Pillow)
+
+<br>
+
 <details>
   <summary>
     Show more projects
@@ -139,30 +155,14 @@ Avocado - [GitHub](https://github.com/Hulvdan/Avocado). Various studies applied 
 ![](docs/assets/sokoban_in_terminal_block_placed.jpg)
 ![](docs/assets/sokoban_in_terminal.jpg)
 
-<p></p>
+<br>
 
 ### Credited Work
 
-- [](https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks) mod for Terraria by gardenapple - Provided the Extractinator speed up code (C#) (2017)
-- [](https://marketplace.visualstudio.com/items/pucelle.run-on-save/changelog) VS Code extension by pucelle - Running VS Code's commands on save (TypeScript) (2020)
+- [Vanilla Tweaks](https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks) mod for Terraria by gardenapple - Provided the Extractinator speed up code (C#) (2017)
+- [Run on Save](https://marketplace.visualstudio.com/items/pucelle.run-on-save/changelog) VS Code extension by pucelle - Running VS Code's commands on save (TypeScript) (2020)
 
 </details>
-
-<br>
-
-### Dark Souls 3 Cheat Sheet tool – [Reddit](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/) (2018)
-
-![](docs/assets/ds3-cheat-sheet-tool.png)
-
-A tool for tracking progress in Dark Souls 3 (Python, PyQt)
-
-<br>
-
-### Monster Hunter: World Printable Monsters Weaknesses Booklet – [Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/), [Updated Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/) (2018, 2021)
-
-![](docs/assets/mhw_booklet.jpeg)
-
-A set of images/documents for printing that shows weaknesses of monsters (Python, Pillow)
 
 <!-- <br> -->
 
