@@ -96,7 +96,7 @@ YOUTUBE_aR0MfmgZVeQ
 ![](docs/assets/tbd4-4.gif)
 ![](docs/assets/tbd4-6.gif)
 
-Видеоигра, разрабатывать которую я начал на [Unity, C#](https://github.com/Hulvdan/RoadsOfHorses). После чего начал портировать на [C++](https://github.com/Hulvdan/handmade-cpp-game).
+Видеоигра, разрабатывать которую я начал на Unity, C#. После чего начал портировать на C++.
 Вдохновленный [Handmade Hero](https://guide.handmadehero.org/), я занимался этим проектом, укрепляя навыки программирования, изучая работу CPU, работу с памятью, рендеринг, аудио и пр.
 
 <br>

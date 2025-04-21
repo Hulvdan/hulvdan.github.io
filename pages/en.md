@@ -96,7 +96,7 @@ YOUTUBE_aR0MfmgZVeQ
 ![](docs/assets/tbd4-4.gif)
 ![](docs/assets/tbd4-6.gif)
 
-This is a videogame, that I started developing using [Unity, C#](https://github.com/Hulvdan/RoadsOfHorses). Then I started portion it to [C++](https://github.com/Hulvdan/handmade-cpp-game).
+This is a videogame, that I started developing using Unity, C#. Then I started portion it to C++.
 Inspired by [Handmade Hero](https://guide.handmadehero.org/), I was reinforcing my skills of programming, understanding how CPU, RAM, Rendering, Audio and other stuff works.
 
 <br>
