@@ -23,7 +23,7 @@ Sometimes I do gamedev projects. The information about them is gathered here.
 
 YOUTUBE_2JGHfKlFlb0
 
-![](docs/assets/rec4.png)
+![](docs/assets/rec9.png)
 ![](docs/assets/rec2.png)
 <!-- ![](docs/assets/rec7.png) -->
 ![](docs/assets/rec8.png)
