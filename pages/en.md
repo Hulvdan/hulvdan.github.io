@@ -72,7 +72,7 @@ In this video I demonstrate techniques that make my life as a developer easier.
 
 <br>
 
-## 3D Demo Of Movement Using A Rope - [C++ Source](https://github.com/Hulvdan/shingeki) (2024)
+## 3D Demo Of Movement Using A Rope - C++ (2024)
 
 YOUTUBE_X4yfK4Lj8kg
 
@@ -80,7 +80,7 @@ I worked a bit more in 3D, improved my math skills, and also tried [Raylib](http
 
 <br>
 
-## 3D Donut (2024)
+## 3D Donut - C++ (2024)
 
 ![](docs/assets/donut.gif)
 
