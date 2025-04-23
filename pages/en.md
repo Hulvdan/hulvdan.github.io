@@ -136,7 +136,7 @@ A short platformer game for Metroidvania 21 game jam. Worked as a programmer in 
 ![](docs/assets/avocado_jump_input_buffering.gif)
 ![](docs/assets/avocado_camera_shake.gif)
 
-Avocado - [GitHub](https://github.com/Hulvdan/Avocado). Various studies applied to a platformer game in Unity, C#.
+Various studies applied to a platformer game in Unity, C#.
 
 ![](docs/assets/messing_with_see_through_shaders.gif)
 ![](docs/assets/messing_with_depth_of_field.gif)

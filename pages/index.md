@@ -136,7 +136,7 @@ YOUTUBE_aR0MfmgZVeQ
 ![](docs/assets/avocado_jump_input_buffering.gif)
 ![](docs/assets/avocado_camera_shake.gif)
 
-Avocado - [GitHub](https://github.com/Hulvdan/Avocado). Некоторые фишки, применённые к платформеру на Unity, C#.
+Некоторые фишки, применённые к платформеру на Unity, C#.
 
 <p></p>
 
