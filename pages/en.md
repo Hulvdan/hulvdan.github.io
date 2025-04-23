@@ -24,12 +24,8 @@ Sometimes I do gamedev projects. The information about them is gathered here.
 YOUTUBE_2JGHfKlFlb0
 
 ![](docs/assets/rec9.png)
-![](docs/assets/rec2.png)
-<!-- ![](docs/assets/rec7.png) -->
-![](docs/assets/rec8.png)
-<!-- ![](docs/assets/rec3.png) -->
-<!-- ![](docs/assets/rec0.png) -->
-<!-- ![](docs/assets/rec1.png) -->
+![](docs/assets/rec11.jpg)
+![](docs/assets/rec10.jpg)
 
 «An action RPG epic adventure, where you have to use the advantages and combinations of the elements of nature, adapting the selection of equipment along the way»
 

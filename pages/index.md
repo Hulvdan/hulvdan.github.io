@@ -24,12 +24,8 @@
 YOUTUBE_2JGHfKlFlb0
 
 ![](docs/assets/rec9.png)
-![](docs/assets/rec2.jpg)
-<!-- ![](docs/assets/rec7.png) -->
-![](docs/assets/rec8.png)
-<!-- ![](docs/assets/rec3.png) -->
-<!-- ![](docs/assets/rec0.png) -->
-<!-- ![](docs/assets/rec1.png) -->
+![](docs/assets/rec11.jpg)
+![](docs/assets/rec10.jpg)
 
 «Эпос о приключении героя в жанре экшен RPG, где предстоит использовать преимущества и комбинации стихий природы, адаптируя подбор экипировки на пути странствия»
 
