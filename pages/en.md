@@ -44,7 +44,6 @@ In this video I demonstrate techniques that make my life as a developer easier.
 
 **Techniques:**
 
-- Building and launching the game by pressing the F5 button in my code editor.
 - A system for recording and playing back player's actions.
 - Hot code reloading via DLL.
 
