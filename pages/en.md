@@ -27,7 +27,7 @@ YOUTUBE_2JGHfKlFlb0
 ![](docs/assets/rec11.jpg)
 ![](docs/assets/rec10.jpg)
 
-«An action RPG epic adventure, where you have to use the advantages and combinations of the elements of nature, adapting the selection of equipment along the way»
+«An action RPG epic adventure. Combat using the elements of nature. Adapt your equipment along the way. And rescue your comrades from the hands of the Darkest Warlock!»
 
 <br>
 
