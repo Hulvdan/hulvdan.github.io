@@ -123,10 +123,6 @@ YOUTUBE_aR0MfmgZVeQ
 ![](docs/assets/avocado_jump_input_buffering.gif)
 ![](docs/assets/avocado_camera_shake.gif)
 
-Некоторые фишки, применённые к платформеру на Unity, C#.
-
-<p></p>
-
 ![](docs/assets/messing_with_see_through_shaders.gif)
 ![](docs/assets/messing_with_depth_of_field.gif)
 ![](docs/assets/tanks_ai.gif)
