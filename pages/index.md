@@ -96,7 +96,7 @@ YOUTUBE_aR0MfmgZVeQ
 
 ![](docs/assets/mhw_booklet.jpeg)
 
-Изображения для печати, что отображают уязвимости монстров в игре (Python, Pillow)
+Изображения для печати, что отображают уязвимости монстров (Python, Pillow)
 
 <br>
 
