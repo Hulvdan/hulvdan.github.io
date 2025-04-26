@@ -55,7 +55,7 @@ YOUTUBE_5jdQKfxns-4
 
 <br>
 
-## 3D Демо Перемещения С Помощью Троса - C++ (2024)
+## Демо Перемещения - C++ (2024)
 
 YOUTUBE_X4yfK4Lj8kg
 
@@ -63,7 +63,7 @@ YOUTUBE_X4yfK4Lj8kg
 
 <br>
 
-## 3D Пончик - C++ (2024)
+## Пончик - C++ (2024)
 
 ![](docs/assets/donut.gif)
 
