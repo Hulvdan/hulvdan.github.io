@@ -9,13 +9,11 @@
   <a href="mailto:agechistov@gmail.com">agechistov@gmail.com</a>
 </p>
 
-<p></p>
-
-Sometimes I do gamedev projects. The information about them is gathered here.
-
 <br>
 
 ## Action RPG game in-development - C++ (12/2024 - present)
+
+At the moment I'm forming a Steam page.
 
 <!-- YOUTUBE_LOOP_7QmJfNH99Vg -->
 
@@ -26,8 +24,6 @@ YOUTUBE_2JGHfKlFlb0
 ![](docs/assets/rec9.png)
 ![](docs/assets/rec11.jpg)
 ![](docs/assets/rec10.jpg)
-
-«An action RPG epic adventure. Combat using the elements of nature. Adapt your equipment along the way. And rescue your comrades from the hands of the Darkest Warlock!»
 
 <br>
 
