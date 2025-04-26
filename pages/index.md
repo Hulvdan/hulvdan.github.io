@@ -88,7 +88,7 @@ YOUTUBE_aR0MfmgZVeQ
 
 ![](docs/assets/ds3-cheat-sheet-tool.png)
 
-Программа для ручного отслеживания прогресса в «Dark Souls 3» (Python, PyQt)
+Программа для отслеживания прогресса в «Dark Souls 3» (Python, PyQt)
 
 <br>
 
