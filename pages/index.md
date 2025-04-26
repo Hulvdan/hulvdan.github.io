@@ -49,7 +49,7 @@ YOUTUBE_5jdQKfxns-4
 **Ссылки:**
 
 - [Handmade Hero Day 023 - Looped Live Code Editing](https://guide.handmadehero.org/code/day023/#2983). Casey Muratori демонстрирует запись и воспроизведение действий и горячую перезагрузку DLL.
-- [Jonathan Blow on scripting languages](https://www.youtube.com/watch?v=y2Wmz15aXk0). Jonathan Blow прогоняет тесты его игры - воспроиздовит запись действий.
+- [Jonathan Blow on scripting languages](https://www.youtube.com/watch?v=y2Wmz15aXk0). Jonathan Blow прогоняет тесты его игры - воспроизводит запись действий.
 
 </details>
 
