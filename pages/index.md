@@ -92,11 +92,11 @@ YOUTUBE_aR0MfmgZVeQ
 
 <br>
 
-## «Monster Hunter: World» Printable Monsters Weaknesses Booklet – [Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/), [Updated Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/) (2018, 2021)
+## Буклет для «Monster Hunter: World» – [Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/), [Updated Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/) (2018, 2021)
 
 ![](docs/assets/mhw_booklet.jpeg)
 
-Набор изображений/документов для печати, что отображает уязвимости монстров в «Monster Hunter: World» (Python, Pillow)
+Изображения для печати, что отображают уязвимости монстров в игре (Python, Pillow)
 
 <br>
 
