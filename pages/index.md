@@ -15,10 +15,6 @@
 
 Готовлю страницу в Steam.
 
-<!-- YOUTUBE_LOOP_7QmJfNH99Vg -->
-
-<!-- YOUTUBE__jhTkrgfY14 -->
-
 YOUTUBE_2JGHfKlFlb0
 
 ![](docs/assets/rec9.png)
@@ -111,7 +107,7 @@ YOUTUBE_aR0MfmgZVeQ
 ![](docs/assets/the_clocktower_letter_wall_jumping.gif)
 ![](docs/assets/the_clocktower_letter_explosion_tower.gif)
 
-Короткая игра платформер для Metroidvania 21 game jam. Я был программистом в распределённой команде из 4-х человек (Unity, C#)
+Платформер для Metroidvania 21 game jam. Был программистом команды из 4-х человек (Unity, C#)
 
 <br>
 
@@ -138,24 +134,9 @@ YOUTUBE_aR0MfmgZVeQ
 
 <br>
 
-## Credited Work
+## Credited
 
 - [Vanilla Tweaks](https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks) мод для «Terraria» от gardenapple - Поделился кодом для ускорения Extractinator-а (C#) (2017)
 - [Run on Save](https://marketplace.visualstudio.com/items/pucelle.run-on-save/changelog) расширение VS Code от pucelle - Исполнение команд VS Code-а при сохранении файлов (TypeScript) (2020)
 
 </details>
-
-<!-- <br> -->
-
-<!--
-## Дань уважения
-
-- **[Casey Muratori](https://caseymuratori.com/about)** за [Handmade Hero](https://guide.handmadehero.org/) и [«Clean» Code, Horrible Performance](https://www.youtube.com/watch?v=tD5NrevFtbU)
-- **[Jonathan Blow](https://en.wikipedia.org/wiki/Jonathan_Blow)** за [плейлист JAI](https://youtube.com/playlist?list=PLmV5I2fxaiCKfxMBrNsU1kgKJXD3PkyxO&si=rX9v9mQwUJyd85x0)
-
-<br>
--->
-
-<!-- <p style="text-align: center;"> -->
-<!--     (Обновлено 2025-04-13) -->
-<!-- </p> -->
