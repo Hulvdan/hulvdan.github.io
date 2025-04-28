@@ -66,7 +66,7 @@ IMAGES the_clocktower_letter_first_location.gif the_clocktower_letter_wall_jumpi
 
 <br>
 
-## Небольшие проекты для обучения (2016-2023)
+## Проекты для обучения (2016-2023)
 
 IMAGES avocado_coyote_time.gif avocado_jump_input_buffering.gif avocado_camera_shake.gif messing_with_see_through_shaders.gif messing_with_depth_of_field.gif tanks_ai.gif piffle_clone.gif angry_birds.gif tetris.jpg 2048.jpg sokoban_in_terminal_block_placed.jpg sokoban_in_terminal.jpg
 
