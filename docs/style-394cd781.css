@@ -93,10 +93,12 @@ blockquote::after {
     background-color: #cbc5a2;
 }
 
-p {
+p,
+.ngy2_container {
     padding: 10px 20px;
     margin: 0;
 }
+
 
 a {
     color: var(--palSkyblue);

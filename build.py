@@ -55,6 +55,16 @@ def main():
 def process_line(line: str) -> str:
     line = line.replace(" -> ", " ⇒ ")
 
+    if line.startswith("IMAGES "):
+        images = [i.strip() for i in line.removeprefix("IMAGES ").split() if i]
+        line = """<div data-nanogallery2='{{"thumbnailWidth": "200", "thumbnailAlignment": "left", "thumbnailOpenImage": true}}'>{}</div>"""
+        line = line.format(
+            "".join(
+                '<a href="assets/{}" data-ngthumb="assets/{}"></a>'.format(i, i)
+                for i in images
+            )
+        )
+
     if line.startswith("YOUTUBE_"):
         video_id = line.split("_", 1)[-1].strip()
 
@@ -66,11 +76,12 @@ def process_line(line: str) -> str:
         return f"""<p><iframe
             allowfullscreen="true"
             frameborder="0"
-            width="640"
+            width="480"
             rel=0
             loop={loop}
             style="max-width: 100%; aspect-ratio: 16 / 9;"
-            src="https://www.youtube.com/embed/{video_id}"></iframe></p>"""
+            src="https://www.youtube.com/embed/{video_id}"
+            ></iframe></p>"""
 
     return line
 

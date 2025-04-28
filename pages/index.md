@@ -17,9 +17,7 @@
 
 YOUTUBE_2JGHfKlFlb0
 
-![](docs/assets/rec9.png)
-![](docs/assets/rec11.jpg)
-![](docs/assets/rec10.jpg)
+IMAGES rec9.png rec11.jpg rec10.jpg
 
 <br>
 
@@ -28,26 +26,6 @@ YOUTUBE_2JGHfKlFlb0
 YOUTUBE_5jdQKfxns-4
 
 Демонстрирую запись действий и перезагрузку DLL.
-
-<details>
-  <summary>
-    Раскрыть подробности
-  </summary>
-
-**Как это облегчает разработку?** - Сокращает время отладки.
-
-1. Кто-то играет -> crash -> воспроизвожу запись действий.
-2. Сталкиваюсь с багом -> отлаживаю; игра каждый раз одинаково проигрывает запись действий.
-3. Редактирую значения в игре -> изменяю код -> перезагружается DLL, а состояние остаётся прежним.
-
-<p></p>
-
-**Ссылки:**
-
-- [Handmade Hero Day 023 - Looped Live Code Editing](https://guide.handmadehero.org/code/day023/#2983). Casey Muratori демонстрирует запись и воспроизведение действий и горячую перезагрузку DLL.
-- [Jonathan Blow on scripting languages](https://www.youtube.com/watch?v=y2Wmz15aXk0). Jonathan Blow прогоняет тесты его игры - воспроизводит запись действий.
-
-</details>
 
 <br>
 
@@ -71,26 +49,24 @@ YOUTUBE_X4yfK4Lj8kg
 
 YOUTUBE_aR0MfmgZVeQ
 
-![](docs/assets/tbd4-3.gif)
-![](docs/assets/tbd4-4.gif)
-![](docs/assets/tbd4-6.gif)
+IMAGES tbd4-3.gif tbd4-4.gif tbd4-6.gif
 
-Игра. Начал на Unity, C#. После - портировал на C++.
-Вдохновленный [Handmade Hero](https://guide.handmadehero.org/), я укреплял навыки программирования, изучал работу CPU, работу с памятью, рендеринг, аудио и пр.
+Игра на Unity, C#. После - C++.
+Вдохновленный [Handmade Hero](https://guide.handmadehero.org/), я изучал работу CPU, работу с памятью, рендеринг, аудио и пр.
 
 <br>
 
 ## «Dark Souls 3» Cheat Sheet tool – [Reddit](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/) (2018)
 
-![](docs/assets/ds3-cheat-sheet-tool.png)
+IMAGES ds3-cheat-sheet-tool.png
 
 Программа для отслеживания прогресса в «Dark Souls 3» (Python, PyQt)
 
 <br>
 
-## Буклет для «Monster Hunter: World» – [Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/), [Updated Reddit post](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/) (2018, 2021)
+## Буклет для «Monster Hunter: World» – [Reddit 1](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/), [Reddit 2](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/) (2018, 2021)
 
-![](docs/assets/mhw_booklet.jpeg)
+IMAGES mhw_booklet.jpeg
 
 Изображения для печати, что отображают уязвимости монстров (Python, Pillow)
 
@@ -102,10 +78,7 @@ YOUTUBE_aR0MfmgZVeQ
   </summary>
 
 ## The Clocktower Letter – [itch.io](https://hulvdan.itch.io/the-clockwork-letter) (2023)
-
-![](docs/assets/the_clocktower_letter_first_location.gif)
-![](docs/assets/the_clocktower_letter_wall_jumping.gif)
-![](docs/assets/the_clocktower_letter_explosion_tower.gif)
+IMAGES the_clocktower_letter_first_location.gif the_clocktower_letter_wall_jumping.gif the_clocktower_letter_explosion_tower.gif
 
 Платформер для Metroidvania 21 game jam. Был программистом команды из 4-х человек (Unity, C#)
 
@@ -113,24 +86,7 @@ YOUTUBE_aR0MfmgZVeQ
 
 ## Остальное (2016-2023)
 
-![](docs/assets/avocado_throwing.gif)
-![](docs/assets/avocado_coyote_time.gif)
-
-![](docs/assets/avocado_jump_input_buffering.gif)
-![](docs/assets/avocado_camera_shake.gif)
-
-![](docs/assets/messing_with_see_through_shaders.gif)
-![](docs/assets/messing_with_depth_of_field.gif)
-![](docs/assets/tanks_ai.gif)
-![](docs/assets/piffle_clone.gif)
-![](docs/assets/angry_birds.gif)
-
-![](docs/assets/tetris.jpg)
-![](docs/assets/pong.gif)
-
-![](docs/assets/2048.jpg)
-![](docs/assets/sokoban_in_terminal_block_placed.jpg)
-![](docs/assets/sokoban_in_terminal.jpg)
+IMAGES avocado_throwing.gif avocado_coyote_time.gif avocado_jump_input_buffering.gif avocado_camera_shake.gif messing_with_see_through_shaders.gif messing_with_depth_of_field.gif tanks_ai.gif piffle_clone.gif angry_birds.gif tetris.jpg 2048.jpg sokoban_in_terminal_block_placed.jpg sokoban_in_terminal.jpg
 
 <br>
 
