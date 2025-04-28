@@ -33,7 +33,7 @@ YOUTUBE_5jdQKfxns-4
 
 YOUTUBE_X4yfK4Lj8kg
 
-Подтянул 3D математику, опробовал [Raylib](https://www.raylib.com/).
+Подтянул 3D математику и C++.
 
 <br>
 
@@ -41,7 +41,7 @@ YOUTUBE_X4yfK4Lj8kg
 
 ![](docs/assets/donut.gif)
 
-Подтянул 3D математику и программирование на C++ без библиотек.
+Подтянул 3D математику и C++ без библиотек.
 
 <br>
 
@@ -52,7 +52,7 @@ YOUTUBE_aR0MfmgZVeQ
 IMAGES tbd4-3.gif tbd4-4.gif tbd4-6.gif
 
 Игра на Unity, C#. После - C++.
-Вдохновленный [Handmade Hero](https://guide.handmadehero.org/), я изучал работу CPU, работу с памятью, рендеринг, аудио и пр.
+Вдохновленный [Handmade Hero](https://guide.handmadehero.org/), изучал работу CPU, работу с памятью, рендеринг, аудио и пр.
 
 <br>
 
@@ -87,5 +87,5 @@ IMAGES avocado_coyote_time.gif avocado_jump_input_buffering.gif avocado_camera_s
 
 ## Credited
 
-- [Vanilla Tweaks](https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks) мод для «Terraria» от gardenapple - Поделился кодом для ускорения Extractinator-а (C#) (2017)
-- [Run on Save](https://marketplace.visualstudio.com/items/pucelle.run-on-save/changelog) расширение VS Code от pucelle - Исполнение команд VS Code-а при сохранении файлов (TypeScript) (2020)
+- [Vanilla Tweaks](https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks) мод для «Terraria» - Предоставил код ускорения Extractinator-а (C#) (2017)
+- [Run on Save](https://marketplace.visualstudio.com/items/pucelle.run-on-save/changelog) расширение VS Code - Исполнение команд VS Code-а при сохранении файлов (TypeScript) (2020)
