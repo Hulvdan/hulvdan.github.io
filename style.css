@@ -20,6 +20,13 @@
   --palPink: #eb6c98;
 }
 
+.hulvdan_flex * {
+    align-self: center;
+}
+.hulvdan_flex p {
+    padding-left: 0;
+}
+
 html {
     color: var(--palLight);
     font-size: 1.35em;

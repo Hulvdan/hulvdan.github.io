@@ -94,6 +94,13 @@ next_nanogallery_id = 0
 
 
 def process_line(line: str) -> str:
+    if "FLEX_START" in line:
+        return (
+            """<div class="hulvdan_flex" style='display: flex; align-items="center"'>"""
+        )
+    elif "FLEX_END" in line:
+        return "</div>"
+
     while "BADGE(" in line:
         line1, line2 = line.split("BADGE(", 1)
         badge_content, line3 = line2.split(")", 1)
