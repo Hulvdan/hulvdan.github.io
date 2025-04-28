@@ -31,7 +31,7 @@ YOUTUBE_5jdQKfxns-4
 
 YOUTUBE_X4yfK4Lj8kg
 
-![](docs/assets/donut.gif)
+![](docs/assets/donut_small.gif)
 
 <br>
 
