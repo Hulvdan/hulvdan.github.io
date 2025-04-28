@@ -21,7 +21,11 @@ def main():
         template_data = in_file.read().replace("{{ STYLE_CSS }}", style_css_path)
 
     for filepath in Path("docs/assets").iterdir():
-        if filepath.stem.endswith("__th"):
+        if "th__" in filepath.stem:
+            continue
+
+        th_filepath = filepath.parent / ("th__" + filepath.stem + ".jpg")
+        if th_filepath.exists():
             continue
 
         img = Image.open(filepath)
@@ -49,9 +53,8 @@ def main():
                 h = int(h / r)
 
         img = img.resize((w, h))
-        p = filepath.parent / (filepath.stem + "__th.jpg")
-        print(f"Saving '{p}'...")
-        img.save(p)
+        print(f"Saving '{th_filepath}'...")
+        img.save(th_filepath)
 
     pairs = [
         (Path("pages") / i, Path("docs") / (i[:-2] + "html"))
@@ -94,7 +97,7 @@ def process_line(line: str) -> str:
         line = """<div data-nanogallery2='{{"thumbnailWidth": "150", "thumbnailHeight": "100","thumbnailAlignment": "left", "thumbnailOpenImage": true}}'>{}</div>"""
         line = line.format(
             "".join(
-                '<a href="assets/{}" data-ngthumb="assets/{}__th.jpg"></a>'.format(
+                '<a href="assets/{}" data-ngthumb="assets/th__{}.jpg"></a>'.format(
                     i, Path(i).stem
                 )
                 for i in images
