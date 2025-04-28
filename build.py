@@ -89,27 +89,36 @@ def main():
         print(f'Generated "{source_path}" - "{output_path}"!')
 
 
+next_nanogallery_id = 0
+
+
 def process_line(line: str) -> str:
+    global next_nanogallery_id
+
     line = line.replace(" -> ", " ⇒ ")
 
     if line.startswith("IMAGES "):
         images = [i.strip() for i in line.removeprefix("IMAGES ").split() if i]
-        line = """<div data-nanogallery2='{{
+        line = """<div id="ng{}" data-nanogallery2='{{
             "thumbnailWidth": "150",
             "thumbnailHeight": "100",
             "thumbnailAlignment": "left",
             "thumbnailOpenImage": true,
             "thumbnailHoverEffect2": "imageScale150",
+            "thumbnailSliderDelay": 0,
+            "thumbnailWaitImageLoaded": false,
             "viewerTools": {{ "topLeft":  "", "topRight": "closeButton" }}
         }}'>{}</div>"""
         line = line.format(
+            next_nanogallery_id,
             "".join(
                 '<a href="assets/{}" data-ngthumb="assets/th__{}.jpg"></a>'.format(
                     i, Path(i).stem
                 )
                 for i in images
-            )
+            ),
         )
+        next_nanogallery_id += 1
 
     if line.startswith("YOUTUBE_"):
         video_id = line.split("_", 1)[-1].strip()
