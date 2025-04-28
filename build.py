@@ -107,6 +107,7 @@ def process_line(line: str) -> str:
             "thumbnailHoverEffect2": "imageScale150",
             "thumbnailSliderDelay": 0,
             "thumbnailWaitImageLoaded": false,
+            "locationHash": false,
             "viewerTools": {{ "topLeft":  "", "topRight": "closeButton" }}
         }}'>{}</div>"""
         line = line.format(
