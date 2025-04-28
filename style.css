@@ -130,6 +130,7 @@ summary:hover {
 
 .nGY2GThumbnail {
     border-radius: 8px !important;
+    border: solid 2px var(--palGray) !important;
 }
 
 details {
