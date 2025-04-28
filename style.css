@@ -129,8 +129,11 @@ summary:hover {
 }
 
 .nGY2GThumbnail {
+    background: transparent !important;
+    /* border: solid 0px !important; */
     border-radius: 8px !important;
-    border: solid 2px var(--palGray) !important;
+    /* border: solid 2px var(--palGray) !important; */
+    box-shadow: RGBA(86, 84, 110, 0.5) 0px 2px 8px 0px;
 }
 
 details {
