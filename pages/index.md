@@ -61,7 +61,7 @@ IMAGES mhw_booklet.jpeg
 
 <br>
 
-## Игра на «Metroidvania Month» – [itch.io](https://hulvdan.itch.io/the-clockwork-letter) (Unity, C#) (2023)
+## Игра на «Metroidvania Month» – [itch.io](https://hulvdan.itch.io/the-clockwork-letter) (2023)
 IMAGES the_clocktower_letter_first_location.gif the_clocktower_letter_wall_jumping.gif the_clocktower_letter_explosion_tower.gif
 
 <br>
