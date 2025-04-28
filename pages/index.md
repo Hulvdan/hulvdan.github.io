@@ -27,7 +27,7 @@ YOUTUBE_5jdQKfxns-4
 
 <br>
 
-## Подтянул 3D математику и C++ (2024)
+## Подтянул 3D математику и C++
 
 YOUTUBE_X4yfK4Lj8kg
 
@@ -45,7 +45,7 @@ IMAGES tbd4-3.gif tbd4-4.gif tbd4-6.gif
 
 <br>
 
-## Программа для игры «DS 3» – [Reddit](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/) (2018)
+## Программа для игры «DS 3» – [Reddit](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/)
 
 IMAGES ds3-cheat-sheet-tool.png
 
@@ -53,7 +53,7 @@ IMAGES ds3-cheat-sheet-tool.png
 
 <br>
 
-## Буклет для игры «MH:W» – [Reddit 1](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/), [Reddit 2](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/) (2018, 2021)
+## Буклет для игры «MH:W» – [Reddit 1](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/), [Reddit 2](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/)
 
 IMAGES mhw_booklet.jpeg
 
@@ -61,7 +61,7 @@ IMAGES mhw_booklet.jpeg
 
 <br>
 
-## Игра на «Metroidvania Month» – [itch.io](https://hulvdan.itch.io/the-clockwork-letter) (2023)
+## Игра на «Metroidvania Month» – [itch.io](https://hulvdan.itch.io/the-clockwork-letter)
 IMAGES the_clocktower_letter_first_location.gif the_clocktower_letter_wall_jumping.gif the_clocktower_letter_explosion_tower.gif
 
 <br>
