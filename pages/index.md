@@ -53,26 +53,24 @@ IMAGES tbd4-3.gif tbd4-4.gif tbd4-6.gif
 
 <br>
 
-## «Dark Souls 3» Cheat Sheet tool – [Reddit](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/) (2018)
+## Программа для игры «DS 3» – [Reddit](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/) (2018)
 
 IMAGES ds3-cheat-sheet-tool.png
 
-Программа для отслеживания прогресса в «Dark Souls 3» (Python, PyQt)
+Позволяет отслеживать прогресс (Python, PyQt)
 
 <br>
 
-## Буклет для «Monster Hunter: World» – [Reddit 1](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/), [Reddit 2](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/) (2018, 2021)
+## Буклет для игры «MH:W» – [Reddit 1](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/), [Reddit 2](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/) (2018, 2021)
 
 IMAGES mhw_booklet.jpeg
 
-Изображения для печати, что отображают уязвимости монстров (Python, Pillow)
+Отображает уязвимости монстров (Python, Pillow)
 
 <br>
 
-## The Clocktower Letter – [itch.io](https://hulvdan.itch.io/the-clockwork-letter) (2023)
+## Игра на «Metroidvania 21 Game Jam» – [itch.io](https://hulvdan.itch.io/the-clockwork-letter) (Unity, C#) (2023)
 IMAGES the_clocktower_letter_first_location.gif the_clocktower_letter_wall_jumping.gif the_clocktower_letter_explosion_tower.gif
-
-Игра для Metroidvania 21 game jam (Unity, C#)
 
 <br>
 
@@ -84,5 +82,5 @@ IMAGES avocado_coyote_time.gif avocado_jump_input_buffering.gif avocado_camera_s
 
 ## Credited
 
-- [Vanilla Tweaks](https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks) мод для «Terraria» - Предоставил код ускорения Extractinator-а (C#) (2017)
-- [Run on Save](https://marketplace.visualstudio.com/items/pucelle.run-on-save/changelog) расширение VS Code - Исполнение команд VS Code-а при сохранении файлов (TypeScript) (2020)
+- [Run on Save](https://marketplace.visualstudio.com/items/pucelle.run-on-save/changelog) расширение VS Code - Прикрутил дополнительные команды при сохранении (TypeScript) (2020)
+- [Vanilla Tweaks](https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks) мод для «Terraria» - Ускорил работу с Extractinator-ом (C#) (2017)
