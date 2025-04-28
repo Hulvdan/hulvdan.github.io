@@ -74,5 +74,5 @@ IMAGES avocado_coyote_time.gif avocado_jump_input_buffering.gif avocado_camera_s
 
 ## Credited
 
-- [Run on Save](https://marketplace.visualstudio.com/items/pucelle.run-on-save/changelog) расширение VS Code - Прикрутил дополнительные команды при сохранении (TypeScript) (2020)
-- [Vanilla Tweaks](https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks) мод для «Terraria» - Ускорил работу с Extractinator-ом (C#) (2017)
+- [Run on Save](https://marketplace.visualstudio.com/items/pucelle.run-on-save/changelog) расширение VS Code - Прикрутил дополнительные команды при сохранении (TypeScript)
+- [Vanilla Tweaks](https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks) мод для «Terraria» - Ускорил работу с Extractinator-ом (C#)
