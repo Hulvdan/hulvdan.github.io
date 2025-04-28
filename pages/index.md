@@ -39,7 +39,7 @@ YOUTUBE_X4yfK4Lj8kg
 
 ![](docs/assets/donut.gif)
 
-Подтянул 3D математику и C++ без библиотек
+Подтянул 3D математику и C++
 
 <br>
 
