@@ -45,7 +45,7 @@ IMAGES tbd4-3.gif tbd4-4.gif tbd4-6.gif
 
 <br>
 
-## Программа для игры «DS 3» – [Reddit](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/)
+## Программа для игры «DS 3» - [Reddit](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/)
 
 FLEX_START
 
@@ -57,7 +57,7 @@ FLEX_END
 
 <br>
 
-## Буклет для игры «MH:W» – [Reddit 1](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/), [Reddit 2](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/)
+## Буклет для игры «MH:W» - [Reddit 1](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/), [Reddit 2](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/)
 
 FLEX_START
 
@@ -69,7 +69,7 @@ FLEX_END
 
 <br>
 
-## Игра на «Metroidvania Month» – [itch.io](https://hulvdan.itch.io/the-clockwork-letter)
+## Игра на «Metroidvania Month» - [itch.io](https://hulvdan.itch.io/the-clockwork-letter)
 IMAGES the_clocktower_letter_first_location.gif the_clocktower_letter_wall_jumping.gif the_clocktower_letter_explosion_tower.gif
 
 <br>
