@@ -22,10 +22,12 @@
 
 .hulvdan_flex_wrap {
     flex-wrap: wrap;
+    padding: 10px 20px;
 }
 .hulvdan_flex {
     display: flex;
     align-items="center";
+    padding: 10px 20px;
 }
 .hulvdan_flex * {
     align-self: center;
