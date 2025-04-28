@@ -57,7 +57,7 @@ def process_line(line: str) -> str:
 
     if line.startswith("IMAGES "):
         images = [i.strip() for i in line.removeprefix("IMAGES ").split() if i]
-        line = """<div data-nanogallery2='{{"thumbnailWidth": "200", "thumbnailAlignment": "left", "thumbnailOpenImage": true}}'>{}</div>"""
+        line = """<div data-nanogallery2='{{"thumbnailWidth": "150", "thumbnailHeight": "150","thumbnailAlignment": "left", "thumbnailOpenImage": true}}'>{}</div>"""
         line = line.format(
             "".join(
                 '<a href="assets/{}" data-ngthumb="assets/{}"></a>'.format(i, i)
