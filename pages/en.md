@@ -136,15 +136,12 @@ Various studies applied to a platformer game in Unity, C#.
 ![](docs/assets/messing_with_see_through_shaders.gif)
 ![](docs/assets/messing_with_depth_of_field.gif)
 ![](docs/assets/tanks_ai.gif)
-![](docs/assets/piffle_clone.gif)
 ![](docs/assets/angry_birds.gif)
 
 ![](docs/assets/tetris.jpg)
-![](docs/assets/pong.gif)
 
 ![](docs/assets/2048.jpg)
 ![](docs/assets/sokoban_in_terminal_block_placed.jpg)
-![](docs/assets/sokoban_in_terminal.jpg)
 
 <br>
 
