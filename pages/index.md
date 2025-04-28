@@ -75,7 +75,7 @@ IMAGES mhw_booklet.jpeg
 ## The Clocktower Letter – [itch.io](https://hulvdan.itch.io/the-clockwork-letter) (2023)
 IMAGES the_clocktower_letter_first_location.gif the_clocktower_letter_wall_jumping.gif the_clocktower_letter_explosion_tower.gif
 
-Платформер для Metroidvania 21 game jam. Был программистом команды из 4-х человек (Unity, C#)
+Платформер для Metroidvania 21 game jam (Unity, C#)
 
 <br>
 
