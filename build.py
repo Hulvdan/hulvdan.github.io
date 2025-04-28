@@ -7,6 +7,7 @@ from glob import glob
 from pathlib import Path
 
 import markdown2
+from PIL import Image
 
 HTML_TEMPLATE_FILE_PATH = Path("index_template.html")
 
@@ -18,6 +19,39 @@ def main():
 
     with open(HTML_TEMPLATE_FILE_PATH) as in_file:
         template_data = in_file.read().replace("{{ STYLE_CSS }}", style_css_path)
+
+    for filepath in Path("docs/assets").iterdir():
+        if filepath.stem.endswith("__th"):
+            continue
+
+        img = Image.open(filepath)
+        if filepath.name.endswith(".gif"):
+            mypalette = img.getpalette()
+            img.putpalette(mypalette)
+            new_im = Image.new("RGB", img.size)
+            new_im.paste(img)
+            img = new_im
+
+        if img.mode == "RGBA":
+            img = img.convert("RGB")
+
+        w, h = img.size
+        MAX_SIZE = 300
+        if h > w:
+            if h > MAX_SIZE:
+                r = h / MAX_SIZE
+                h = MAX_SIZE
+                w = int(w / r)
+        else:
+            if w > MAX_SIZE:
+                r = w / MAX_SIZE
+                w = MAX_SIZE
+                h = int(h / r)
+
+        img = img.resize((w, h))
+        p = filepath.parent / (filepath.stem + "__th.jpg")
+        print(f"Saving '{p}'...")
+        img.save(p)
 
     pairs = [
         (Path("pages") / i, Path("docs") / (i[:-2] + "html"))
@@ -60,7 +94,9 @@ def process_line(line: str) -> str:
         line = """<div data-nanogallery2='{{"thumbnailWidth": "150", "thumbnailHeight": "150","thumbnailAlignment": "left", "thumbnailOpenImage": true}}'>{}</div>"""
         line = line.format(
             "".join(
-                '<a href="assets/{}" data-ngthumb="assets/{}"></a>'.format(i, i)
+                '<a href="assets/{}" data-ngthumb="assets/{}__th.jpg"></a>'.format(
+                    i, Path(i).stem
+                )
                 for i in images
             )
         )

@@ -10,6 +10,7 @@ packages = [{ include = "hulvdan" }]
 python = "^3.11"
 markdown2 = "^2.5.3"
 livereload = "^2.7.1"
+pillow = "^11.2.1"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.3.0"

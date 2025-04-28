@@ -72,11 +72,6 @@ IMAGES mhw_booklet.jpeg
 
 <br>
 
-<details>
-  <summary>
-    Раскрыть ещё проекты
-  </summary>
-
 ## The Clocktower Letter – [itch.io](https://hulvdan.itch.io/the-clockwork-letter) (2023)
 IMAGES the_clocktower_letter_first_location.gif the_clocktower_letter_wall_jumping.gif the_clocktower_letter_explosion_tower.gif
 
@@ -86,7 +81,7 @@ IMAGES the_clocktower_letter_first_location.gif the_clocktower_letter_wall_jumpi
 
 ## Остальное (2016-2023)
 
-IMAGES avocado_throwing.gif avocado_coyote_time.gif avocado_jump_input_buffering.gif avocado_camera_shake.gif messing_with_see_through_shaders.gif messing_with_depth_of_field.gif tanks_ai.gif piffle_clone.gif angry_birds.gif tetris.jpg 2048.jpg sokoban_in_terminal_block_placed.jpg sokoban_in_terminal.jpg
+IMAGES avocado_coyote_time.gif avocado_jump_input_buffering.gif avocado_camera_shake.gif messing_with_see_through_shaders.gif messing_with_depth_of_field.gif tanks_ai.gif piffle_clone.gif angry_birds.gif tetris.jpg 2048.jpg sokoban_in_terminal_block_placed.jpg sokoban_in_terminal.jpg
 
 <br>
 
@@ -94,5 +89,3 @@ IMAGES avocado_throwing.gif avocado_coyote_time.gif avocado_jump_input_buffering
 
 - [Vanilla Tweaks](https://forums.terraria.org/index.php?threads/vanilla-tweaks-other-little-tweak-mods.37443/#VanillaTweaks) мод для «Terraria» от gardenapple - Поделился кодом для ускорения Extractinator-а (C#) (2017)
 - [Run on Save](https://marketplace.visualstudio.com/items/pucelle.run-on-save/changelog) расширение VS Code от pucelle - Исполнение команд VS Code-а при сохранении файлов (TypeScript) (2020)
-
-</details>
