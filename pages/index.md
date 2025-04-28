@@ -27,7 +27,7 @@ YOUTUBE_5jdQKfxns-4
 
 <br>
 
-## Демо Перемещения - C++ (2024)
+## Демо Перемещения (2024)
 
 YOUTUBE_X4yfK4Lj8kg
 
@@ -35,7 +35,7 @@ YOUTUBE_X4yfK4Lj8kg
 
 <br>
 
-## Пончик - C++ (2024)
+## Пончик (2024)
 
 ![](docs/assets/donut.gif)
 
