@@ -2,6 +2,7 @@ import hashlib
 import os
 import re
 import shutil
+import urllib.parse
 from datetime import datetime
 from glob import glob
 from pathlib import Path
@@ -93,6 +94,14 @@ next_nanogallery_id = 0
 
 
 def process_line(line: str) -> str:
+    while "BADGE(" in line:
+        line1, line2 = line.split("BADGE(", 1)
+        badge_content, line3 = line2.split(")", 1)
+        badge = '<img alt="Static Badge" src="https://img.shields.io/badge/{}-%235479b0">'.format(
+            urllib.parse.quote_plus(badge_content)
+        )
+        line = line1 + badge + line3
+
     global next_nanogallery_id
 
     line = line.replace(" -> ", " ⇒ ")
