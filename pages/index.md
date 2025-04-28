@@ -78,7 +78,7 @@ IMAGES the_clocktower_letter_jumping.gif the_clocktower_letter_wall_jumping.gif
 
 <br>
 
-## Проекты для обучения
+## Обучение
 
 IMAGES avocado_coyote_time.gif avocado_jump_input_buffering.gif avocado_camera_shake.gif messing_with_see_through_shaders.gif messing_with_depth_of_field.gif tanks_ai.gif angry_birds.gif tetris.jpg 2048.jpg sokoban_in_terminal_block_placed.jpg
 
