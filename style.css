@@ -109,7 +109,11 @@ img {
     max-width: min(100%, 960px);
     padding: 0;
     margin: 0;
-    border-radius: 16px;
+    border-radius: 8px;
+}
+
+iframe {
+    border-radius: 8px;
 }
 
 summary {
@@ -122,6 +126,10 @@ summary {
 summary:hover {
     color: var(--palLight);
     background-color: var(--palBrown);
+}
+
+.nGY2GThumbnail {
+    border-radius: 8px !important;
 }
 
 details {
