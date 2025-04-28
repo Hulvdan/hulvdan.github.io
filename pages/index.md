@@ -13,7 +13,7 @@
 
 ## Игра на C++ (12/2024 - н.в.)
 
-Готовлю страницу в Steam.
+Готовлю страницу в Steam
 
 YOUTUBE_2JGHfKlFlb0
 
@@ -25,7 +25,7 @@ IMAGES rec9.png rec11.jpg rec10.jpg
 
 YOUTUBE_5jdQKfxns-4
 
-Демонстрирую запись действий и перезагрузку DLL.
+Демонстрирую запись действий и перезагрузку DLL
 
 <br>
 
@@ -33,7 +33,7 @@ YOUTUBE_5jdQKfxns-4
 
 YOUTUBE_X4yfK4Lj8kg
 
-Подтянул 3D математику и C++.
+Подтянул 3D математику и C++
 
 <br>
 
@@ -41,18 +41,17 @@ YOUTUBE_X4yfK4Lj8kg
 
 ![](docs/assets/donut.gif)
 
-Подтянул 3D математику и C++ без библиотек.
+Подтянул 3D математику и C++ без библиотек
 
 <br>
 
-## Roads of Horses (10/2023 - 09/2024)
+## Невыпущенная игра (10/2023 - 09/2024)
 
 YOUTUBE_aR0MfmgZVeQ
 
 IMAGES tbd4-3.gif tbd4-4.gif tbd4-6.gif
 
-Игра на Unity, C#. После - C++.
-Вдохновленный [Handmade Hero](https://guide.handmadehero.org/), изучал работу CPU, работу с памятью, рендеринг, аудио и пр.
+Изучал C++, работу процессора, работу с памятью, рендеринг, аудио и пр.
 
 <br>
 
