@@ -1,6 +1,6 @@
-<p style="text-align: right">
-  Switch to <a href="/docs/en.html">English 🇬🇧</a>
-</p>
+<!-- <p style="text-align: right"> -->
+<!--   Switch to <a href="/docs/en.html">English 🇬🇧</a> -->
+<!-- </p> -->
 
 # Алексей Чистов
 
