@@ -20,6 +20,13 @@
   --palPink: #eb6c98;
 }
 
+.hulvdan_flex_wrap {
+    flex-wrap: wrap;
+}
+.hulvdan_flex {
+    display: flex;
+    align-items="center";
+}
 .hulvdan_flex * {
     align-self: center;
 }

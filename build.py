@@ -94,7 +94,9 @@ next_nanogallery_id = 0
 
 
 def process_line(line: str) -> str:
-    if "FLEX_START" in line:
+    if "FLEX_WRAP_START" in line:
+        return """<div class="hulvdan_flex hulvdan_flex_wrap" ''>"""
+    elif "FLEX_START" in line:
         return (
             """<div class="hulvdan_flex" style='display: flex; align-items="center"'>"""
         )

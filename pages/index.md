@@ -29,9 +29,13 @@ YOUTUBE_5jdQKfxns-4
 
 ## Подтянул 3D математику и C++
 
+FLEX_WRAP_START
+
 YOUTUBE_X4yfK4Lj8kg
 
-![](docs/assets/donut_small.gif)
+<img src="docs/assets/donut_small.gif" alt="">
+
+FLEX_END
 
 <br>
 
