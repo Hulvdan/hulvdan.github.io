@@ -11,7 +11,7 @@
 
 <br>
 
-## Игра на C++ - [Steam](https://store.steampowered.com/app/3592760) (12/2024 - н.в.)
+## Игра на C++ - [Steam](https://store.steampowered.com/app/3592760) <!-- (12/2024 - н.в.) -->
 
 YOUTUBE_2JGHfKlFlb0
 
@@ -37,7 +37,7 @@ FLEX_END
 
 <br>
 
-## Обучающий проект (10/2023 - 09/2024)
+## Обучающий проект <!-- (10/2023 - 09/2024) -->
 
 YOUTUBE_aR0MfmgZVeQ
 
