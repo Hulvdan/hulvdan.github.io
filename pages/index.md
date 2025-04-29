@@ -5,7 +5,6 @@
 # Алексей Чистов
 
 <p style="text-align: center">
-  telegram: <a href="https://t.me/agechistov">@agechistov</a> |
   <a href="mailto:agechistov@gmail.com">agechistov@gmail.com</a>
 </p>
 
