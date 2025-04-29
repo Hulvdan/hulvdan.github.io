@@ -11,7 +11,7 @@
 
 <br>
 
-## Игра на C++ - [Steam](https://store.steampowered.com/app/3592760) <!-- (12/2024 - н.в.) -->
+## Игра на C++ - [Steam](https://store.steampowered.com/app/3592760) (12/2024 - н.в.)
 
 YOUTUBE_2JGHfKlFlb0
 
