@@ -11,9 +11,7 @@
 
 <br>
 
-## Игра на C++ (12/2024 - н.в.)
-
-Готовлю страницу в Steam
+## Игра на C++ - [Steam](https://store.steampowered.com/app/3592760) (12/2024 - н.в.)
 
 YOUTUBE_2JGHfKlFlb0
 
