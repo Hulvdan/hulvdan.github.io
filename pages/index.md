@@ -61,17 +61,17 @@ FLEX_END
 
 <br>
 
-## Буклет для игры «MH:W» - [Reddit 1](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/), [Reddit 2](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/)
-
-FLEX_START
-
-IMAGES mhw_booklet.jpeg
-
-Отображает уязвимости монстров (Python, Pillow)
-
-FLEX_END
-
-<br>
+<!-- ## Буклет для игры «MH:W» - [Reddit 1](https://www.reddit.com/r/MonsterHunterWorld/comments/98avyb/mhw_printable_monsters_weaknesses_guide/), [Reddit 2](https://www.reddit.com/r/MonsterHunterWorld/comments/njj57i/mhw_printable_monsters_weaknesses_guide_updated/) -->
+<!---->
+<!-- FLEX_START -->
+<!---->
+<!-- IMAGES mhw_booklet.jpeg -->
+<!---->
+<!-- Отображает уязвимости монстров (Python, Pillow) -->
+<!---->
+<!-- FLEX_END -->
+<!---->
+<!-- <br> -->
 
 ## Игра на «Metroidvania Month» - [itch.io](https://hulvdan.itch.io/the-clockwork-letter)
 

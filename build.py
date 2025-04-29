@@ -94,13 +94,13 @@ next_nanogallery_id = 0
 
 
 def process_line(line: str) -> str:
-    if "FLEX_WRAP_START" in line:
+    if line.startswith("FLEX_WRAP_START"):
         return """<div class="hulvdan_flex hulvdan_flex_wrap" ''>"""
-    elif "FLEX_START" in line:
+    elif line.startswith("FLEX_START"):
         return (
             """<div class="hulvdan_flex" style='display: flex; align-items="center"'>"""
         )
-    elif "FLEX_END" in line:
+    elif line.startswith("FLEX_END"):
         return "</div>"
 
     while "BADGE(" in line:
