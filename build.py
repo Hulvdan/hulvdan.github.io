@@ -125,6 +125,10 @@ def process_line(line: str) -> str:
             "thumbnailHoverEffect2": "imageScale150",
             "thumbnailSliderDelay": 0,
             "thumbnailWaitImageLoaded": false,
+            "thumbnailBorderHorizontal": 0,
+            "thumbnailBorderVertical": 0,
+            "thumbnailGutterWidth": 4,
+            "thumbnailGutterHeight": 4,
             "locationHash": false,
             "viewerTools": {{ "topLeft":  "", "topRight": "closeButton" }}
         }}'>{}</div>"""
