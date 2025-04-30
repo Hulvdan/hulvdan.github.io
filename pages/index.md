@@ -46,7 +46,7 @@ IMAGES tbd4-3.gif tbd4-4.gif tbd4-6.gif
 
 <br>
 
-## Программа для игры «DS 3» - [Reddit](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/)
+## Программа для игры «Dark Souls 3» - [Reddit](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/)
 
 FLEX_START
 
