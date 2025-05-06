@@ -2,11 +2,7 @@
 <!--   Switch to <a href="/docs/en.html">English 🇬🇧</a> -->
 <!-- </p> -->
 
-# Алексей Чистов
-
-<p style="text-align: center">
-  <a href="mailto:agechistov@gmail.com">agechistov@gmail.com</a>
-</p>
+# Портфолио
 
 <br>
 
