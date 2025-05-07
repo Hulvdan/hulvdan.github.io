@@ -2,7 +2,7 @@
 <!--   Switch to <a href="/docs/en.html">English 🇬🇧</a> -->
 <!-- </p> -->
 
-# Портфолио
+# Алексей Чистов
 
 <br>
 
