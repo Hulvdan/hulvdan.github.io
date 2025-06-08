@@ -6,7 +6,7 @@
 
 <br>
 
-## Game in C++ - [itch.io](https://hulvdan.itch.io/journeys-spirit?secret=m0QItJSXhdoDQjB7Ug04lfZQI) (12/2024 - present)
+## Game in C++ - [Steam](https://store.steampowered.com/app/3592760) (12/2024 - present)
 
 YOUTUBE_2JGHfKlFlb0
 

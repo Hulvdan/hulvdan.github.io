@@ -6,11 +6,11 @@
 
 <br>
 
-## Игра на C++ - [itch.io](https://hulvdan.itch.io/journeys-spirit?secret=m0QItJSXhdoDQjB7Ug04lfZQI) (12/2024 - н.в.)
+## Игра на C++ - [Steam](https://store.steampowered.com/app/3592760) (12/2024 - н.в.)
 
-YOUTUBE_2JGHfKlFlb0
+YOUTUBE_hkglaKy2ZtI
 
-IMAGES rec9.png rec11.jpg rec10.jpg rec12.png
+IMAGES rec17.png rec16.jpg rec15.jpg rec14.png rec13.png
 
 <br>
 
