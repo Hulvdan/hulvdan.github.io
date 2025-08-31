@@ -2,9 +2,9 @@
 
 <br>
 
-## Cult Boy - [Itch](https://hulvdan.itch.io/cult-boy) (07/2025 - 08/2025)
+## Cult Boy (07/2025 - 08/2025)
 
-IMAGES cult_1_isntr_pc.png cult_2.png cult_3.png cult_4.png cult_5_en.png cult_6.png
+<p><iframe frameborder="0" src="https://itch.io/embed/3681662?linkback=true&amp;border_width=0&amp;bg_color=000000&amp;fg_color=f5eeb0&amp;link_color=fa5c5c&amp;border_color=0e0e0e" width="550" height="165"><a href="https://hulvdan.itch.io/cult-boy">Cult Boy by Hulvdan</a> </iframe></p>
 
 <br>
 
