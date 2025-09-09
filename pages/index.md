@@ -2,7 +2,7 @@
 
 <br>
 
-## Cult Boy - [Itch](https://hulvdan.itch.io/cult-boy) (07/2025 - 08/2025)
+## Cult Boy - [itch.io](https://hulvdan.itch.io/cult-boy) (07/2025 - 08/2025)
 
 Learnt to draw.
 
