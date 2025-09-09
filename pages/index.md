@@ -4,7 +4,13 @@
 
 ## Cult Boy - [itch.io](https://hulvdan.itch.io/cult-boy) (07/2025 - 08/2025)
 
-Learnt to draw.
+FLEX_START
+
+<iframe style="margin-left: 10px" frameborder="0" src="https://itch.io/embed/3681662?linkback=true&amp;border_width=0&amp;bg_color=0e0e0e&amp;fg_color=f5eeb0&amp;link_color=f05b5b&amp;border_color=0e0e0e" width="206" height="165"><a href="https://hulvdan.itch.io/cult-boy">Cult Boy by Hulvdan</a></iframe>
+
+<p>Learnt to draw.</p>
+
+FLEX_END
 
 <br>
 
