@@ -2,6 +2,14 @@
 
 <br>
 
+## Milkify Cookies! - [yandex.com](https://yandex.com/games/app/483687?lang=en) (09/2025 - 12/2025)
+
+IMAGES cookier_dist_banner_big.png cookier_4.png cookier_3.png cookier_2.png cookier_1.png
+
+<p>Learnt to develop (+programming +art +audio) and publish games solo.</p>
+
+<br>
+
 ## Cult Boy - [itch.io](https://hulvdan.itch.io/cult-boy) (07/2025 - 08/2025)
 
 FLEX_START
