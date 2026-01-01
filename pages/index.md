@@ -6,7 +6,7 @@
 
 IMAGES cookier2_dist_banner_big.png cookier2_1.png cookier2_2.png cookier2_3.png cookier2_4.png
 
-<p>Learnt to develop (+programming +art +audio) and publish games solo.</p>
+Honed rapid solo gamedev pipeline
 
 <br>
 
@@ -16,7 +16,7 @@ FLEX_START
 
 <iframe style="margin-left: 10px" frameborder="0" src="https://itch.io/embed/3681662?linkback=true&amp;border_width=0&amp;bg_color=0e0e0e&amp;fg_color=f5eeb0&amp;link_color=f05b5b&amp;border_color=0e0e0e" width="206" height="165"><a href="https://hulvdan.itch.io/cult-boy">Cult Boy by Hulvdan</a></iframe>
 
-<p>Learnt to draw.</p>
+<p>Learnt to draw</p>
 
 FLEX_END
 
@@ -62,6 +62,12 @@ Inspired by [Handmade Hero](https://guide.handmadehero.org/)
 
 <br>
 
+## Game for «Metroidvania Month» - [itch.io](https://hulvdan.itch.io/the-clockwork-letter)
+
+IMAGES the_clocktower_letter_jumping.gif the_clocktower_letter_wall_jumping.gif
+
+<br>
+
 ## Dark Souls 3 Cheat Sheet tool – [Reddit](https://www.reddit.com/r/darksouls3/comments/7ylfqp/dark_souls_3_cheat_sheet_tool/)
 
 FLEX_START
@@ -83,12 +89,6 @@ IMAGES mhw_booklet.jpeg
 Shows weaknesses of monsters (Python, Pillow)
 
 FLEX_END
-
-<br>
-
-## Game for «Metroidvania Month» - [itch.io](https://hulvdan.itch.io/the-clockwork-letter)
-
-IMAGES the_clocktower_letter_jumping.gif the_clocktower_letter_wall_jumping.gif
 
 <br>
 
