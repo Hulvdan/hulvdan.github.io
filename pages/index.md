@@ -2,7 +2,7 @@
 
 <br>
 
-## Milkify Cookies! - [yandex.com](https://yandex.com/games/app/483687?lang=en) (09/2025 - 12/2025)
+## Milker! Survival Arena - [yandex.com](https://yandex.com/games/app/483687?lang=en) (09/2025 - 12/2025)
 
 IMAGES cookier2_dist_banner_big.png cookier2_1.png cookier2_2.png cookier2_3.png cookier2_4.png
 
